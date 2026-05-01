@@ -37,6 +37,21 @@ README_DOCENTE.md
 02Estructura/Sesión02.md
 
 # -----------------------------------------------------------
+# 1.6 SLIDES — solo el PDF se publica
+# -----------------------------------------------------------
+# El alumno necesita el PDF, no el código fuente Marp ni la guía de exportación.
+**/slides/*.md
+**/slides/README.md
+
+# -----------------------------------------------------------
+# 1.7 SÍLABO — solo el PDF se publica (es documento inmutable)
+# -----------------------------------------------------------
+# El .md y .docx son fuente editable del docente; el PDF es lo que ve el alumno.
+Silabo_FundamentosPyR*.md
+Silabo_FundamentosPyR*.docx
+Plantilla Silabo*.docx
+
+# -----------------------------------------------------------
 # 2. NOTEBOOKS MAESTROS (con SOLUCIONES) — NO compartir
 # -----------------------------------------------------------
 # El alumno solo recibe la versión "_Alumnos" con TODOs.

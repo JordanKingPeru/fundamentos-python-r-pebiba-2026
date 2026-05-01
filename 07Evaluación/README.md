@@ -5,12 +5,12 @@
 
 Este taller, por su carácter intensivo (8 horas) y de extensión profesional (PEBIBA), **no contempla evaluación sumativa con calificación numérica**. Los componentes son:
 
-| Componente | Tipo | Califica nota | Califica certificado |
-|---|---|---|---|
-| Asistencia día 1 (≥80% del bloque) | Binaria | No | Sí |
-| Asistencia día 2 (≥80% del bloque) | Binaria | No | Sí |
-| Participación / talleres en clase | Formativa | No | Sí |
-| Mini-proyecto entregable | **Opcional** | No | No (extra para feedback personal) |
+| Componente | Tipo | Califica nota |
+|---|---|---|
+| Asistencia día 1 (≥80% del bloque) | Binaria | No |
+| Asistencia día 2 (≥80% del bloque) | Binaria | No |
+| Participación / talleres en clase | Formativa | No |
+| Mini-proyecto entregable | **Opcional** | No (recibes feedback escrito personal) |
 
 ## Estructura de esta carpeta
 

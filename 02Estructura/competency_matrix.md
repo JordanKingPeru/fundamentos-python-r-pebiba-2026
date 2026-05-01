@@ -89,7 +89,7 @@
 - **C:** dado un dataset nuevo (no visto en clase) similar al de las sesiones, en menos de 30 minutos.
 - **D:** en al menos UNO de los dos lenguajes, con código ejecutable de principio a fin sin intervención manual y comentarios mínimos que expliquen las decisiones clave.
 - **Sesión que la cubre:** S02 (cierre integrador)
-- **Evaluada en:** entregable final (opcional — sin nota, certificado de aprovechamiento)
+- **Evaluada en:** entregable final (opcional — sin nota, con feedback escrito del docente)
 - **Ejercicios:** mini-proyecto integrador
 
 ---

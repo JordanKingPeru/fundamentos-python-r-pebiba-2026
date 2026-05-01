@@ -67,7 +67,7 @@ Si las **6 pruebas pasan en verde**, estás listo. Si algo falla:
 
 ### 3️⃣ (Opcional) Lee el sílabo
 
-📄 [`Silabo_FundamentosPyR_v1.md`](Silabo_FundamentosPyR_v1.md) — formato UNI v4. Visión completa del taller, política institucional, evaluación.
+📄 [`Silabo_FundamentosPyR.pdf`](Silabo_FundamentosPyR.pdf) — formato PEBIBA-UNI. Visión completa del taller: sumilla, contenidos, metodología, evaluación y bibliografía.
 
 ---
 
@@ -77,21 +77,19 @@ Si las **6 pruebas pasan en verde**, estás listo. Si algo falla:
 Fundamentos_Python_R/
 │
 ├── 📄 README.md                    ← este archivo
-├── 📄 Silabo_FundamentosPyR_v1.md  Sílabo formato UNI v4
+├── 📄 Silabo_FundamentosPyR.pdf    Sílabo formato PEBIBA-UNI
 │
 ├── 📁 02Estructura/                Diseño curricular del curso
-│   ├── competency_matrix.md        7 competencias terminales (ABCD + Bloom)
-│   ├── Estructura.md               El "Viaje del Analista BI Bilingüe"
-│   ├── Sesión01.md                 Plan minutado Sesión 01
-│   └── Sesión02.md                 Plan minutado Sesión 02
+│   └── competency_matrix.md        7 competencias terminales (ABCD + Bloom)
 │
 ├── 📁 03Material/
 │   │
 │   ├── 📁 00_Onboarding/           ⬅️ EMPIEZA AQUÍ
 │   │   ├── README.md                  Guía de instalación
+│   │   ├── INSTALACION.md             Guía paso a paso para VS Code + conda
+│   │   ├── environment.yml            Definición del entorno Python + R (1 comando)
 │   │   ├── 00_Verificacion_Setup.ipynb   Verifica tu entorno
-│   │   ├── S00_Bienvenida.md          Slides de apertura (Marp)
-│   │   └── S00_Bienvenida.pdf         Slides en PDF
+│   │   └── S00_Bienvenida.pdf         Slides de apertura
 │   │
 │   ├── 📁 01_Sesion_Sintaxis_Carga/    Sesión 01 — Día 1
 │   │   ├── README.md
@@ -101,8 +99,7 @@ Fundamentos_Python_R/
 │   │   │   ├── S01_..._ROSETTA.md         Tabla de equivalencias Python↔R
 │   │   │   └── S01_..._TRAPS.md           5 trampas asimétricas críticas
 │   │   ├── slides/
-│   │   │   ├── S01_Slides.pdf             Diapositivas de la sesión
-│   │   │   └── S01_Slides.md              Markdown fuente (Marp)
+│   │   │   └── S01_Slides.pdf             Diapositivas de la sesión
 │   │   ├── ejercicios/
 │   │   │   └── S01_Ejercicios.md          Rampa de 7 niveles graduados
 │   │   └── data/
@@ -154,13 +151,11 @@ Fundamentos_Python_R/
 
 Por su carácter intensivo y de extensión profesional, **no hay calificación numérica**.
 
-| Componente | Tipo | ¿Califica nota? | ¿Califica certificado? |
-|---|---|---|---|
-| Asistencia ≥ 80% por sesión | Binaria | No | ✅ Sí |
-| Participación / talleres en clase | Formativa | No | ✅ Sí |
-| Mini-proyecto entregable | **Opcional** | No | No (solo feedback escrito) |
-
-🎓 Recibes **Certificado de Aprovechamiento PEBIBA** al cumplir asistencia mínima.
+| Componente | Tipo | ¿Califica nota? |
+|---|---|---|
+| Asistencia ≥ 80% por sesión | Binaria | No |
+| Participación / talleres en clase | Formativa | No |
+| Mini-proyecto entregable | **Opcional** | No (recibes feedback escrito) |
 
 🧠 Durante las sesiones harás **micro-quizzes** intra-sesión (1 cada 25 min). **No se califican** — sirven para activar memoria y darte feedback inmediato sobre lo que ya dominas y lo que falta reforzar.
 
