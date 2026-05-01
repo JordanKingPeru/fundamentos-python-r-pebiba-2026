@@ -52,6 +52,11 @@ Silabo_FundamentosPyR*.docx
 Plantilla Silabo*.docx
 
 # -----------------------------------------------------------
+# 1.8 GUÍA DEL DOCENTE — minuto a minuto (privado, solo docente)
+# -----------------------------------------------------------
+_docente/
+
+# -----------------------------------------------------------
 # 2. NOTEBOOKS MAESTROS (con SOLUCIONES) — NO compartir
 # -----------------------------------------------------------
 # El alumno solo recibe la versión "_Alumnos" con TODOs.

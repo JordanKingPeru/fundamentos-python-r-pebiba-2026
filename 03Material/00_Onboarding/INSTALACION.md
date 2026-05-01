@@ -51,6 +51,37 @@ Asegúrate de tener una versión reciente (≥ 1.90). En VS Code: `Help → Chec
 
 ---
 
+## Antes de seguir — ¿qué es un "terminal"?
+
+> Si nunca has abierto una "ventana negra con texto" en tu computadora, lee esto. Si ya lo conoces, salta al Paso 3.
+
+Un **terminal** es una ventana donde escribes comandos en lugar de hacer clic. Es lo que vas a usar para crear el entorno del curso.
+
+**En Windows hay dos opciones equivalentes para este curso:**
+
+| Terminal | Cómo abrirlo | Cuándo usarlo |
+|---|---|---|
+| **Anaconda Prompt** *(recomendado)* | Menú Inicio → escribe "Anaconda Prompt" | Tiene `conda` listo. Es el más fácil. |
+| **PowerShell** | Menú Inicio → escribe "PowerShell" | Si ya configuraste `conda init powershell` |
+
+**En macOS / Linux:** abre la app **Terminal** (Spotlight: ⌘+Espacio → "Terminal").
+
+**Cómo se ve un terminal en Anaconda Prompt (Windows):**
+
+```
+(base) C:\Users\TuUsuario>
+```
+
+Ese `(base)` indica que estás en el entorno conda llamado `base`. Cuando crees `fundamentos-pyr`, va a aparecer `(fundamentos-pyr)` después.
+
+> 💡 **Tip:** copiar y pegar funciona. Click derecho sobre la ventana = pegar (en Anaconda Prompt). En PowerShell: `Ctrl+V`.
+
+### Atajo: script `setup.bat` (Windows) o `setup.sh` (macOS/Linux)
+
+Si prefieres no escribir comandos uno por uno, en `03Material/00_Onboarding/` hay un script que ejecuta los 3 pasos del Paso 3 de un solo doble-click. Ver `setup.bat` (Windows) o `setup.sh` (macOS/Linux).
+
+---
+
 ## Paso 3 — Crear el entorno del curso (Python + R en uno)
 
 ### Opción A — Con `environment.yml` (recomendado, 1 comando)

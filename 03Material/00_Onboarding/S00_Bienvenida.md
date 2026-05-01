@@ -58,6 +58,14 @@ style: |
   .bio-tagline { font-size: 16pt; font-style: italic; color: rgba(255,255,255,0.92); border-left: 4px solid var(--amber); padding-left: 16px; margin: 14px 0; line-height: 1.4; }
   .bio-contact { font-size: 14pt; color: rgba(255,255,255,0.85); margin-top: 14px; }
   .bio-contact a { color: var(--amber); text-decoration: none; font-weight: 600; }
+  /* Slide del Mentimeter — diagnóstico inicial */
+  .menti-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; padding: 0; height: 100%; }
+  .menti-qr { display: flex; align-items: center; justify-content: center; }
+  .menti-qr img { width: 360px; height: 360px; border: 8px solid white; border-radius: 12px; box-shadow: 0 12px 32px rgba(0,0,0,0.4); }
+  .menti-text h2 { color: var(--amber); font-size: 38pt; margin: 0 0 20px 0; }
+  .menti-text .menti-url { font-family: 'Fira Code', 'Consolas', monospace; font-size: 22pt; color: white; background: rgba(255,255,255,0.10); border: 1px solid rgba(255,255,255,0.18); border-radius: 8px; padding: 10px 18px; display: inline-block; margin: 14px 0; }
+  .menti-text .menti-step { font-size: 19pt; color: rgba(255,255,255,0.92); line-height: 1.55; margin: 8px 0; }
+  .menti-text .menti-step strong { color: var(--amber); }
   /* ===== Slides oscuros: contraste WCAG AA garantizado ===== */
   section.title, section.aha, section.break, section.you {
     color: white;
@@ -234,6 +242,32 @@ Eso vale.
 <p class="bio-tagline">No te enseña un teórico. Te enseña alguien que construye modelos en producción todos los días.</p>
 
 <p class="bio-contact">🌐 <a href="https://www.jordandataexpert.com/about">jordandataexpert.com</a> · 📧 <a href="mailto:jrodriguezm216@gmail.com">jrodriguezm216@gmail.com</a></p>
+
+</div>
+
+</div>
+
+---
+
+<!-- _class: aha -->
+
+<div class="menti-grid">
+
+<div class="menti-qr">
+
+![Escanea para responder](assets/menti_qr.png)
+
+</div>
+
+<div class="menti-text">
+
+## ✋ Antes de empezar — pulso de 90 segundos
+
+<p class="menti-step"><strong>1.</strong> Escanea el QR (o entra a la URL)</p>
+<p class="menti-step"><strong>2.</strong> Responde con honestidad: ¿qué tan cómodo te sientes con Excel, SQL, R, Python, VS Code y LLMs?</p>
+<p class="menti-step"><strong>3.</strong> Tus respuestas ajustan el ritmo del taller — no hay respuestas correctas.</p>
+
+<div class="menti-url">menti.com/al46piyfpqc7</div>
 
 </div>
 
