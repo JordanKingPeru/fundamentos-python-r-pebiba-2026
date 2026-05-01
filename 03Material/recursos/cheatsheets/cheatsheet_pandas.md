@@ -1,10 +1,10 @@
-# 🐼 Cheatsheet pandas — Fundamentos Python y R · PEBIBA XVIII
+# Cheatsheet pandas — Fundamentos Python y R · PEBIBA XVIII
 
 > Imprime esta página tamaño A4. Pégala junto al monitor. Cubre el 90% de lo que harás con datos tabulares.
 
 ---
 
-## 📦 Imports estándar
+## Imports estándar
 
 ```python
 import pandas as pd
@@ -16,7 +16,7 @@ from pathlib import Path
 
 ---
 
-## 📂 Cargar y guardar
+## Cargar y guardar
 
 | Operación | Código |
 |---|---|
@@ -31,7 +31,7 @@ from pathlib import Path
 
 ---
 
-## 🔍 Inspeccionar
+## Inspeccionar
 
 | Pregunta | Código |
 |---|---|
@@ -49,7 +49,7 @@ from pathlib import Path
 
 ---
 
-## ✂️ Filtrar y seleccionar
+## Filtrar y seleccionar
 
 ```python
 # Filas — condición simple
@@ -75,11 +75,11 @@ df[['region', 'producto', 'ingresos']]
 df.drop(columns=['col1', 'col2'])
 ```
 
-⚠️ **Truco pandas**: usa `&` (no `and`) y `|` (no `or`).
+> **Truco pandas:** usa `&` (no `and`) y `|` (no `or`).
 
 ---
 
-## ➕ Crear y modificar columnas
+## Crear y modificar columnas
 
 ```python
 # Asignación directa
@@ -91,7 +91,7 @@ df.assign(ingresos = lambda d: d['cantidad'] * d['precio'])
 # Múltiples columnas
 df.assign(
     ingresos = lambda d: d['cantidad'] * d['precio'],
-    impuesto = lambda d: d['ingresos'] * 0.18    # ✅ ve 'ingresos'
+    impuesto = lambda d: d['ingresos'] * 0.18    # ve 'ingresos' recién creado
 )
 
 # Renombrar
@@ -100,7 +100,7 @@ df.rename(columns={'old_name': 'new_name'})
 
 ---
 
-## 🏷️ Agrupar y agregar
+## Agrupar y agregar
 
 ```python
 # Agregación simple
@@ -121,11 +121,11 @@ df.groupby('region').size()
 df['region'].value_counts()
 ```
 
-⚠️ Siempre `as_index=False` o `.reset_index()` si vas a exportar.
+> Siempre `as_index=False` o `.reset_index()` si vas a exportar.
 
 ---
 
-## 🔗 Method chaining
+## Method chaining
 
 ```python
 # El patrón moderno
@@ -140,11 +140,11 @@ result = (
 )
 ```
 
-📌 Paréntesis externos `(...)` permiten saltos de línea sin `\`.
+> Paréntesis externos `(...)` permiten saltos de línea sin `\`.
 
 ---
 
-## 🔄 Pivot (ancho ↔ largo)
+## Pivot (ancho ↔ largo)
 
 ```python
 # Largo → Ancho
@@ -169,7 +169,7 @@ df.groupby(['region', 'quarter'])['ingresos'].sum().unstack()
 
 ---
 
-## 🔢 Operaciones útiles
+## Operaciones útiles
 
 ```python
 # Ordenar
@@ -200,7 +200,7 @@ df['col'].fillna(df['col'].mean())   # imputar con media
 
 ---
 
-## 📊 Estadística rápida
+## Estadística rápida
 
 ```python
 df['col'].sum()
@@ -215,7 +215,7 @@ df['col'].nunique()                   # únicos
 
 ---
 
-## 📅 Fechas
+## Fechas
 
 ```python
 # Convertir a datetime
@@ -238,7 +238,7 @@ pd.date_range('2026-01-01', '2026-12-31', freq='D')
 
 ---
 
-## 🤝 Combinar DataFrames
+## Combinar DataFrames
 
 ```python
 # Concatenar (apilar)
@@ -251,7 +251,7 @@ pd.merge(df1, df2, on='id', how='inner') # inner / left / right / outer
 
 ---
 
-## 📈 Visualización rápida (Pandas built-in)
+## Visualización rápida (Pandas built-in)
 
 ```python
 df['col'].plot(kind='hist', bins=20)
@@ -264,7 +264,7 @@ plt.show()
 
 ---
 
-## ⚠️ Trampas Top 5 a recordar
+## Trampas Top 5 a recordar
 
 | # | Trampa | Solución |
 |---|---|---|
@@ -276,7 +276,7 @@ plt.show()
 
 ---
 
-## 🔗 Referencias
+## Referencias
 
 - Documentación oficial: https://pandas.pydata.org/docs/
 - Cheatsheet oficial: https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf

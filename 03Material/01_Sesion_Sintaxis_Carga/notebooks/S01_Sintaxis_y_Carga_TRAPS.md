@@ -1,4 +1,4 @@
-# ⚠️ Trampas Asimétricas Python ↔ R — Sesión 01
+# Trampas Asimétricas Python ↔ R — Sesión 01
 
 > Errores específicos del programador bilingüe. Memorizar — son la fuente del 80% de bugs al portar código.
 

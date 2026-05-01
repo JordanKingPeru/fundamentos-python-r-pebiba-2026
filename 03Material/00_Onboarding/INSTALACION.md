@@ -1,4 +1,4 @@
-# 🚀 Guía de instalación — VS Code + Python + R
+# Guía de instalación — VS Code + Python + R
 
 > **Tiempo estimado:** 30–45 min con buena conexión.
 > **Requisito previo:** ninguno. Si nunca has programado, esta es tu primera vez. Tranquilo.
@@ -74,7 +74,7 @@ Un **terminal** es una ventana donde escribes comandos en lugar de hacer clic. E
 
 Ese `(base)` indica que estás en el entorno conda llamado `base`. Cuando crees `fundamentos-pyr`, va a aparecer `(fundamentos-pyr)` después.
 
-> 💡 **Tip:** copiar y pegar funciona. Click derecho sobre la ventana = pegar (en Anaconda Prompt). En PowerShell: `Ctrl+V`.
+> **Tip:** copiar y pegar funciona. Click derecho sobre la ventana = pegar (en Anaconda Prompt). En PowerShell: `Ctrl+V`.
 
 ### Atajo: script `setup.bat` (Windows) o `setup.sh` (macOS/Linux)
 
@@ -157,13 +157,13 @@ Esto le dice a VS Code que cuando abras un `.py` o `.ipynb`, use el entorno del 
 
 Abre el notebook de verificación:
 
-📓 `03Material/00_Onboarding/00_Verificacion_Setup.ipynb`
+`03Material/00_Onboarding/00_Verificacion_Setup.ipynb`
 
 1. En la **esquina superior derecha** del notebook verás un botón "Select Kernel". Cliquéalo.
 2. Elige **`Python 3.11 (fundamentos-pyr)`**.
 3. Click en `▶ Run All` (o `Ctrl+Alt+Enter` celda por celda).
 
-**Si las 6 pruebas pasan en verde → estás listo. ✅**
+**Si las 6 pruebas pasan en verde → estás listo.**
 
 Después prueba con un notebook R: abre `03Material/01_Sesion_Sintaxis_Carga/notebooks/S01_Sintaxis_y_Carga_R.ipynb` y selecciona el kernel **R**. Si la primera celda corre y dice la versión de R, también está OK.
 
@@ -236,6 +236,6 @@ conda update -n fundamentos-pyr -c conda-forge pandas
 
 ## Listo
 
-Si llegaste hasta aquí y la verificación pasó, **estás listo para la Sesión 01**. Nos vemos en clase 👋
+Si llegaste hasta aquí y la verificación pasó, **estás listo para la Sesión 01**. Nos vemos en clase.
 
 — *Cand. Dr. Jordan King Rodríguez Mallqui · jrodriguezm216@gmail.com*

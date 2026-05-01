@@ -1,4 +1,4 @@
-# 📊 Cheatsheet Visualización — matplotlib + seaborn vs ggplot2
+# Cheatsheet Visualización — matplotlib + seaborn vs ggplot2
 
 > Lado a lado: los 6 gráficos clave del trabajo de un analista BI.
 
@@ -199,7 +199,7 @@ theme_set(theme_minimal(base_size = 12))
 
 ---
 
-## ⚠️ Errores comunes a evitar
+## Errores comunes a evitar
 
 1. **Pie charts con > 5 categorías** — usar barras horizontales mejor.
 2. **Eje Y que NO empieza en cero** en gráficos de barras (engañoso).

@@ -1,4 +1,4 @@
-# 🧠 Ejercicios — Sesión 02: Manipulación y Pipeline
+# Ejercicios — Sesión 02: Manipulación y Pipeline
 
 > **Tiempo total estimado:** 75 minutos
 > **Competencias evaluadas:** CT-04 (refuerzo), CT-05, CT-06, CT-07
@@ -125,7 +125,7 @@ print(result.head(10))
 
 **Bloom:** Evaluar · **Tiempo:** 15min · **Competencia:** CT-06
 
-> ⚠️ **Sin guía.** Decide cada caso ANTES de discutir.
+> **Sin guía.** Decide cada caso ANTES de discutir.
 
 Para cada escenario, marca **Python (P)**, **R (R)** o **Cualquiera (C)** y justifica en máximo 2 líneas:
 
@@ -229,15 +229,15 @@ import pandas as pd
 
 ## Cierre y reflexión
 
-| Nivel completado | Competencia | Reflexión |
+| Nivel | Competencia | Reflexión (1 línea) |
 |---|---|---|
-| 1 ✅ | CT-05 | |
-| 2 ✅ | CT-05 | |
-| 3 ✅ | CT-05 | |
-| 4 ✅ | CT-05 | |
-| 5 ✅ | CT-06 | |
-| 6 ✅ | CT-07 | |
-| 7 ✅ | CT-07 | |
+| 1 | CT-05 | |
+| 2 | CT-05 | |
+| 3 | CT-05 | |
+| 4 | CT-05 | |
+| 5 | CT-06 | |
+| 6 | CT-07 | |
+| 7 | CT-07 | |
 
 **Pregunta de cierre:** ¿Cuál ejercicio sentiste que te llevarías directo al lunes?
 

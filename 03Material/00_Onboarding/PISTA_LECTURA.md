@@ -1,4 +1,4 @@
-# 📖 Pista de Lectura — para perfiles ejecutivos
+# Pista de Lectura — para perfiles ejecutivos
 
 > **Para quién es esta pista:** gerentes, líderes de equipo y ejecutivos que necesitan **entender** el trabajo de su equipo (auditarlo, supervisarlo, tomar decisiones) más que **producirlo** ellos mismos.
 >
@@ -12,10 +12,10 @@ El taller de 8 horas exige **construir un mini-pipeline reproducible**. Eso es a
 
 Si tu rol es:
 
-- ✅ **Gerente de Analytics** que recibe pipelines de tu equipo y debe firmarlos
-- ✅ **Producto / negocio** que conversa con DS pero no produce
-- ✅ **Auditor / compliance** que valida lo que hace el modelo
-- ✅ **Aprendiz que llegó tarde** y prefiere observar antes de codear
+- **Gerente de Analytics** que recibe pipelines de tu equipo y debe firmarlos
+- **Producto / negocio** que conversa con DS pero no produce
+- **Auditor / compliance** que valida lo que hace el modelo
+- **Aprendiz que llegó tarde** y prefiere observar antes de codear
 
 …esta pista te lleva a entender **qué hace el código, qué riesgos tiene y qué exigir** sin instalar nada. Tiempo total: **3-4 horas** (no 8).
 
@@ -46,7 +46,7 @@ Los notebooks normales son interactivos (requieren Jupyter + Python + R). Para t
 | Sesión 01 — Sintaxis y carga | [`S01_Sintaxis_y_Carga_R.html`](../01_Sesion_Sintaxis_Carga/notebooks/S01_Sintaxis_y_Carga_R.html) (R espejo, completo y ejecutado) |
 | Sesión 02 — Manipulación y pipeline | [`S02_Manipulacion_y_Pipeline_R.html`](../02_Sesion_Manipulacion_Pipeline/notebooks/S02_Manipulacion_y_Pipeline_R.html) |
 
-> 💡 Lee el R espejo (no el Python). Los conceptos son **idénticos** en ambos lenguajes; el R espejo está mejor anotado y los outputs ya están renderizados. Si quieres ver Python específicamente, abre los `.ipynb` en VS Code en modo "preview" sin ejecutar.
+> Lee el R espejo (no el Python). Los conceptos son **idénticos** en ambos lenguajes; el R espejo está mejor anotado y los outputs ya están renderizados. Si quieres ver Python específicamente, abre los `.ipynb` en VS Code en modo "preview" sin ejecutar.
 
 **Mientras lees, fíjate en estos 4 patrones repetidos** (el contenido del taller):
 
@@ -54,7 +54,7 @@ Los notebooks normales son interactivos (requieren Jupyter + Python + R). Para t
 |---|---|
 | **Caso de Negocio** al inicio de cada notebook | Tu equipo debe poder explicar qué problema resuelve cada análisis. Si no, es código sin propósito. |
 | **Diccionario de Datos** explícito | Tu equipo debe documentar qué significa cada columna. Sin diccionario → riesgo de mala interpretación. |
-| **Real-World Warnings ⚠️** | Diferencias entre teoría y producción. Léelas — son los puntos donde un modelo falla en la realidad. |
+| **Real-World Warnings** | Diferencias entre teoría y producción. Léelas — son los puntos donde un modelo falla en la realidad. |
 | **Resumen de Logros** al final | Cierre que conecta lo aprendido con valor de negocio. |
 
 ### Fase 3 — Lee las trampas asimétricas (45 min)
@@ -127,13 +127,13 @@ Si tu rol cambia y empiezas a recibir pull requests de código, a definir arquit
 
 Por ahora, esta pista te da:
 
-- ✅ Lenguaje común con tu equipo técnico
-- ✅ Capacidad de hacer preguntas específicas (no genéricas)
-- ✅ Detección de red flags en lo que recibes
-- ✅ Criterio para priorizar inversión en datos
+- Lenguaje común con tu equipo técnico
+- Capacidad de hacer preguntas específicas (no genéricas)
+- Detección de red flags en lo que recibes
+- Criterio para priorizar inversión en datos
 
 Eso es **mucho más** que "no programar".
 
 ---
 
-📧 *Si quieres una conversación 1-1 sobre code review específico de tu equipo:* `jrodriguezm216@gmail.com`
+*Para una conversación 1-1 sobre code review específico de tu equipo:* `jrodriguezm216@gmail.com`

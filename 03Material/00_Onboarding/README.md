@@ -2,9 +2,9 @@
 
 > Antes de la Sesión 01, completa estos 3 pasos. Si algo falla, escribe a `jrodriguezm216@gmail.com` con captura de pantalla.
 
-## 🚀 Empieza aquí
+## Empieza aquí
 
-**👉 Para la guía completa de instalación con VS Code, abre [`INSTALACION.md`](INSTALACION.md).**
+**Para la guía completa de instalación con VS Code, abre [`INSTALACION.md`](INSTALACION.md).**
 
 Ese archivo te lleva paso a paso por:
 1. Instalar VS Code y Miniconda

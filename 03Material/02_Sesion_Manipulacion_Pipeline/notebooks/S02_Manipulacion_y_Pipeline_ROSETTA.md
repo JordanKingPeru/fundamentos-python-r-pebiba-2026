@@ -1,4 +1,4 @@
-# 🌹 Rosetta Python ↔ R — Sesión 02: Manipulación, Visualización, Pipeline
+# Rosetta Python ↔ R — Sesión 02: Manipulación, Visualización, Pipeline
 
 > Extiende `S01_Sintaxis_y_Carga_ROSETTA.md`. Esta tabla cubre las operaciones del día 2.
 

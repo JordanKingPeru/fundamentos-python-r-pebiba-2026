@@ -7,21 +7,21 @@
 ### Python
 
 1. **VanderPlas, J. (2023).** *Python Data Science Handbook* (2nd ed.). O'Reilly.
-   - 🔗 Versión abierta: https://jakevdp.github.io/PythonDataScienceHandbook/
+   - Versión abierta: https://jakevdp.github.io/PythonDataScienceHandbook/
    - **Por qué:** referencia canónica para pandas, numpy, matplotlib. Capítulos 2-4 cubren todo lo que vemos en el curso.
 
 2. **Downey, A. (2015).** *Think Python: How to Think Like a Computer Scientist* (2nd ed.). Green Tea Press.
-   - 🔗 Versión abierta: https://greenteapress.com/wp/think-python-2e/
+   - Versión abierta: https://greenteapress.com/wp/think-python-2e/
    - **Por qué:** introducción suave a programación, sin asumir background de CS. Ideal para los primeros 2 capítulos del curso.
 
 ### R
 
 3. **Wickham, H., & Grolemund, G. (2023).** *R for Data Science* (2nd ed.). O'Reilly.
-   - 🔗 Versión abierta: https://r4ds.hadley.nz/
+   - Versión abierta: https://r4ds.hadley.nz/
    - **Por qué:** la biblia del tidyverse. Capítulos 1-5 cubren lectura, transformación y visualización con dplyr y ggplot2.
 
 4. **Wickham, H. (2019).** *Advanced R* (2nd ed.). Chapman & Hall/CRC.
-   - 🔗 Versión abierta: https://adv-r.hadley.nz/
+   - Versión abierta: https://adv-r.hadley.nz/
    - **Por qué:** referencia para entender las "trampas" de R (copy-on-modify, environments). Útil para el archivo TRAPS.md.
 
 ### Bilingüe / pedagogía de programación
@@ -58,7 +58,7 @@
   - **Por qué:** paper fundacional de R. Útil para mencionar el origen estadístico vs propósito general de Python.
 
 - **Van Rossum, G. (2009).** *The History of Python* [serie de blog posts].
-  - 🔗 https://python-history.blogspot.com/
+  - https://python-history.blogspot.com/
   - **Por qué:** contexto sobre por qué Python es como es.
 
 ---

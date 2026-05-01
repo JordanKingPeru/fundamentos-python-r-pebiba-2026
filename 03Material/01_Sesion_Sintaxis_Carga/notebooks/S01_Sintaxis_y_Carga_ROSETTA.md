@@ -1,4 +1,4 @@
-# 🌹 Rosetta Python ↔ R — Sesión 01: Sintaxis y carga
+# Rosetta Python ↔ R — Sesión 01: Sintaxis y carga
 
 > Tabla viva de equivalencias para el alumno bilingüe. Imprímela y tenla a mano durante todo el curso.
 
@@ -37,7 +37,7 @@
 
 ## Indexado de secuencias
 
-> ⚠️ **Trampa principal:** Python base-0, R base-1.
+> **Trampa principal:** Python base-0, R base-1.
 
 | Acceso | Python | R |
 |---|---|---|
@@ -113,7 +113,7 @@
 
 ## Mutación
 
-> ⚠️ Diferencia conceptual fuerte: Python pasa por referencia, R copia al modificar (copy-on-modify).
+> Diferencia conceptual fuerte: Python pasa por referencia, R copia al modificar (copy-on-modify).
 
 | Operación | Python | R |
 |---|---|---|

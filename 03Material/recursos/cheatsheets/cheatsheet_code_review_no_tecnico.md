@@ -38,7 +38,7 @@
 
 🟢 **Buena respuesta:** *"Sí. Hay un script `pipeline.py` (o `.R`). Se ejecuta y produce el mismo output. Las dependencias están en `environment.yml`."*
 
-🔴 **Mala respuesta:** *"Hay que correr esta celda primero, después esta otra, y al final pegar el resultado en Excel manualmente."* → 🚨 **red flag**. El proceso no es auditable.
+🔴 **Mala respuesta:** *"Hay que correr esta celda primero, después esta otra, y al final pegar el resultado en Excel manualmente."* → **red flag**. El proceso no es auditable.
 
 **Por qué importa:** auditoría y compliance dependen de esto. Y si la persona se va, el proceso se rompe.
 
@@ -86,7 +86,7 @@
 
 🟢 **Buena respuesta:** *"Validamos con datos que NO se usaron para entrenar (test set). El accuracy en train es 92% y en test 89% — diferencia razonable. Además hicimos validación temporal."*
 
-🔴 **Mala respuesta:** *"Tenemos 99% de accuracy."* → 🚨 demasiado bueno para ser verdad. Casi siempre es leakage o overfitting.
+🔴 **Mala respuesta:** *"Tenemos 99% de accuracy."* → demasiado bueno para ser verdad. Casi siempre es leakage o overfitting.
 
 **Por qué importa:** un modelo con 99% accuracy en testing puede caer al 60% en producción. Eso te explota en la cara.
 
@@ -98,7 +98,7 @@
 
 🟢 **Buena respuesta:** *"Sí. Hay una lista de variables excluidas con justificación documentada. Por ejemplo: no usamos 'monto pagado' para predecir 'va a pagar' porque es trampa."*
 
-🔴 **Mala respuesta:** *"Usamos todas las columnas disponibles."* → 🚨 red flag. Probable leakage.
+🔴 **Mala respuesta:** *"Usamos todas las columnas disponibles."* → red flag. Probable leakage.
 
 **Por qué importa:** un modelo con leakage es **inútil en producción**. Y si toma decisiones de crédito, es una falla regulatoria.
 
@@ -122,7 +122,7 @@
 
 🟢 **Buena respuesta:** *"Sí. Hay un README con cómo correr el pipeline, un diccionario de datos, comentarios en el código y un runbook para incidentes comunes. Hice una sesión de transferencia con [persona]."*
 
-🔴 **Mala respuesta:** *"Eso solo lo entiendo yo."* → 🚨 dependencia de una sola persona. Riesgo operativo alto.
+🔴 **Mala respuesta:** *"Eso solo lo entiendo yo."* → dependencia de una sola persona. Riesgo operativo alto.
 
 **Por qué importa:** la rotación es real. Si tu pipeline depende de una persona, tu negocio depende de esa persona.
 
@@ -173,4 +173,4 @@
 
 ---
 
-📧 *Para una sesión 1-1 sobre code review específico de tu equipo:* `jrodriguezm216@gmail.com`
+*Para una sesión 1-1 sobre code review específico de tu equipo:* `jrodriguezm216@gmail.com`

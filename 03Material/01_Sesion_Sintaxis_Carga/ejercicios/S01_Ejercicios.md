@@ -1,4 +1,4 @@
-# 🧠 Ejercicios — Sesión 01: Sintaxis y Carga
+# Ejercicios — Sesión 01: Sintaxis y Carga
 
 > **Tiempo total estimado:** 60 minutos
 > **Competencias evaluadas:** CT-01, CT-02, CT-03, CT-04
@@ -129,7 +129,7 @@ print(f'Lista final: {regiones}')
 
 **Bloom:** Crear · **Tiempo:** 12min · **Competencia:** CT-01 + CT-02
 
-> ⚠️ Este ejercicio es **deliberadamente difícil**. Intenta sin mirar adelante; tu lucha es parte del aprendizaje.
+> Este ejercicio es **deliberadamente difícil**. Intenta sin mirar adelante; tu lucha es parte del aprendizaje.
 
 **Contexto:**
 
@@ -253,15 +253,15 @@ import pandas as pd
 
 ## Cierre y reflexión
 
-| Nivel completado | Competencia | Reflexión |
+| Nivel | Competencia | Reflexión (1 línea) |
 |---|---|---|
-| 1 ✅ | CT-01 | |
-| 2 ✅ | CT-01 | |
-| 3 ✅ | CT-01 | |
-| 4 ✅ | CT-01+CT-02 | |
-| 5 ✅ | CT-01+CT-02 | |
-| 6 ✅ | CT-03+CT-04 | |
-| 7 ✅ | CT-02+CT-03+CT-04 | |
+| 1 | CT-01 | |
+| 2 | CT-01 | |
+| 3 | CT-01 | |
+| 4 | CT-01+CT-02 | |
+| 5 | CT-01+CT-02 | |
+| 6 | CT-03+CT-04 | |
+| 7 | CT-02+CT-03+CT-04 | |
 
 **Pregunta de cierre:** ¿Qué ejercicio te pareció más difícil y por qué?
 

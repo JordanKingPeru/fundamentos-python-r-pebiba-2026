@@ -266,8 +266,8 @@ Eso vale.
 <p class="bio-title">Senior Manager · Pricing Analytics & Data — BBVA Perú</p>
 
 <p class="bio-creds">
-🎓 <strong>Doctorando</strong> en Ciencias e Ingeniería Estadística — UNI · 2° año<br>
-🎓 <strong>MSc</strong> Data Science — UPC · <strong>BSc</strong> Ingeniería Estadística — UNI <em>(1er puesto)</em>
+<strong>Doctorando</strong> en Ciencias e Ingeniería Estadística — UNI · 2° año<br>
+<strong>MSc</strong> Data Science — UPC · <strong>BSc</strong> Ingeniería Estadística — UNI <em>(1er puesto)</em>
 </p>
 
 <div class="metrics">
@@ -279,7 +279,7 @@ Eso vale.
 
 <p class="bio-tagline">No te enseña un teórico. Te enseña alguien que construye modelos en producción todos los días.</p>
 
-<p class="bio-contact">🌐 <a href="https://www.jordandataexpert.com/about">jordandataexpert.com</a> · 📧 <a href="mailto:jrodriguezm216@gmail.com">jrodriguezm216@gmail.com</a></p>
+<p class="bio-contact"><a href="https://www.jordandataexpert.com/about">jordandataexpert.com</a> · <a href="mailto:jrodriguezm216@gmail.com">jrodriguezm216@gmail.com</a></p>
 
 </div>
 
@@ -299,7 +299,7 @@ Eso vale.
 
 <div class="menti-text">
 
-## ✋ Antes de empezar — pulso de 90 segundos
+## Antes de empezar — pulso de 90 segundos
 
 <p class="menti-step"><strong>1.</strong> Escanea el QR (o entra a la URL)</p>
 <p class="menti-step"><strong>2.</strong> Responde con honestidad: ¿qué tan cómodo te sientes con Excel, SQL, R, Python, VS Code y LLMs?</p>
@@ -418,7 +418,7 @@ Dos requisitos:
 ### **Sesión 01 — Día 1 · 4h** (sintaxis y carga)
 - Bloque 1: Variables y tipos (25 min)
 - Bloque 2: Listas y vectores (35 min)
-- Bloque 3: ⚠️ Trampas #1 y #2 (45 min)
+- Bloque 3: Trampas #1 y #2 (45 min)
 - Bloque 4: Carga de CSV + diagnóstico (75 min)
 
 ### **Sesión 02 — Día 2 · 4h** (manipulación y pipeline)
@@ -426,7 +426,7 @@ Dos requisitos:
 - Bloque 1: Arena Python vs R (75 min)
 - Bloque 2: Visualización (65 min)
 - Bloque 3: ¿Python o R? (30 min)
-- Bloque 4: 🎯 Mini-pipeline integrador (35 min)
+- Bloque 4: Mini-pipeline integrador (35 min)
 
 </div>
 

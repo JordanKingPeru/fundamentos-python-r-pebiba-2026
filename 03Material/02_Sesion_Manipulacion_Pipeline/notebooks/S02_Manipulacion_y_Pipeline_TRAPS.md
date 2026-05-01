@@ -1,4 +1,4 @@
-# ⚠️ Trampas Asimétricas Python ↔ R — Sesión 02
+# Trampas Asimétricas Python ↔ R — Sesión 02
 
 > Extiende `S01_Sintaxis_y_Carga_TRAPS.md` con las trampas que aparecen al manipular tablas y visualizar.
 

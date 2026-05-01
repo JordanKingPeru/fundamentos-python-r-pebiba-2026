@@ -1,4 +1,4 @@
-# ❓ FAQ — Fundamentos de Python y R
+# FAQ — Fundamentos de Python y R
 
 > Preguntas frecuentes recolectadas a lo largo del taller.
 
@@ -204,9 +204,9 @@ sum(x, na.rm = TRUE)
 
 ## Contacto
 
-📧 **jrodriguezm216@gmail.com**
-📧 **Contacto:** [jrodriguezm216@gmail.com](mailto:jrodriguezm216@gmail.com) · [jordandataexpert.com](https://www.jordandataexpert.com/about)
-💬 **Grupo del curso:** WhatsApp/Slack (compartido por coordinación PEBIBA)
+**Correo del docente:** [jrodriguezm216@gmail.com](mailto:jrodriguezm216@gmail.com) · [jordandataexpert.com](https://www.jordandataexpert.com/about)
+
+**Grupo del curso:** WhatsApp/Slack (compartido por coordinación PEBIBA)
 
 ---
 

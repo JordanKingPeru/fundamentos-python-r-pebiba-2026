@@ -1,10 +1,10 @@
-# 🌊 Cheatsheet dplyr (tidyverse) — Fundamentos Python y R · PEBIBA XVIII
+# Cheatsheet dplyr (tidyverse) — Fundamentos Python y R · PEBIBA XVIII
 
 > Imprime tamaño A4. El equivalente de pandas en R.
 
 ---
 
-## 📦 Setup
+## Setup
 
 ```r
 library(tidyverse)   # incluye dplyr, ggplot2, readr, tidyr, purrr, stringr
@@ -14,7 +14,7 @@ library(writexl)     # para escribir .xlsx
 
 ---
 
-## 📂 Cargar y guardar
+## Cargar y guardar
 
 | Operación | Código |
 |---|---|
@@ -27,7 +27,7 @@ library(writexl)     # para escribir .xlsx
 
 ---
 
-## 🔍 Inspeccionar
+## Inspeccionar
 
 | Pregunta | Código |
 |---|---|
@@ -45,7 +45,7 @@ library(writexl)     # para escribir .xlsx
 
 ---
 
-## ✂️ Filtrar y seleccionar
+## Filtrar y seleccionar
 
 ```r
 # Filas — condición simple
@@ -76,7 +76,7 @@ df |> select(zona = region, prod = producto)
 
 ---
 
-## ➕ Crear y modificar columnas
+## Crear y modificar columnas
 
 ```r
 # Crear columna
@@ -97,7 +97,7 @@ df |> mutate(across(c(precio, descuento), ~ round(.x, 2)))
 
 ---
 
-## 🏷️ Agrupar y agregar
+## Agrupar y agregar
 
 ```r
 # Suma simple por grupo
@@ -128,11 +128,11 @@ df |> count(region, sort = TRUE)
 df |> count(region, wt = (ingresos > 1000))
 ```
 
-⚠️ **Siempre `.groups = 'drop'`** o `ungroup()` después de `summarise()`.
+> **Siempre `.groups = 'drop'`** o `ungroup()` después de `summarise()`.
 
 ---
 
-## 🔗 Pipe `|>` — encadenar
+## Pipe `|>` — encadenar
 
 ```r
 # El patrón moderno
@@ -145,13 +145,12 @@ result <- df |>
   arrange(desc(total))
 ```
 
-📌 `|>` es el pipe nativo (R 4.1+). Lee como una receta.
-
-📌 También funciona `%>%` (magrittr) si vienes de tidyverse antiguo.
+> `|>` es el pipe nativo (R 4.1+). Lee como una receta.
+> También funciona `%>%` (magrittr) si vienes de tidyverse antiguo.
 
 ---
 
-## 🔄 Pivot
+## Pivot
 
 ```r
 # Largo → Ancho
@@ -171,7 +170,7 @@ df_ancho |>
 
 ---
 
-## 🔢 Operaciones útiles
+## Operaciones útiles
 
 ```r
 # Ordenar
@@ -210,7 +209,7 @@ df |> mutate(col = if_else(is.na(col), mean(col, na.rm = TRUE), col))
 
 ---
 
-## 📊 Estadística rápida
+## Estadística rápida
 
 ```r
 sum(x, na.rm = TRUE)
@@ -224,11 +223,11 @@ length(x[!is.na(x)])    # no-nulos
 length(unique(x))         # únicos
 ```
 
-⚠️ **Siempre `na.rm = TRUE`** o R devuelve NA.
+> **Siempre `na.rm = TRUE`** o R devuelve NA.
 
 ---
 
-## 📅 Fechas
+## Fechas
 
 ```r
 library(lubridate)   # parte del tidyverse
@@ -255,7 +254,7 @@ seq(ymd('2026-01-01'), ymd('2026-12-31'), by = 'day')
 
 ---
 
-## 🤝 Combinar DataFrames
+## Combinar DataFrames
 
 ```r
 # Apilar filas
@@ -276,7 +275,7 @@ inner_join(df1, df2, by = c('id_a' = 'id_b'))
 
 ---
 
-## 📈 Visualización ggplot2 (intro)
+## Visualización ggplot2 (intro)
 
 ```r
 ggplot(df, aes(x = region, y = ingresos)) +
@@ -298,7 +297,7 @@ geom_tile()       # heatmap
 
 ---
 
-## ⚠️ Trampas Top 5 a recordar
+## Trampas Top 5 a recordar
 
 | # | Trampa | Solución |
 |---|---|---|
@@ -310,7 +309,7 @@ geom_tile()       # heatmap
 
 ---
 
-## 🔗 Referencias
+## Referencias
 
 - Documentación dplyr: https://dplyr.tidyverse.org/
 - Cheatsheet oficial: https://posit.co/wp-content/uploads/2022/10/data-transformation-1.pdf

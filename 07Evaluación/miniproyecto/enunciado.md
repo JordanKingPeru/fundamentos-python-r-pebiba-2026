@@ -55,11 +55,11 @@ Cada dimensión califica en 4 niveles: **Insuficiente · En desarrollo · Lograd
 
 ## Pistas (úsalas si te atascas)
 
-- ⚠️ El CSV puede tener encoding latin1 (ñ, tildes). Si ves `?`, ajusta `encoding` o `locale`.
-- 💡 `df.info()` (Python) o `glimpse(df)` (R) son la primera línea del diagnóstico.
-- 💡 Para "top 5 por ingresos", asegúrate de que ingresos = precio × cantidad si las columnas vienen separadas.
-- 🧠 La distribución regional puede ser por **monto total** o por **% del total** — decide cuál cuenta mejor la historia.
-- 🧠 Si tu gráfico de barras tiene > 12 categorías y todas son ilegibles, agrupa "Otros".
+- El CSV puede tener encoding latin1 (ñ, tildes). Si ves `?`, ajusta `encoding` o `locale`.
+- `df.info()` (Python) o `glimpse(df)` (R) son la primera línea del diagnóstico.
+- Para "top 5 por ingresos", asegúrate de que ingresos = precio × cantidad si las columnas vienen separadas.
+- La distribución regional puede ser por **monto total** o por **% del total** — decide cuál cuenta mejor la historia.
+- Si tu gráfico de barras tiene > 12 categorías y todas son ilegibles, agrupa "Otros".
 
 ---
 

@@ -1,10 +1,10 @@
-# ⚠️ Cheatsheet — Las 10 Trampas Asimétricas Python ↔ R
+# Cheatsheet — Las 10 Trampas Asimétricas Python ↔ R
 
 > Tamaño A4 doble cara. Pega junto al monitor. Memorizalas.
 
 ---
 
-## 🎯 Mnemotécnico de bolsillo
+## Mnemotécnico de bolsillo
 
 > **"Python comparte, R copia.
 > Python cuenta desde 0, R cuenta desde 1.
@@ -21,11 +21,11 @@
 
 ```python
 x = [1, 2, 3]; y = x; y.append(4)
-print(x)   # [1, 2, 3, 4] ⚠️
+print(x)   # [1, 2, 3, 4]   ← muta el original
 ```
 ```r
 x <- c(1, 2, 3); y <- x; y <- c(y, 4)
-print(x)   # 1 2 3 ✓
+print(x)   # 1 2 3   ← intacto
 ```
 
 **Solución Python:** `y = x.copy()` para copia explícita.
@@ -53,8 +53,8 @@ s.mean()   # 2.333 (ignora NaN)
 ```r
 # R
 x <- c(1, 2, NA, 4)
-mean(x)              # NA ⚠️
-mean(x, na.rm=TRUE)  # 2.333 ✓
+mean(x)              # NA   ← propaga
+mean(x, na.rm=TRUE)  # 2.333
 ```
 
 **Heurística R:** SIEMPRE `na.rm = TRUE` en agregaciones.
@@ -67,13 +67,13 @@ mean(x, na.rm=TRUE)  # 2.333 ✓
 # numpy
 a = np.array([1, 2, 3, 4, 5, 6])
 b = np.array([10, 20])
-a * b   # ValueError ✓ (te protege)
+a * b   # ValueError — te protege
 ```
 ```r
 # R
 a <- c(1, 2, 3, 4, 5, 6)
 b <- c(10, 20)
-a * b   # [10, 40, 30, 80, 50, 120] ⚠️ recicla silencioso
+a * b   # [10, 40, 30, 80, 50, 120] — recicla silencioso
 ```
 
 **Heurística R:** verifica `length(x) == length(y)` antes de operar.
@@ -85,12 +85,12 @@ a * b   # [10, 40, 30, 80, 50, 120] ⚠️ recicla silencioso
 ```r
 # R
 mezcla <- c(1, 'dos', TRUE)
-typeof(mezcla)   # "character" — ¡todo se vuelve string!
+typeof(mezcla)   # "character" — todo se vuelve string
 ```
 ```python
 # Python — más estricto
 mezcla = [1, 'dos', True]   # OK lista heterogénea
-sum(mezcla)                  # TypeError ✓
+sum(mezcla)                  # TypeError
 ```
 
 ---
@@ -98,15 +98,15 @@ sum(mezcla)                  # TypeError ✓
 ## TRAMPA 6 — pandas: `&`/`|` no `and`/`or`
 
 ```python
-# ❌
+# Incorrecto
 df.loc[df.x > 5 and df.y < 10]   # ValueError
 
-# ✅
+# Correcto
 df.loc[(df.x > 5) & (df.y < 10)]   # paréntesis OBLIGATORIOS
 ```
 
 ```r
-# ✅ dplyr — coma es AND
+# dplyr — coma es AND
 df |> filter(x > 5, y < 10)
 ```
 
@@ -115,10 +115,10 @@ df |> filter(x > 5, y < 10)
 ## TRAMPA 7 — MultiIndex de pandas
 
 ```python
-# ❌ Sale feo en Excel
+# Incorrecto: sale feo en Excel
 df.groupby(['region', 'quarter']).agg(s=('x', 'sum'))
 
-# ✅ Plano
+# Correcto: plano
 df.groupby(['region', 'quarter'], as_index=False).agg(s=('x', 'sum'))
 # o:
 df.groupby(['region', 'quarter']).agg(s=('x', 'sum')).reset_index()
@@ -134,13 +134,13 @@ df |> group_by(region, quarter) |> summarise(s = sum(x), .groups = 'drop')
 ## TRAMPA 8 — dplyr deja agrupado después de `summarise()`
 
 ```r
-# ⚠️ Esto suma POR REGION (no global)
+# Incorrecto: esto calcula porcentaje POR REGION (no global)
 df |>
   group_by(region, quarter) |>
   summarise(ventas = sum(ventas)) |>
   mutate(porcentaje = ventas / sum(ventas))   # ← suma POR REGION
 
-# ✅ Usar .groups = 'drop'
+# Correcto: usar .groups = 'drop'
 df |>
   group_by(region, quarter) |>
   summarise(ventas = sum(ventas), .groups = 'drop') |>
@@ -162,7 +162,7 @@ df |>
 ## TRAMPA 10 — `.assign()` con dependencias entre lambdas
 
 ```python
-# ⚠️ ¿Funciona o no?
+# ¿Funciona o no?
 df.assign(
     ingresos = lambda d: d.cantidad * d.precio,
     impuesto = lambda d: d.ingresos * 0.18   # ← ¿ve 'ingresos'?
@@ -175,13 +175,13 @@ df.assign(
 # dplyr siempre evalúa secuencial
 df |> mutate(
   ingresos = cantidad * precio,
-  impuesto = ingresos * 0.18   # ✓
+  impuesto = ingresos * 0.18   # ve 'ingresos' recién creado
 )
 ```
 
 ---
 
-## 🎓 Resumen para llevar al trabajo
+## Resumen para llevar al trabajo
 
 1. **`.copy()` siempre antes de modificar DataFrames** (pandas).
 2. **`as_index=False` o `.reset_index()` después de groupby** (pandas).
