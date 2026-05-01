@@ -58,6 +58,22 @@ style: |
   .bio-tagline { font-size: 16pt; font-style: italic; color: rgba(255,255,255,0.92); border-left: 4px solid var(--amber); padding-left: 16px; margin: 14px 0; line-height: 1.4; }
   .bio-contact { font-size: 14pt; color: rgba(255,255,255,0.85); margin-top: 14px; }
   .bio-contact a { color: var(--amber); text-decoration: none; font-weight: 600; }
+
+  /* ===== Caratula institucional uniforme PEBIBA XVIII ===== */
+  section.cover { background: white; color: var(--slate); padding: 0; }
+  section.cover .cover-wrap { padding: 36px 60px 60px 60px; height: 100%; box-sizing: border-box; display: flex; flex-direction: column; }
+  section.cover .cover-header { display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; gap: 24px; padding-bottom: 14px; }
+  section.cover .cover-left { display: grid; grid-template-columns: auto 1fr auto 1fr; align-items: center; gap: 14px; }
+  section.cover .cover-left .escudo { width: 88px; height: auto; }
+  section.cover .cover-left .fac, section.cover .cover-left .cfc { color: var(--slate); font-family: 'Lato', sans-serif; font-weight: 700; font-size: 11.5pt; line-height: 1.22; }
+  section.cover .cover-left .vsep { width: 1.5px; height: 60px; background: var(--uni-crimson); }
+  section.cover .cover-right { color: var(--slate); font-family: 'Lato', sans-serif; font-weight: 700; font-size: 14pt; text-align: right; line-height: 1.32; }
+  section.cover hr.cover-line { border: none; border-top: 2px solid var(--uni-crimson); margin: 0 -60px 0 -60px; }
+  section.cover .cover-body { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 40px 0; }
+  section.cover .cover-eyebrow { color: var(--uni-crimson); font-family: 'Lato', sans-serif; font-weight: 700; font-size: 18pt; letter-spacing: 0.18em; text-transform: uppercase; margin: 0 0 16px 0; }
+  section.cover h1.cover-title { color: black; font-family: 'Lato', 'Calibri', sans-serif; font-weight: 900; font-size: 54pt; line-height: 1.05; margin: 0 0 18px 0; padding: 0; letter-spacing: -0.01em; }
+  section.cover h2.cover-subtitle { color: black; font-family: 'Lato', 'Calibri', sans-serif; font-weight: 400; font-size: 32pt; line-height: 1.15; margin: 0; padding: 0; }
+  section.cover .cover-footer { color: var(--neutral); font-size: 13pt; text-align: center; margin-top: 28px; }
   /* Slide del Mentimeter — diagnóstico inicial */
   .menti-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; padding: 0; height: 100%; }
   .menti-qr { display: flex; align-items: center; justify-content: center; }
@@ -95,14 +111,36 @@ style: |
   section.you p { font-size: 28pt; color: rgba(255,255,255,0.95); }
 ---
 
-<!-- _class: title -->
+<!-- _class: cover -->
+<!-- _header: '' -->
+<!-- _footer: '' -->
+<!-- _paginate: false -->
 
-# Fundamentos de Python y R
+<div class="cover-wrap">
 
-## El curso que cambiará la forma en que trabajas con datos
+<div class="cover-header">
+  <div class="cover-left">
+    <img src="assets/uni_escudo.png" alt="UNI" class="escudo" />
+    <div class="fac">Facultad de<br>Ingeniería<br>Económica,<br>Estadística y<br>Ciencias<br>Sociales</div>
+    <div class="vsep"></div>
+    <div class="cfc">Centro de<br>Formación<br>Continua</div>
+  </div>
+  <div class="cover-right">
+    XVIII PROGRAMA DE ESPECIALIZACIÓN EN<br>
+    BUSINESS INTELLIGENCE &amp; BUSINESS ANALYTICS
+  </div>
+</div>
 
-PEBIBA XVIII · 2026
-Cand. Dr. Jordan King Rodríguez Mallqui · UNI
+<hr class="cover-line" />
+
+<div class="cover-body">
+  <p class="cover-eyebrow">TALLER</p>
+  <h1 class="cover-title">Fundamentos de programación<br>en Python y R</h1>
+  <h2 class="cover-subtitle">Sesión de bienvenida</h2>
+  <p class="cover-footer">Cand. Dr. Jordan King Rodríguez Mallqui · jordandataexpert.com</p>
+</div>
+
+</div>
 
 ---
 

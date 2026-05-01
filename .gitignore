@@ -57,13 +57,13 @@ Plantilla Silabo*.docx
 _docente/
 
 # -----------------------------------------------------------
-# 2. NOTEBOOKS MAESTROS (con SOLUCIONES) — NO compartir
+# 2. NOTEBOOKS MAESTROS PYTHON (con SOLUCIONES) — NO compartir
 # -----------------------------------------------------------
 # El alumno solo recibe la versión "_Alumnos" con TODOs.
+# Los notebooks R espejo SÍ son públicos: no hay versión Alumnos para R,
+# son la referencia bilingüe completa que el alumno consulta.
 03Material/01_Sesion_Sintaxis_Carga/notebooks/S01_Sintaxis_y_Carga_PY.ipynb
-03Material/01_Sesion_Sintaxis_Carga/notebooks/S01_Sintaxis_y_Carga_R.ipynb
 03Material/02_Sesion_Manipulacion_Pipeline/notebooks/S02_Manipulacion_y_Pipeline_PY.ipynb
-03Material/02_Sesion_Manipulacion_Pipeline/notebooks/S02_Manipulacion_y_Pipeline_R.ipynb
 
 # -----------------------------------------------------------
 # 3. SOLUCIONES DE EJERCICIOS — NO compartir

@@ -41,6 +41,21 @@
 
 ---
 
+## 🛤️ Dos formas de aprovechar el material
+
+| | **Pista del Productor** *(la principal)* | **Pista de Lectura** *(alterna)* |
+|---|---|---|
+| Para quién | Vas a **escribir código** y construir tu propio pipeline | Vas a **entender** lo que hace tu equipo, sin instalar nada |
+| Tiempo | 8 horas en taller + 4-6 horas mini-proyecto | 3-4 horas (auto-estudio) |
+| Requiere instalación | ✅ Sí (Anaconda + R) | ❌ No |
+| Entregable | Pipeline reproducible Python o R | Capacidad de hacer code review crítico |
+| Perfiles típicos | Analistas BI, ingenieros, profesionales junior | Gerentes, líderes de equipo, ejecutivos |
+| Empieza por | Continúa abajo (Cómo arrancar — 3 pasos) | [`03Material/00_Onboarding/PISTA_LECTURA.md`](03Material/00_Onboarding/PISTA_LECTURA.md) |
+
+> 💡 La mayoría de alumnos toma la pista del productor. Si tu rol es supervisar y decidir más que producir, considera la pista de lectura.
+
+---
+
 ## 🚀 Cómo arrancar (3 pasos antes de la Sesión 01)
 
 ### 1️⃣ Instala tu entorno
