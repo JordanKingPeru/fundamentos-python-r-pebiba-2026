@@ -1,0 +1,69 @@
+# ============================================================
+# environment.yml — Curso Fundamentos de Python y R
+# PEBIBA XVIII · UNI · 2026
+# ============================================================
+#
+# Crea un único entorno conda con TODO lo necesario para el curso:
+# Python 3.11 + R 4.3 + tidyverse + IRkernel + Jupyter.
+#
+# Uso:
+#   conda env create -f environment.yml
+#   conda activate fundamentos-pyr
+#   python -m ipykernel install --user --name fundamentos-pyr \
+#       --display-name "Python 3.11 (fundamentos-pyr)"
+#
+# Después abre VS Code → selecciona el kernel "Python 3.11 (fundamentos-pyr)"
+# o "R" según el notebook.
+#
+# Si no usas conda, ver INSTALACION.md para alternativas con uv y pip.
+# ============================================================
+
+name: fundamentos-pyr
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # -------- Python --------
+  - python=3.11
+
+  # Notebooks y kernels
+  - jupyterlab>=4.0
+  - ipykernel>=6.29
+  - notebook>=7.0
+
+  # Análisis de datos
+  - pandas>=2.2
+  - numpy>=1.26
+  - openpyxl>=3.1            # leer/escribir Excel
+  - python-dateutil>=2.9     # fechas
+
+  # Visualización
+  - matplotlib>=3.8
+  - seaborn>=0.13
+
+  # Utilidades de calidad de vida
+  - tqdm>=4.66               # barras de progreso
+  - rich>=13.7               # output bonito en consola
+
+  # -------- R --------
+  - r-base>=4.3
+  - r-irkernel               # kernel R para Jupyter
+
+  # tidyverse completo (dplyr, ggplot2, readr, tidyr, purrr, tibble, stringr, forcats)
+  - r-tidyverse>=2.0
+
+  # Lectura/escritura
+  - r-readxl>=1.4            # leer Excel
+  - r-writexl>=1.5           # escribir Excel
+
+  # Mencionados en el curso (alternativas modernas)
+  - r-data.table             # alternativa rápida a dplyr (opcional, lo mostramos brevemente)
+  - r-glue                   # f-strings al estilo R
+
+  # -------- Pip extras (paquetes que no están en conda-forge o que prefieren pip) --------
+  - pip
+  - pip:
+      # Ninguno crítico por ahora — todo está cubierto arriba.
+      # Si en el futuro necesitas algo específico de pip, agrégalo aquí.

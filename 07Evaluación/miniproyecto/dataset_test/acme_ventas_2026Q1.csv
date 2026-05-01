@@ -1,0 +1,1501 @@
+id_transaccion,fecha,quarter,region,producto,categoria,cantidad,precio_unit,descuento_pct,cliente_id,vendedor,notas
+TX-2026Q1-00001,2026-03-30,Q1,Lima,Resma Papel A4,Suministros,33,30.92,0.2,CL-7554,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00002,2026-03-29,Q1,Piura,Monitor 27 4K,Tecnologia,38,1826.98,0.1,CL-2698,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00003,2026-03-30,Q1,Lima,Auriculares BT,Electronica,3,236.87,0.15,CL-3132,Maria Fernandez,
+TX-2026Q1-00004,2026-02-04,Q1,Lima,Laptop Pro 15,Tecnologia,19,4899.53,0.1,CL-4494,Lucia Romero,Compra urgente
+TX-2026Q1-00005,2026-01-16,Q1,Lima,Lampara LED,Mobiliario,46,103.64,0.2,CL-9585,Lucia Romero,
+TX-2026Q1-00006,2026-03-25,Q1,Cusco,Escritorio Ajustable,Mobiliario,31,1296.55,0.15,CL-4840,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00007,2026-01-10,Q1,Arequipa,Teclado Mecanico,Tecnologia,16,381.02,0.15,CL-8053,Jose Luis Quispe,
+TX-2026Q1-00008,2026-01-24,Q1,Arequipa,Resma Papel A4,Suministros,37,28.5,0.05,CL-5239,Jose Luis Quispe,
+TX-2026Q1-00009,2026-01-13,Q1,Chiclayo,Lampara LED,Mobiliario,32,99.14,0.1,CL-6064,Jose Luis Quispe,
+TX-2026Q1-00010,2026-01-29,Q1,Lima,Lampara LED,Mobiliario,22,102.55,0.0,CL-9032,Ana Torres,Compra urgente
+TX-2026Q1-00011,2026-02-18,Q1,Lima,Lampara LED,Mobiliario,21,98.46,0.2,CL-2578,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00012,2026-01-11,Q1,Lima,Laptop Air 13,Tecnologia,24,3423.09,0.1,CL-2305,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00013,2026-03-13,Q1,Lima,Cartucho Tinta Negra,Suministros,24,81.46,0.2,CL-9193,Ana Torres,Compra urgente
+TX-2026Q1-00014,2026-01-22,Q1,Cusco,Cartucho Tinta Negra,Suministros,2,81.06,0.05,CL-9187,Lucia Romero,Compra urgente
+TX-2026Q1-00015,2026-03-12,Q1,Arequipa,Escritorio Ajustable,Mobiliario,34,1322.3,0.05,CL-7582,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00016,2026-01-29,Q1,Lima,Laptop Pro 15,Tecnologia,32,4630.17,0.0,CL-1816,Diego Salazar,Pedido grande
+TX-2026Q1-00017,2026-03-13,Q1,Piura,Silla Ergonomica,Mobiliario,7,904.14,0.0,CL-7665,Lucia Romero,
+TX-2026Q1-00018,2026-03-28,Q1,Chiclayo,Escritorio Ajustable,OTRO,31,1332.7,0.1,CL-7829,Lucia Romero,
+TX-2026Q1-00019,2026-03-28,Q1,Trujillo,Mouse Inalambrico,Tecnologia,39,133.53,0.1,CL-1861,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00020,2026-01-24,Q1,Trujillo,Laptop Air 13,Tecnologia,24,3397.71,0.05,CL-2838,Carlos Vega,
+TX-2026Q1-00021,2026-02-20,Q1,Lima,Mouse Inalambrico,Tecnologia,22,135.64,0.15,CL-5848,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00022,2026-02-09,Q1,Piura,Webcam HD,Electronica,4,186.84,0.15,CL-4308,Carlos Vega,Pedido grande
+TX-2026Q1-00023,2026-01-23,Q1,Arequipa,Resma Papel A4,Suministros,21,29.05,0.0,CL-3825,Lucia Romero,
+TX-2026Q1-00024,2026-02-24,Q1,Lima,Lampara LED,Mobiliario,17,100.07,0.2,CL-2672,Ana Torres,
+TX-2026Q1-00025,2026-03-22,Q1,Lima,Cartucho Tinta Negra,Suministros,26,78.45,0.05,CL-5999,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00026,2026-03-19,Q1,Trujillo,Teclado Mecanico,Tecnologia,41,395.36,0.1,CL-7335,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00027,2026-02-28,Q1,Cusco,Laptop Air 13,Tecnologia,37,3361.24,0.2,CL-6581,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00028,2026-03-19,Q1,Piura,Auriculares BT,Electronica,30,249.24,0.05,CL-4011,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00029,2026-02-16,Q1,Chiclayo,Teclado Mecanico,Tecnologia,30,390.04,0.0,CL-4056,Lucia Romero,Primera compra del ano
+TX-2026Q1-00030,2026-03-02,Q1,Piura,Resma Papel A4,Suministros,28,30.15,0.15,CL-9972,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00031,2026-03-27,Q1,Trujillo,Laptop Air 13,Tecnologia,13,3387.25,0.05,CL-8139,Lucia Romero,Pedido grande
+TX-2026Q1-00032,2026-03-01,Q1,Arequipa,Teclado Mecanico,Tecnologia,17,389.36,0.15,CL-1664,Carlos Vega,Pedido grande
+TX-2026Q1-00033,2026-01-05,Q1,Piura,Monitor 27 4K,Tecnologia,16,1932.82,0.2,CL-9702,Maria Fernandez,
+TX-2026Q1-00034,2026-03-08,Q1,Trujillo,Auriculares BT,Electronica,7,236.06,0.2,CL-6320,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00035,2026-03-08,Q1,Chiclayo,Laptop Air 13,Tecnologia,19,3561.6,0.05,CL-1263,Carlos Vega,Pedido grande
+TX-2026Q1-00036,2026-01-21,Q1,Trujillo,Webcam HD,Electronica,37,203.03,0.1,CL-7202,Diego Salazar,Pedido grande
+TX-2026Q1-00037,2026-03-20,Q1,Arequipa,Laptop Pro 15,Tecnologia,33,4646.34,0.1,CL-2176,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00038,2026-01-16,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,27,1307.7,0.1,CL-4849,Lucia Romero,
+TX-2026Q1-00039,2026-03-12,Q1,Lima,Escritorio Ajustable,Mobiliario,11,1320.34,0.0,CL-1927,Lucia Romero,Pedido grande
+TX-2026Q1-00040,2026-03-20,Q1,Cusco,Lampara LED,Mobiliario,33,104.86,0.2,CL-2647,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00041,2026-02-13,Q1,Cusco,Monitor 27 4K,Tecnologia,11,1860.87,0.05,CL-8822,Lucia Romero,
+TX-2026Q1-00042,2026-01-06,Q1,Chiclayo,Silla Ergonomica,Mobiliario,48,942.75,0.05,CL-6745,Maria Fernandez,Pedido grande
+TX-2026Q1-00043,2026-01-15,Q1,Piura,Laptop Pro 15,OTRO,40,4834.68,0.15,CL-4963,Jose Luis Quispe,
+TX-2026Q1-00044,2026-03-03,Q1,Lima,Laptop Air 13,Tecnologia,39,3414.33,0.2,CL-3853,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00045,2026-01-04,Q1,Piura,Laptop Pro 15,Tecnologia,26,5018.88,0.05,CL-7943,Jose Luis Quispe,
+TX-2026Q1-00046,2026-03-02,Q1,Arequipa,Auriculares BT,Electronica,31,246.37,0.1,CL-1745,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00047,2026-01-13,Q1,Cusco,Monitor 27 4K,Tecnologia,14,1970.39,0.15,CL-6256,Ana Torres,Compra urgente
+TX-2026Q1-00048,2026-02-24,Q1,Arequipa,Laptop Air 13,Tecnologia,10,3458.14,0.1,CL-2219,Diego Salazar,
+TX-2026Q1-00049,2026-02-19,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,42,83.37,0.15,CL-7804,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00050,2026-01-06,Q1,Piura,Lampara LED,Mobiliario,13,95.83,0.05,CL-1840,Jose Luis Quispe,
+TX-2026Q1-00051,2026-01-17,Q1,Lima,Escritorio Ajustable,Mobiliario,17,1336.4,0.15,CL-5139,Ana Torres,
+TX-2026Q1-00052,2026-03-29,Q1,Chiclayo,Silla Ergonomica,Mobiliario,18,870.86,0.0,CL-2473,Carlos Vega,
+TX-2026Q1-00053,2026-02-06,Q1,Arequipa,Teclado Mecanico,Tecnologia,38,363.88,0.2,CL-7770,Jose Luis Quispe,
+TX-2026Q1-00054,2026-02-09,Q1,Cusco,Teclado Mecanico,Tecnologia,46,395.85,0.05,CL-8189,Carlos Vega,
+TX-2026Q1-00055,2026-02-10,Q1,Lima,Laptop Air 13,Tecnologia,42,3440.79,0.05,CL-1764,Ana Torres,
+TX-2026Q1-00056,2026-02-17,Q1,Cusco,Resma Papel A4,Suministros,23,29.89,0.05,CL-5247,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00057,2026-01-18,Q1,Trujillo,Webcam HD,Electronica,30,199.71,0.15,CL-4152,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00058,2026-01-01,Q1,Lima,Cartucho Tinta Negra,Suministros,16,76.68,0.1,CL-2405,Diego Salazar,Primera compra del ano
+TX-2026Q1-00059,2026-02-28,Q1,Trujillo,Laptop Pro 15,Tecnologia,1,4995.84,0.15,CL-2556,Lucia Romero,Compra urgente
+TX-2026Q1-00060,2026-01-23,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,29,82.35,0.2,CL-9698,Lucia Romero,
+TX-2026Q1-00061,2026-03-01,Q1,Chiclayo,Laptop Pro 15,Tecnologia,17,4955.51,0.2,CL-4222,Maria Fernandez,
+TX-2026Q1-00062,2026-03-19,Q1,Cusco,Monitor 27 4K,Tecnologia,7,1826.92,0.05,CL-8240,Diego Salazar,Primera compra del ano
+TX-2026Q1-00063,2026-02-08,Q1,Piura,Laptop Air 13,Tecnologia,32,3438.73,0.2,CL-1989,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00064,2026-02-08,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,2,1351.89,0.2,CL-9615,Diego Salazar,Pedido grande
+TX-2026Q1-00065,2026-01-16,Q1,Lima,Resma Papel A4,Suministros,34,29.08,0.05,CL-6954,Carlos Vega,
+TX-2026Q1-00066,2026-03-08,Q1,Piura,Monitor 27 4K,Tecnologia,20,1847.67,0.15,CL-7151,Carlos Vega,
+TX-2026Q1-00067,2026-03-04,Q1,Piura,Escritorio Ajustable,Mobiliario,7,1361.71,0.15,CL-7025,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00068,2026-03-24,Q1,Trujillo,Resma Papel A4,Suministros,42,30.96,0.2,CL-9621,Carlos Vega,Compra urgente
+TX-2026Q1-00069,2026-03-11,Q1,Arequipa,Webcam HD,Electronica,15,199.09,0.0,CL-2916,Ana Torres,Solicita factura electronica
+TX-2026Q1-00070,2026-01-14,Q1,Lima,Teclado Mecanico,Tecnologia,26,373.16,0.2,CL-8609,Ana Torres,Solicita factura electronica
+TX-2026Q1-00071,2026-03-14,Q1,Trujillo,Escritorio Ajustable,Mobiliario,6,1324.31,0.1,CL-3036,Ana Torres,Compra urgente
+TX-2026Q1-00072,2026-03-31,Q1,Lima,Auriculares BT,Electronica,31,241.75,0.1,CL-9408,Diego Salazar,Primera compra del ano
+TX-2026Q1-00073,2026-02-02,Q1,Chiclayo,Monitor 27 4K,Tecnologia,18,1988.25,0.05,CL-8334,Ana Torres,Compra urgente
+TX-2026Q1-00074,2026-01-17,Q1,Piura,Laptop Pro 15,Tecnologia,6,4895.62,0.0,CL-8637,Ana Torres,Compra urgente
+TX-2026Q1-00075,2026-03-18,Q1,Piura,Lampara LED,Mobiliario,45,100.37,0.0,CL-5401,Maria Fernandez,Pedido grande
+TX-2026Q1-00076,2026-03-26,Q1,Piura,Laptop Air 13,Tecnologia,9,3264.12,0.05,CL-5907,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00077,2026-03-29,Q1,Arequipa,Laptop Pro 15,Tecnologia,20,4746.93,0.2,CL-9654,Diego Salazar,
+TX-2026Q1-00078,2026-01-08,Q1,Lima,Laptop Air 13,Tecnologia,44,3293.83,0.15,CL-8197,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00079,2026-03-21,Q1,Lima,Cartucho Tinta Negra,Suministros,43,81.14,0.15,CL-3175,Carlos Vega,Pedido grande
+TX-2026Q1-00080,2026-02-12,Q1,Chiclayo,Teclado Mecanico,Tecnologia,44,374.79,0.1,CL-3874,Carlos Vega,Primera compra del ano
+TX-2026Q1-00081,2026-02-08,Q1,Piura,Laptop Air 13,Tecnologia,42,3453.99,0.1,CL-7138,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00082,2026-03-16,Q1,Cusco,Escritorio Ajustable,Mobiliario,25,1280.05,0.2,CL-8123,Maria Fernandez,Compra urgente
+TX-2026Q1-00083,2026-03-23,Q1,Chiclayo,Monitor 27 4K,Tecnologia,19,1988.48,0.1,CL-4639,Ana Torres,
+TX-2026Q1-00084,2026-01-26,Q1,Arequipa,Auriculares BT,Electronica,49,231.05,0.15,CL-3016,Lucia Romero,
+TX-2026Q1-00085,2026-03-10,Q1,Lima,Resma Papel A4,Suministros,13,30.2,0.2,CL-1471,Lucia Romero,
+TX-2026Q1-00086,2026-03-20,Q1,Piura,Lampara LED,Mobiliario,30,97.19,0.15,CL-7528,Ana Torres,Primera compra del ano
+TX-2026Q1-00087,2026-03-19,Q1,Arequipa,Resma Papel A4,Suministros,36,31.5,0.1,CL-3057,Diego Salazar,Primera compra del ano
+TX-2026Q1-00088,2026-03-29,Q1,Trujillo,Resma Papel A4,Suministros,11,31.06,0.0,CL-6499,Lucia Romero,
+TX-2026Q1-00089,2026-01-30,Q1,Trujillo,Webcam HD,Electronica,8,194.36,0.1,CL-8801,Maria Fernandez,
+TX-2026Q1-00090,2026-03-17,Q1,Chiclayo,Laptop Air 13,Tecnologia,5,3536.25,0.1,CL-6930,Lucia Romero,
+TX-2026Q1-00091,2026-02-08,Q1,Chiclayo,Monitor 27 4K,Tecnologia,18,1879.8,0.1,CL-9956,Carlos Vega,
+TX-2026Q1-00092,2026-02-10,Q1,Cusco,Monitor 27 4K,Tecnologia,43,1990.39,0.15,CL-7095,Ana Torres,Primera compra del ano
+TX-2026Q1-00093,2026-03-10,Q1,Trujillo,Escritorio Ajustable,Mobiliario,11,1292.28,0.15,CL-3537,Jose Luis Quispe,
+TX-2026Q1-00094,2026-02-03,Q1,Trujillo,Cartucho Tinta Negra,Suministros,8,81.33,0.2,CL-5790,Diego Salazar,
+TX-2026Q1-00095,2026-03-09,Q1,Cusco,Auriculares BT,Electronica,26,243.04,0.1,CL-7667,Jose Luis Quispe,
+TX-2026Q1-00096,2026-02-13,Q1,Piura,Resma Papel A4,Suministros,24,30.12,0.0,CL-5429,Lucia Romero,
+TX-2026Q1-00097,2026-01-01,Q1,Chiclayo,Monitor 27 4K,Tecnologia,2,1982.95,0.1,CL-2151,Ana Torres,Compra urgente
+TX-2026Q1-00098,2026-01-09,Q1,Chiclayo,Webcam HD,Electronica,2,185.64,0.15,CL-1922,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00099,2026-03-10,Q1,Lima,Laptop Air 13,Tecnologia,13,3530.64,0.1,CL-1184,Carlos Vega,
+TX-2026Q1-00100,2026-01-21,Q1,Piura,Laptop Air 13,Tecnologia,37,3509.75,0.15,CL-4340,Lucia Romero,Compra urgente
+TX-2026Q1-00101,2026-03-30,Q1,Arequipa,Laptop Pro 15,Tecnologia,49,5001.67,0.1,CL-7846,Lucia Romero,
+TX-2026Q1-00102,2026-02-18,Q1,Lima,Laptop Air 13,Tecnologia,19,3365.01,0.1,CL-2168,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00103,2026-01-16,Q1,Arequipa,Auriculares BT,Electronica,16,235.74,0.1,CL-5696,Lucia Romero,
+TX-2026Q1-00104,2026-03-07,Q1,Cusco,Teclado Mecanico,Tecnologia,49,398.64,0.0,CL-2590,Maria Fernandez,Compra urgente
+TX-2026Q1-00105,2026-01-18,Q1,Chiclayo,Webcam HD,Electronica,4,203.52,0.15,CL-3241,Jose Luis Quispe,
+TX-2026Q1-00106,2026-02-10,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,16,78.87,0.1,CL-5600,Diego Salazar,
+TX-2026Q1-00107,2026-02-22,Q1,Chiclayo,Silla Ergonomica,Mobiliario,14,868.13,0.1,CL-3681,Ana Torres,Compra urgente
+TX-2026Q1-00108,2026-01-28,Q1,Trujillo,Escritorio Ajustable,Mobiliario,15,1236.66,0.1,CL-1152,Carlos Vega,Compra urgente
+TX-2026Q1-00109,2026-03-02,Q1,Lima,Webcam HD,Electronica,30,185.31,0.0,CL-9439,Diego Salazar,Compra urgente
+TX-2026Q1-00110,2026-03-27,Q1,Cusco,Lampara LED,Mobiliario,13,102.58,0.2,CL-1827,Ana Torres,
+TX-2026Q1-00111,2026-02-01,Q1,Trujillo,Teclado Mecanico,Tecnologia,45,370.79,0.1,CL-6155,Ana Torres,Primera compra del ano
+TX-2026Q1-00112,2026-03-09,Q1,Chiclayo,Monitor 27 4K,Tecnologia,1,1939.97,0.1,CL-6152,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00113,2026-01-26,Q1,Chiclayo,Laptop Pro 15,Tecnologia,42,4701.1,0.05,CL-7173,Diego Salazar,Pedido grande
+TX-2026Q1-00114,2026-02-12,Q1,Lima,Lampara LED,Mobiliario,15,99.36,0.15,CL-2372,Jose Luis Quispe,
+TX-2026Q1-00115,2026-01-10,Q1,Cusco,Resma Papel A4,Suministros,32,29.03,0.0,CL-5031,Jose Luis Quispe,
+TX-2026Q1-00116,2026-02-11,Q1,Piura,Escritorio Ajustable,Mobiliario,49,1254.28,0.0,CL-4327,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00117,2026-03-02,Q1,Piura,Lampara LED,Mobiliario,43,96.59,0.05,CL-9744,Lucia Romero,Primera compra del ano
+TX-2026Q1-00118,2026-03-09,Q1,Lima,Resma Papel A4,Suministros,33,30.34,0.2,CL-5319,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00119,2026-01-29,Q1,Chiclayo,Teclado Mecanico,Tecnologia,38,365.47,0.0,CL-6181,Diego Salazar,Compra urgente
+TX-2026Q1-00120,2026-03-18,Q1,Cusco,Silla Ergonomica,Mobiliario,27,905.43,0.15,CL-9246,Ana Torres,Primera compra del ano
+TX-2026Q1-00121,2026-02-16,Q1,Cusco,Escritorio Ajustable,Mobiliario,22,1320.1,0.05,CL-8661,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00122,2026-01-27,Q1,Chiclayo,Lampara LED,Mobiliario,21,103.32,0.1,CL-8594,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00123,2026-01-23,Q1,Arequipa,Silla Ergonomica,Mobiliario,25,921.23,0.1,CL-3468,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00124,2026-03-07,Q1,Lima,Silla Ergonomica,OTRO,21,883.91,0.05,CL-3111,Lucia Romero,
+TX-2026Q1-00125,2026-02-15,Q1,Lima,Auriculares BT,Electronica,25,231.73,0.2,CL-3512,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00126,2026-03-14,Q1,Lima,Escritorio Ajustable,Mobiliario,16,1313.0,0.15,CL-5982,Ana Torres,Pedido grande
+TX-2026Q1-00127,2026-03-11,Q1,Chiclayo,Auriculares BT,Electronica,29,245.56,0.15,CL-5347,Diego Salazar,Pedido grande
+TX-2026Q1-00128,2026-03-21,Q1,Lima,Teclado Mecanico,Tecnologia,21,375.41,0.2,CL-5397,Jose Luis Quispe,
+TX-2026Q1-00129,2026-01-23,Q1,Arequipa,Teclado Mecanico,Tecnologia,26,365.19,0.15,CL-8046,Lucia Romero,Primera compra del ano
+TX-2026Q1-00130,2026-01-03,Q1,Chiclayo,Laptop Pro 15,Tecnologia,25,4942.76,0.1,CL-4008,Ana Torres,
+TX-2026Q1-00131,2026-02-07,Q1,Trujillo,Webcam HD,Electronica,18,193.99,0.1,CL-1707,Maria Fernandez,
+TX-2026Q1-00132,2026-02-16,Q1,Piura,Monitor 27 4K,Tecnologia,18,1942.39,0.15,CL-2365,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00133,2026-03-02,Q1,Lima,Escritorio Ajustable,Mobiliario,37,1248.79,0.0,CL-5694,Diego Salazar,Primera compra del ano
+TX-2026Q1-00134,2026-02-25,Q1,Lima,Monitor 27 4K,Tecnologia,3,1808.3,0.15,CL-8876,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00135,2026-03-06,Q1,Trujillo,Lampara LED,Mobiliario,4,103.11,0.1,CL-4148,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00136,2026-01-26,Q1,Chiclayo,Laptop Pro 15,Tecnologia,27,4784.64,0.1,CL-6585,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00137,2026-01-11,Q1,Trujillo,Escritorio Ajustable,Mobiliario,6,1280.93,0.15,CL-7911,Ana Torres,Compra urgente
+TX-2026Q1-00138,2026-02-10,Q1,Piura,Auriculares BT,Electronica,31,241.7,0.2,CL-5927,Carlos Vega,
+TX-2026Q1-00139,2026-01-23,Q1,Arequipa,Silla Ergonomica,Mobiliario,48,897.8,0.0,CL-7568,Diego Salazar,Primera compra del ano
+TX-2026Q1-00140,2026-02-17,Q1,Cusco,Laptop Air 13,Tecnologia,49,3300.34,0.2,CL-9094,Lucia Romero,
+TX-2026Q1-00141,2026-02-25,Q1,Lima,Auriculares BT,Electronica,30,228.7,0.05,CL-1496,Diego Salazar,Pedido grande
+TX-2026Q1-00142,2026-03-30,Q1,Piura,Auriculares BT,Electronica,13,241.54,0.2,CL-5106,Lucia Romero,
+TX-2026Q1-00143,2026-03-13,Q1,Lima,Lampara LED,Mobiliario,3,98.3,0.1,CL-8051,Lucia Romero,
+TX-2026Q1-00144,2026-01-01,Q1,Piura,Webcam HD,Electronica,16,194.25,0.15,CL-2499,Ana Torres,Primera compra del ano
+TX-2026Q1-00145,2026-02-25,Q1,Trujillo,Webcam HD,Electronica,47,204.67,0.05,CL-4327,Maria Fernandez,Compra urgente
+TX-2026Q1-00146,2026-01-19,Q1,Arequipa,Auriculares BT,Electronica,1,234.61,0.1,CL-1137,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00147,2026-02-07,Q1,Lima,Teclado Mecanico,Tecnologia,41,369.97,0.15,CL-8049,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00148,2026-01-24,Q1,Arequipa,Webcam HD,Electronica,32,196.11,0.05,CL-1404,Diego Salazar,Compra urgente
+TX-2026Q1-00149,2026-01-03,Q1,Lima,Escritorio Ajustable,Mobiliario,7,1361.86,0.15,CL-6614,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00150,2026-01-31,Q1,Trujillo,Auriculares BT,Electronica,45,231.25,0.1,CL-6010,Diego Salazar,Primera compra del ano
+TX-2026Q1-00151,2026-03-10,Q1,Lima,Teclado Mecanico,Tecnologia,44,389.42,0.1,CL-4141,Ana Torres,Pedido grande
+TX-2026Q1-00152,2026-01-05,Q1,Trujillo,Resma Papel A4,Suministros,42,28.62,0.2,CL-9865,Diego Salazar,Compra urgente
+TX-2026Q1-00153,2026-03-30,Q1,Chiclayo,Webcam HD,Electronica,37,199.24,0.1,CL-2047,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00154,2026-01-30,Q1,Arequipa,Cartucho Tinta Negra,Suministros,8,82.32,0.1,CL-7972,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00155,2026-03-09,Q1,Cusco,Silla Ergonomica,Mobiliario,34,894.05,0.2,CL-7117,Ana Torres,Solicita factura electronica
+TX-2026Q1-00156,2026-01-18,Q1,Arequipa,Mouse Inalambrico,Tecnologia,36,135.74,0.1,CL-1136,Carlos Vega,
+TX-2026Q1-00157,2026-01-11,Q1,Lima,Cartucho Tinta Negra,Suministros,48,77.3,0.1,CL-2261,Ana Torres,
+TX-2026Q1-00158,2026-03-16,Q1,Arequipa,Teclado Mecanico,Tecnologia,37,367.6,0.1,CL-3181,Carlos Vega,Pedido grande
+TX-2026Q1-00159,2026-02-18,Q1,Cusco,Monitor 27 4K,Tecnologia,24,1839.37,0.2,CL-2374,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00160,2026-02-27,Q1,Arequipa,Auriculares BT,Electronica,16,238.57,0.15,CL-8342,Diego Salazar,
+TX-2026Q1-00161,2026-02-07,Q1,Chiclayo,Webcam HD,Electronica,44,190.46,0.2,CL-8757,Diego Salazar,Pedido grande
+TX-2026Q1-00162,2026-01-08,Q1,Cusco,Lampara LED,Mobiliario,33,104.36,0.2,CL-5253,Jose Luis Quispe,
+TX-2026Q1-00163,2026-01-03,Q1,Lima,Escritorio Ajustable,Mobiliario,3,1271.34,0.05,CL-5736,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00164,2026-01-20,Q1,Lima,Laptop Pro 15,Tecnologia,39,5001.34,0.05,CL-6455,Carlos Vega,Compra urgente
+TX-2026Q1-00165,2026-01-07,Q1,Chiclayo,Teclado Mecanico,Tecnologia,31,367.59,0.15,CL-8617,Lucia Romero,
+TX-2026Q1-00166,2026-03-03,Q1,Trujillo,Escritorio Ajustable,Mobiliario,26,1237.13,0.2,CL-1521,Diego Salazar,
+TX-2026Q1-00167,2026-02-01,Q1,Lima,Laptop Pro 15,Tecnologia,37,5029.05,0.0,CL-2016,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00168,2026-01-13,Q1,Arequipa,Silla Ergonomica,Mobiliario,29,937.85,0.2,CL-5611,Lucia Romero,
+TX-2026Q1-00169,2026-02-10,Q1,Trujillo,Mouse Inalambrico,Tecnologia,30,128.11,0.05,CL-4696,Ana Torres,Primera compra del ano
+TX-2026Q1-00170,2026-03-28,Q1,Piura,Webcam HD,Electronica,41,188.07,0.05,CL-2744,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00171,2026-01-07,Q1,Cusco,Resma Papel A4,Suministros,19,29.73,0.05,CL-1220,Lucia Romero,Pedido grande
+TX-2026Q1-00172,2026-01-13,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,1,1345.62,0.2,CL-8307,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00173,2026-03-17,Q1,Piura,Auriculares BT,Electronica,11,237.68,0.15,CL-1298,Diego Salazar,
+TX-2026Q1-00174,2026-03-13,Q1,Arequipa,Auriculares BT,Electronica,19,243.01,0.1,CL-4181,Maria Fernandez,
+TX-2026Q1-00175,2026-01-03,Q1,Chiclayo,Auriculares BT,Electronica,28,234.91,0.2,CL-6663,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00176,2026-02-14,Q1,Cusco,Laptop Pro 15,Tecnologia,35,4633.74,0.0,CL-4094,Diego Salazar,Primera compra del ano
+TX-2026Q1-00177,2026-03-31,Q1,Trujillo,Auriculares BT,Electronica,40,229.69,0.0,CL-1600,Ana Torres,
+TX-2026Q1-00178,2026-01-28,Q1,Chiclayo,Teclado Mecanico,Tecnologia,43,365.26,0.2,CL-5245,Maria Fernandez,
+TX-2026Q1-00179,2026-03-09,Q1,Lima,Mouse Inalambrico,Tecnologia,20,133.51,0.0,CL-3265,Lucia Romero,Compra urgente
+TX-2026Q1-00180,2026-01-22,Q1,Cusco,Lampara LED,Mobiliario,38,99.19,0.05,CL-8298,Jose Luis Quispe,
+TX-2026Q1-00181,2026-03-28,Q1,Arequipa,Webcam HD,Electronica,45,192.54,0.1,CL-7557,Diego Salazar,
+TX-2026Q1-00182,2026-03-22,Q1,Lima,Lampara LED,Mobiliario,12,98.64,0.05,CL-2918,Maria Fernandez,
+TX-2026Q1-00183,2026-02-17,Q1,Trujillo,Mouse Inalambrico,Tecnologia,1,131.6,0.15,CL-9489,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00184,2026-02-03,Q1,Lima,Resma Papel A4,Suministros,22,28.86,0.1,CL-3440,Ana Torres,Pedido grande
+TX-2026Q1-00185,2026-03-24,Q1,Trujillo,Mouse Inalambrico,Tecnologia,10,130.65,0.0,CL-5047,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00186,2026-01-07,Q1,Lima,Laptop Air 13,Tecnologia,28,3273.04,0.0,CL-2443,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00187,2026-01-18,Q1,Trujillo,Monitor 27 4K,Tecnologia,26,1854.01,0.2,CL-8220,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00188,2026-01-04,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,41,123.75,0.05,CL-4610,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00189,2026-02-05,Q1,Cusco,Auriculares BT,Electronica,32,244.76,0.15,CL-1644,Maria Fernandez,Compra urgente
+TX-2026Q1-00190,2026-02-11,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,40,81.35,0.2,CL-7959,Ana Torres,Primera compra del ano
+TX-2026Q1-00191,2026-03-16,Q1,Chiclayo,Laptop Air 13,Tecnologia,29,3457.12,0.2,CL-8052,Jose Luis Quispe,
+TX-2026Q1-00192,2026-03-20,Q1,Arequipa,Laptop Pro 15,Tecnologia,34,4925.67,0.15,CL-4967,Diego Salazar,Pedido grande
+TX-2026Q1-00193,2026-02-23,Q1,Piura,Laptop Pro 15,Tecnologia,20,4591.66,0.1,CL-8823,Carlos Vega,Pedido grande
+TX-2026Q1-00194,2026-02-01,Q1,Trujillo,Monitor 27 4K,Tecnologia,34,1906.32,0.1,CL-8461,Lucia Romero,
+TX-2026Q1-00195,2026-03-22,Q1,Chiclayo,Teclado Mecanico,Tecnologia,40,368.45,0.15,CL-1184,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00196,2026-03-16,Q1,Chiclayo,Silla Ergonomica,Mobiliario,31,855.92,0.2,CL-9612,Maria Fernandez,
+TX-2026Q1-00197,2026-01-19,Q1,Trujillo,Auriculares BT,Electronica,11,249.73,0.05,CL-7927,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00198,2026-03-27,Q1,Cusco,Laptop Air 13,Tecnologia,11,3416.98,0.2,CL-2845,Ana Torres,
+TX-2026Q1-00199,2026-02-13,Q1,Cusco,Resma Papel A4,Suministros,18,31.46,0.05,CL-1826,Ana Torres,Compra urgente
+TX-2026Q1-00200,2026-01-07,Q1,Trujillo,Laptop Air 13,Tecnologia,1,3395.57,0.05,CL-2141,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00201,2026-02-28,Q1,Arequipa,Auriculares BT,Electronica,27,230.52,0.2,CL-7314,Diego Salazar,Primera compra del ano
+TX-2026Q1-00202,2026-01-27,Q1,Chiclayo,Lampara LED,Mobiliario,6,98.78,0.1,CL-2341,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00203,2026-01-23,Q1,Arequipa,Resma Papel A4,Suministros,17,28.72,0.15,CL-5850,Carlos Vega,Primera compra del ano
+TX-2026Q1-00204,2026-02-25,Q1,Piura,Escritorio Ajustable,Mobiliario,14,1337.69,0.1,CL-2979,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00205,2026-02-18,Q1,Lima,Silla Ergonomica,Mobiliario,31,916.85,0.1,CL-4410,Diego Salazar,
+TX-2026Q1-00206,2026-01-28,Q1,Trujillo,Teclado Mecanico,Tecnologia,16,384.88,0.2,CL-8185,Carlos Vega,
+TX-2026Q1-00207,2026-02-06,Q1,Piura,Mouse Inalambrico,Tecnologia,3,136.5,0.2,CL-3314,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00208,2026-01-16,Q1,Piura,Resma Papel A4,Suministros,19,29.47,0.1,CL-4083,Carlos Vega,
+TX-2026Q1-00209,2026-02-11,Q1,Piura,Silla Ergonomica,Mobiliario,15,855.84,0.15,CL-1225,Diego Salazar,
+TX-2026Q1-00210,2026-02-14,Q1,Arequipa,Silla Ergonomica,Mobiliario,29,912.76,0.05,CL-6796,Lucia Romero,Pedido grande
+TX-2026Q1-00211,2026-02-10,Q1,Trujillo,Webcam HD,Electronica,1,191.54,0.0,CL-2064,Maria Fernandez,
+TX-2026Q1-00212,2026-03-10,Q1,Piura,Laptop Air 13,Tecnologia,47,3461.35,0.15,CL-3964,Lucia Romero,
+TX-2026Q1-00213,2026-01-29,Q1,Chiclayo,Webcam HD,Electronica,41,198.92,0.0,CL-2582,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00214,2026-03-03,Q1,Trujillo,Escritorio Ajustable,Mobiliario,26,1264.65,0.05,CL-9847,Jose Luis Quispe,
+TX-2026Q1-00215,2026-01-18,Q1,Trujillo,Laptop Air 13,Tecnologia,46,3446.83,0.15,CL-5026,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00216,2026-01-23,Q1,Chiclayo,Laptop Air 13,Tecnologia,41,3448.39,0.05,CL-2798,Maria Fernandez,
+TX-2026Q1-00217,2026-02-12,Q1,Cusco,Silla Ergonomica,Mobiliario,31,941.31,0.2,CL-8887,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00218,2026-02-25,Q1,Cusco,Webcam HD,Electronica,16,202.24,0.05,CL-8805,Maria Fernandez,Pedido grande
+TX-2026Q1-00219,2026-03-04,Q1,Chiclayo,Teclado Mecanico,Tecnologia,10,389.4,0.2,CL-4227,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00220,2026-01-29,Q1,Trujillo,Lampara LED,Mobiliario,39,102.81,0.05,CL-7301,Ana Torres,
+TX-2026Q1-00221,2026-03-16,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,15,77.13,0.0,CL-3872,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00222,2026-01-25,Q1,Lima,Laptop Air 13,Tecnologia,1,3399.22,0.2,CL-4118,Ana Torres,
+TX-2026Q1-00223,2026-01-05,Q1,Arequipa,Silla Ergonomica,Mobiliario,18,927.82,0.05,CL-3929,Ana Torres,Solicita factura electronica
+TX-2026Q1-00224,2026-03-25,Q1,Cusco,Escritorio Ajustable,Mobiliario,13,1235.72,0.2,CL-9118,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00225,2026-03-30,Q1,Arequipa,Cartucho Tinta Negra,Suministros,47,79.0,0.0,CL-2727,Ana Torres,Pedido grande
+TX-2026Q1-00226,2026-01-26,Q1,Cusco,Mouse Inalambrico,Tecnologia,45,130.18,0.05,CL-5877,Maria Fernandez,
+TX-2026Q1-00227,2026-01-04,Q1,Arequipa,Teclado Mecanico,Tecnologia,23,393.63,0.0,CL-2627,Lucia Romero,Primera compra del ano
+TX-2026Q1-00228,2026-03-27,Q1,Lima,Resma Papel A4,Suministros,21,30.49,0.2,CL-7248,Ana Torres,Pedido grande
+TX-2026Q1-00229,2026-01-05,Q1,Cusco,Teclado Mecanico,Tecnologia,27,391.96,0.2,CL-2555,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00230,2026-01-19,Q1,Cusco,Auriculares BT,Electronica,45,237.02,0.2,CL-2348,Lucia Romero,Compra urgente
+TX-2026Q1-00231,2026-02-21,Q1,Piura,Cartucho Tinta Negra,Suministros,32,80.53,0.15,CL-5834,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00232,2026-02-20,Q1,Trujillo,Escritorio Ajustable,Mobiliario,20,1353.92,0.0,CL-9371,Carlos Vega,Pedido grande
+TX-2026Q1-00233,2026-03-08,Q1,Piura,Teclado Mecanico,Tecnologia,31,370.21,0.15,CL-1409,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00234,2026-02-04,Q1,Arequipa,Mouse Inalambrico,Tecnologia,31,131.84,0.2,CL-9856,Ana Torres,Primera compra del ano
+TX-2026Q1-00235,2026-01-17,Q1,Chiclayo,Resma Papel A4,Suministros,32,30.32,0.05,CL-9010,Jose Luis Quispe,
+TX-2026Q1-00236,2026-03-14,Q1,Arequipa,Laptop Air 13,Tecnologia,3,3502.02,0.0,CL-7754,Carlos Vega,Pedido grande
+TX-2026Q1-00237,2026-01-29,Q1,Chiclayo,Auriculares BT,Electronica,42,229.37,0.15,CL-1133,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00238,2026-01-12,Q1,Trujillo,Teclado Mecanico,Tecnologia,35,398.89,0.2,CL-8013,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00239,2026-02-04,Q1,Trujillo,Lampara LED,Mobiliario,42,97.65,0.1,CL-5606,Maria Fernandez,Pedido grande
+TX-2026Q1-00240,2026-03-27,Q1,Arequipa,Escritorio Ajustable,Mobiliario,10,1334.81,0.0,CL-8080,Diego Salazar,Primera compra del ano
+TX-2026Q1-00241,2026-03-24,Q1,Chiclayo,Monitor 27 4K,Tecnologia,33,1906.22,0.0,CL-9092,Maria Fernandez,
+TX-2026Q1-00242,2026-03-07,Q1,Chiclayo,Teclado Mecanico,Tecnologia,23,366.65,0.2,CL-7542,Carlos Vega,
+TX-2026Q1-00243,2026-02-24,Q1,Cusco,Mouse Inalambrico,Tecnologia,44,125.9,0.2,CL-3282,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00244,2026-01-16,Q1,Arequipa,Teclado Mecanico,Tecnologia,14,397.84,0.15,CL-7243,Ana Torres,
+TX-2026Q1-00245,2026-03-26,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,46,1311.45,0.15,CL-7227,Ana Torres,Pedido grande
+TX-2026Q1-00246,2026-03-04,Q1,Piura,Mouse Inalambrico,Tecnologia,29,124.07,0.0,CL-5386,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00247,2026-03-28,Q1,Cusco,Laptop Air 13,Tecnologia,34,3306.68,0.15,CL-6936,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00248,2026-01-09,Q1,Trujillo,Monitor 27 4K,Tecnologia,3,1892.81,0.15,CL-4373,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00249,2026-01-10,Q1,Arequipa,Webcam HD,Electronica,32,190.82,0.1,CL-1825,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00250,2026-02-20,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,39,132.52,0.2,CL-5455,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00251,2026-03-04,Q1,Cusco,Auriculares BT,Electronica,5,232.1,0.1,CL-4343,Carlos Vega,Pedido grande
+TX-2026Q1-00252,2026-01-10,Q1,Piura,Resma Papel A4,Suministros,43,30.33,0.2,CL-9856,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00253,2026-02-14,Q1,Chiclayo,Auriculares BT,Electronica,34,237.63,0.2,CL-2643,Diego Salazar,
+TX-2026Q1-00254,2026-01-04,Q1,Lima,Resma Papel A4,Suministros,23,31.19,0.15,CL-8853,Lucia Romero,Primera compra del ano
+TX-2026Q1-00255,2026-02-25,Q1,Chiclayo,Lampara LED,Mobiliario,47,98.11,0.15,CL-2782,Jose Luis Quispe,
+TX-2026Q1-00256,2026-02-05,Q1,Piura,Laptop Pro 15,Tecnologia,36,5030.4,0.15,CL-3253,Diego Salazar,
+TX-2026Q1-00257,2026-03-29,Q1,Chiclayo,Monitor 27 4K,Tecnologia,34,1994.39,0.15,CL-7991,Carlos Vega,
+TX-2026Q1-00258,2026-03-04,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,45,76.35,0.2,CL-4229,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00259,2026-02-13,Q1,Piura,Monitor 27 4K,Tecnologia,35,1856.07,0.15,CL-2161,Carlos Vega,Compra urgente
+TX-2026Q1-00260,2026-03-07,Q1,Arequipa,Cartucho Tinta Negra,Suministros,11,81.56,0.1,CL-5470,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00261,2026-03-05,Q1,Arequipa,Lampara LED,Mobiliario,2,97.97,0.1,CL-3919,Jose Luis Quispe,
+TX-2026Q1-00262,2026-03-02,Q1,Arequipa,Lampara LED,Mobiliario,24,96.76,0.05,CL-2883,Maria Fernandez,
+TX-2026Q1-00263,2026-03-14,Q1,Lima,Teclado Mecanico,Tecnologia,30,375.74,0.2,CL-4784,Jose Luis Quispe,
+TX-2026Q1-00264,2026-02-23,Q1,Lima,Mouse Inalambrico,Tecnologia,40,130.71,0.05,CL-4084,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00265,2026-01-12,Q1,Chiclayo,Auriculares BT,Electronica,15,250.71,0.2,CL-8440,Diego Salazar,Pedido grande
+TX-2026Q1-00266,2026-03-21,Q1,Chiclayo,Auriculares BT,Electronica,22,232.35,0.05,CL-2847,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00267,2026-03-18,Q1,Piura,Escritorio Ajustable,Mobiliario,25,1238.11,0.15,CL-8514,Carlos Vega,Pedido grande
+TX-2026Q1-00268,2026-02-18,Q1,Trujillo,Laptop Air 13,Tecnologia,41,3380.46,0.15,CL-2573,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00269,2026-03-11,Q1,Trujillo,Mouse Inalambrico,Tecnologia,23,124.66,0.05,CL-9662,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00270,2026-01-09,Q1,Trujillo,Cartucho Tinta Negra,Suministros,10,83.17,0.0,CL-5364,Maria Fernandez,
+TX-2026Q1-00271,2026-03-26,Q1,Lima,Silla Ergonomica,Mobiliario,23,882.26,0.05,CL-8889,Carlos Vega,
+TX-2026Q1-00272,2026-01-13,Q1,Trujillo,Cartucho Tinta Negra,Suministros,16,78.53,0.0,CL-1674,Ana Torres,Solicita factura electronica
+TX-2026Q1-00273,2026-01-02,Q1,Arequipa,Auriculares BT,Electronica,35,242.45,0.15,CL-5184,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00274,2026-03-28,Q1,Arequipa,Auriculares BT,Electronica,34,238.33,0.05,CL-3084,Ana Torres,
+TX-2026Q1-00275,2026-02-09,Q1,Trujillo,Laptop Pro 15,Tecnologia,11,4926.17,0.15,CL-8685,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00276,2026-03-13,Q1,Arequipa,Resma Papel A4,Suministros,32,28.58,0.0,CL-9281,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00277,2026-01-20,Q1,Arequipa,Mouse Inalambrico,Tecnologia,34,136.35,0.15,CL-9792,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00278,2026-01-01,Q1,Cusco,Laptop Air 13,Tecnologia,20,3516.13,0.2,CL-1179,Diego Salazar,
+TX-2026Q1-00279,2026-03-09,Q1,Lima,Lampara LED,Mobiliario,20,104.91,0.0,CL-8994,Ana Torres,Primera compra del ano
+TX-2026Q1-00280,2026-03-27,Q1,Arequipa,Laptop Pro 15,Tecnologia,10,5009.33,0.15,CL-1202,Carlos Vega,
+TX-2026Q1-00281,2026-01-02,Q1,Piura,Cartucho Tinta Negra,Suministros,39,83.71,0.0,CL-4412,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00282,2026-02-28,Q1,Cusco,Resma Papel A4,Suministros,43,28.51,0.1,CL-3593,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00283,2026-01-13,Q1,Piura,Laptop Air 13,Tecnologia,43,3535.77,0.05,CL-7306,Carlos Vega,
+TX-2026Q1-00284,2026-03-23,Q1,Arequipa,Resma Papel A4,Suministros,37,28.8,0.2,CL-7947,Maria Fernandez,Pedido grande
+TX-2026Q1-00285,2026-03-23,Q1,Arequipa,Webcam HD,Electronica,10,197.19,0.1,CL-3028,Ana Torres,Compra urgente
+TX-2026Q1-00286,2026-01-14,Q1,Arequipa,Escritorio Ajustable,Mobiliario,34,1336.94,0.15,CL-6150,Maria Fernandez,Compra urgente
+TX-2026Q1-00287,2026-03-17,Q1,Piura,Mouse Inalambrico,Tecnologia,5,131.7,0.1,CL-5493,Ana Torres,
+TX-2026Q1-00288,2026-02-22,Q1,Chiclayo,Laptop Air 13,Tecnologia,20,3284.2,0.2,CL-8329,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00289,2026-01-18,Q1,Trujillo,Teclado Mecanico,Tecnologia,16,362.01,0.2,CL-4902,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00290,2026-02-15,Q1,Lima,Monitor 27 4K,Tecnologia,39,1836.5,0.1,CL-7737,Lucia Romero,
+TX-2026Q1-00291,2026-02-02,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,49,1329.09,0.05,CL-5425,Carlos Vega,
+TX-2026Q1-00292,2026-01-16,Q1,Cusco,Escritorio Ajustable,Mobiliario,29,1359.79,0.05,CL-3224,Ana Torres,Compra urgente
+TX-2026Q1-00293,2026-03-21,Q1,Lima,Monitor 27 4K,Tecnologia,20,1829.15,0.05,CL-3973,Ana Torres,Primera compra del ano
+TX-2026Q1-00294,2026-01-06,Q1,Chiclayo,Resma Papel A4,Suministros,27,30.84,0.15,CL-6130,Lucia Romero,Compra urgente
+TX-2026Q1-00295,2026-01-06,Q1,Lima,Cartucho Tinta Negra,Suministros,11,78.24,0.1,CL-6712,Lucia Romero,Compra urgente
+TX-2026Q1-00296,2026-03-01,Q1,Chiclayo,Webcam HD,Electronica,42,204.58,0.05,CL-8656,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00297,2026-01-22,Q1,Arequipa,Escritorio Ajustable,Mobiliario,7,1259.35,0.05,CL-6060,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00298,2026-01-03,Q1,Lima,Lampara LED,Mobiliario,11,99.1,0.1,CL-9469,Carlos Vega,Pedido grande
+TX-2026Q1-00299,2026-03-20,Q1,Cusco,Laptop Pro 15,Tecnologia,12,4658.66,0.0,CL-6121,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00300,2026-01-22,Q1,Arequipa,Auriculares BT,Electronica,45,240.62,0.05,CL-8275,Ana Torres,
+TX-2026Q1-00301,2026-02-06,Q1,Chiclayo,Webcam HD,Electronica,18,189.07,0.1,CL-8586,Carlos Vega,
+TX-2026Q1-00302,2026-02-16,Q1,Piura,Cartucho Tinta Negra,Suministros,49,80.17,0.15,CL-3962,Carlos Vega,Compra urgente
+TX-2026Q1-00303,2026-02-27,Q1,Cusco,Laptop Pro 15,Tecnologia,35,4993.1,0.15,CL-3395,Jose Luis Quispe,
+TX-2026Q1-00304,2026-02-24,Q1,Piura,Laptop Pro 15,Tecnologia,49,4983.72,0.15,CL-1860,Lucia Romero,
+TX-2026Q1-00305,2026-03-01,Q1,Piura,Auriculares BT,Electronica,32,247.28,0.2,CL-5986,Maria Fernandez,
+TX-2026Q1-00306,2026-01-26,Q1,Trujillo,Resma Papel A4,Suministros,31,28.57,0.1,CL-4551,Carlos Vega,
+TX-2026Q1-00307,2026-03-25,Q1,Lima,Lampara LED,Mobiliario,38,102.98,0.0,CL-5170,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00308,2026-03-17,Q1,Cusco,Webcam HD,Electronica,44,195.73,0.2,CL-6395,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00309,2026-03-11,Q1,Arequipa,Webcam HD,Electronica,38,187.98,0.0,CL-9344,Ana Torres,
+TX-2026Q1-00310,2026-03-22,Q1,Cusco,Auriculares BT,Electronica,32,242.78,0.1,CL-6959,Lucia Romero,
+TX-2026Q1-00311,2026-02-26,Q1,Lima,Teclado Mecanico,Tecnologia,10,394.81,0.15,CL-5528,Ana Torres,
+TX-2026Q1-00312,2026-03-07,Q1,Trujillo,Lampara LED,Mobiliario,30,100.77,0.0,CL-9458,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00313,2026-02-02,Q1,Piura,Laptop Pro 15,Tecnologia,44,4942.35,0.15,CL-6078,Carlos Vega,Compra urgente
+TX-2026Q1-00314,2026-03-25,Q1,Cusco,Escritorio Ajustable,Mobiliario,20,1297.74,0.05,CL-4749,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00315,2026-01-05,Q1,Arequipa,Laptop Air 13,Tecnologia,32,3424.39,0.15,CL-5933,Jose Luis Quispe,
+TX-2026Q1-00316,2026-01-06,Q1,Arequipa,Escritorio Ajustable,Mobiliario,24,1255.81,0.05,CL-5772,Lucia Romero,Compra urgente
+TX-2026Q1-00317,2026-03-21,Q1,Trujillo,Cartucho Tinta Negra,Suministros,4,79.68,0.1,CL-5936,Maria Fernandez,
+TX-2026Q1-00318,2026-01-05,Q1,Arequipa,Lampara LED,Mobiliario,38,104.7,0.2,CL-5684,Carlos Vega,Primera compra del ano
+TX-2026Q1-00319,2026-02-06,Q1,Trujillo,Webcam HD,Electronica,36,194.63,0.1,CL-4212,Lucia Romero,
+TX-2026Q1-00320,2026-01-12,Q1,Piura,Mouse Inalambrico,Tecnologia,38,130.26,0.15,CL-5211,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00321,2026-03-18,Q1,Piura,Monitor 27 4K,Tecnologia,46,1874.74,0.1,CL-3851,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00322,2026-01-11,Q1,Arequipa,Resma Papel A4,Suministros,37,29.91,0.1,CL-5814,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00323,2026-01-29,Q1,Chiclayo,Silla Ergonomica,Mobiliario,49,901.33,0.0,CL-7174,Diego Salazar,Primera compra del ano
+TX-2026Q1-00324,2026-02-17,Q1,Lima,Cartucho Tinta Negra,Suministros,45,79.2,0.15,CL-3213,Ana Torres,
+TX-2026Q1-00325,2026-03-17,Q1,Lima,Silla Ergonomica,Mobiliario,20,882.69,0.1,CL-3515,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00326,2026-03-24,Q1,Piura,Teclado Mecanico,Tecnologia,6,373.08,0.1,CL-1750,Jose Luis Quispe,
+TX-2026Q1-00327,2026-02-06,Q1,Piura,Resma Papel A4,Suministros,12,29.55,0.15,CL-4982,Diego Salazar,
+TX-2026Q1-00328,2026-01-17,Q1,Piura,Teclado Mecanico,Tecnologia,41,395.12,0.0,CL-3765,Maria Fernandez,
+TX-2026Q1-00329,2026-01-15,Q1,Arequipa,Webcam HD,Electronica,49,197.92,0.0,CL-4649,Diego Salazar,
+TX-2026Q1-00330,2026-03-31,Q1,Trujillo,Teclado Mecanico,Tecnologia,9,372.78,0.0,CL-1480,Maria Fernandez,
+TX-2026Q1-00331,2026-03-15,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,14,77.57,0.15,CL-3114,Maria Fernandez,
+TX-2026Q1-00332,2026-03-21,Q1,Chiclayo,Resma Papel A4,Suministros,20,30.14,0.15,CL-9729,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00333,2026-03-06,Q1,Chiclayo,Resma Papel A4,Suministros,6,28.62,0.1,CL-6876,Lucia Romero,Compra urgente
+TX-2026Q1-00334,2026-01-30,Q1,Cusco,Lampara LED,Mobiliario,34,97.08,0.05,CL-4893,Lucia Romero,
+TX-2026Q1-00335,2026-01-03,Q1,Lima,Lampara LED,Mobiliario,35,102.37,0.1,CL-1877,Lucia Romero,Compra urgente
+TX-2026Q1-00336,2026-01-18,Q1,Arequipa,Escritorio Ajustable,Mobiliario,42,1340.38,0.1,CL-9314,Carlos Vega,Primera compra del ano
+TX-2026Q1-00337,2026-03-26,Q1,Cusco,Monitor 27 4K,Tecnologia,39,1988.51,0.0,CL-5396,Diego Salazar,
+TX-2026Q1-00338,2026-02-14,Q1,Lima,Cartucho Tinta Negra,Suministros,15,78.76,0.15,CL-8823,Lucia Romero,Compra urgente
+TX-2026Q1-00339,2026-01-28,Q1,Piura,Escritorio Ajustable,Mobiliario,44,1319.22,0.15,CL-6095,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00340,2026-01-29,Q1,Chiclayo,Laptop Pro 15,Tecnologia,26,4601.88,0.05,CL-7704,Lucia Romero,Pedido grande
+TX-2026Q1-00341,2026-01-04,Q1,Piura,Lampara LED,Mobiliario,17,101.96,0.0,CL-5389,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00342,2026-01-03,Q1,Arequipa,Teclado Mecanico,Tecnologia,49,374.26,0.2,CL-9150,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00343,2026-02-12,Q1,Lima,Resma Papel A4,Suministros,23,28.58,0.15,CL-3196,Lucia Romero,Compra urgente
+TX-2026Q1-00344,2026-01-09,Q1,Trujillo,Webcam HD,Electronica,31,186.66,0.05,CL-9283,Maria Fernandez,Pedido grande
+TX-2026Q1-00345,2026-01-09,Q1,Trujillo,Escritorio Ajustable,Mobiliario,5,1256.83,0.0,CL-4152,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00346,2026-02-23,Q1,Arequipa,Laptop Air 13,Tecnologia,14,3440.53,0.1,CL-1186,Jose Luis Quispe,
+TX-2026Q1-00347,2026-01-31,Q1,Cusco,Laptop Pro 15,Tecnologia,39,4685.89,0.1,CL-2413,Carlos Vega,
+TX-2026Q1-00348,2026-02-27,Q1,Trujillo,Auriculares BT,Electronica,28,235.81,0.1,CL-9503,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00349,2026-03-22,Q1,Piura,Resma Papel A4,Suministros,42,30.55,0.15,CL-1548,Ana Torres,
+TX-2026Q1-00350,2026-03-28,Q1,Trujillo,Resma Papel A4,Suministros,29,30.04,0.0,CL-4200,Carlos Vega,
+TX-2026Q1-00351,2026-03-03,Q1,Trujillo,Webcam HD,Electronica,42,202.58,0.05,CL-6977,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00352,2026-01-02,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,12,126.53,0.2,CL-6540,Carlos Vega,Compra urgente
+TX-2026Q1-00353,2026-02-13,Q1,Trujillo,Cartucho Tinta Negra,Suministros,40,80.84,0.2,CL-4389,Ana Torres,Pedido grande
+TX-2026Q1-00354,2026-03-07,Q1,Trujillo,Silla Ergonomica,Mobiliario,30,901.49,0.1,CL-6328,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00355,2026-03-13,Q1,Trujillo,Resma Papel A4,Suministros,37,30.09,0.2,CL-8998,Maria Fernandez,
+TX-2026Q1-00356,2026-02-26,Q1,Piura,Escritorio Ajustable,Mobiliario,38,1248.89,0.1,CL-3619,Diego Salazar,
+TX-2026Q1-00357,2026-03-24,Q1,Cusco,Auriculares BT,Electronica,5,242.0,0.05,CL-2606,Lucia Romero,
+TX-2026Q1-00358,2026-02-15,Q1,Trujillo,Cartucho Tinta Negra,Suministros,23,78.86,0.1,CL-6900,Diego Salazar,Primera compra del ano
+TX-2026Q1-00359,2026-03-27,Q1,Trujillo,Silla Ergonomica,Mobiliario,3,885.02,0.0,CL-6540,Carlos Vega,
+TX-2026Q1-00360,2026-01-11,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,5,133.51,0.15,CL-8078,Carlos Vega,
+TX-2026Q1-00361,2026-02-06,Q1,Cusco,Webcam HD,Electronica,32,199.98,0.2,CL-8805,Maria Fernandez,
+TX-2026Q1-00362,2026-03-19,Q1,Cusco,Laptop Pro 15,Tecnologia,28,4640.19,0.2,CL-6308,Diego Salazar,
+TX-2026Q1-00363,2026-01-01,Q1,Piura,Auriculares BT,Electronica,30,233.32,0.0,CL-2736,Maria Fernandez,Pedido grande
+TX-2026Q1-00364,2026-03-05,Q1,Arequipa,Auriculares BT,Electronica,16,238.31,0.2,CL-5582,Ana Torres,
+TX-2026Q1-00365,2026-03-30,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,2,1254.66,0.05,CL-3972,Carlos Vega,
+TX-2026Q1-00366,2026-02-21,Q1,Chiclayo,Laptop Pro 15,Tecnologia,7,4909.07,0.0,CL-9706,Carlos Vega,Pedido grande
+TX-2026Q1-00367,2026-01-20,Q1,Lima,Resma Papel A4,Suministros,29,29.97,0.05,CL-1876,Lucia Romero,Primera compra del ano
+TX-2026Q1-00368,2026-03-30,Q1,Trujillo,Cartucho Tinta Negra,Suministros,46,79.2,0.15,CL-4760,Diego Salazar,
+TX-2026Q1-00369,2026-02-26,Q1,Cusco,Resma Papel A4,Suministros,5,31.0,0.1,CL-7429,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00370,2026-01-09,Q1,Trujillo,Auriculares BT,Electronica,47,251.78,0.2,CL-6687,Carlos Vega,Pedido grande
+TX-2026Q1-00371,2026-01-11,Q1,Piura,Silla Ergonomica,Mobiliario,45,920.96,0.05,CL-3081,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00372,2026-03-07,Q1,Trujillo,Cartucho Tinta Negra,Suministros,7,80.96,0.1,CL-9714,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00373,2026-03-22,Q1,Trujillo,Cartucho Tinta Negra,Suministros,9,80.26,0.1,CL-2158,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00374,2026-02-13,Q1,Lima,Teclado Mecanico,Tecnologia,24,376.41,0.2,CL-4430,Maria Fernandez,Pedido grande
+TX-2026Q1-00375,2026-01-30,Q1,Arequipa,Webcam HD,Electronica,11,186.74,0.2,CL-7454,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00376,2026-01-26,Q1,Piura,Laptop Pro 15,Tecnologia,29,4840.1,0.2,CL-6696,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00377,2026-01-10,Q1,Cusco,Resma Papel A4,Suministros,31,30.64,0.15,CL-7849,Diego Salazar,Pedido grande
+TX-2026Q1-00378,2026-03-21,Q1,Trujillo,Escritorio Ajustable,Mobiliario,17,1253.22,0.0,CL-9370,Ana Torres,Primera compra del ano
+TX-2026Q1-00379,2026-03-01,Q1,Lima,Cartucho Tinta Negra,Suministros,5,83.19,0.0,CL-5050,Diego Salazar,Pedido grande
+TX-2026Q1-00380,2026-03-14,Q1,Trujillo,Mouse Inalambrico,Tecnologia,39,129.07,0.2,CL-9832,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00381,2026-03-18,Q1,Piura,Cartucho Tinta Negra,Suministros,15,81.8,0.1,CL-5112,Lucia Romero,
+TX-2026Q1-00382,2026-02-09,Q1,Trujillo,Mouse Inalambrico,Tecnologia,14,132.48,0.2,CL-6787,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00383,2026-01-23,Q1,Trujillo,Silla Ergonomica,Mobiliario,34,890.67,0.05,CL-9864,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00384,2026-02-27,Q1,Lima,Laptop Pro 15,Tecnologia,10,4641.69,0.1,CL-3820,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00385,2026-01-23,Q1,Chiclayo,Silla Ergonomica,Mobiliario,31,931.1,0.15,CL-7699,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00386,2026-02-26,Q1,Arequipa,Silla Ergonomica,Mobiliario,23,915.37,0.15,CL-5507,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00387,2026-01-13,Q1,Lima,Auriculares BT,Electronica,34,242.78,0.15,CL-5583,Lucia Romero,
+TX-2026Q1-00388,2026-01-01,Q1,Piura,Webcam HD,Electronica,26,187.94,0.15,CL-3361,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00389,2026-01-31,Q1,Arequipa,Monitor 27 4K,Tecnologia,28,1829.28,0.1,CL-6931,Carlos Vega,
+TX-2026Q1-00390,2026-01-20,Q1,Trujillo,Lampara LED,Mobiliario,40,103.27,0.1,CL-4728,Carlos Vega,Primera compra del ano
+TX-2026Q1-00391,2026-03-16,Q1,Cusco,Silla Ergonomica,Mobiliario,43,886.66,0.15,CL-1805,Diego Salazar,Primera compra del ano
+TX-2026Q1-00392,2026-01-20,Q1,Trujillo,Mouse Inalambrico,Tecnologia,44,133.93,0.05,CL-8617,Maria Fernandez,Compra urgente
+TX-2026Q1-00393,2026-02-24,Q1,Arequipa,Auriculares BT,Electronica,23,230.33,0.2,CL-4404,Maria Fernandez,Pedido grande
+TX-2026Q1-00394,2026-01-20,Q1,Arequipa,Laptop Air 13,Tecnologia,15,3236.14,0.0,CL-5932,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00395,2026-03-16,Q1,Piura,Resma Papel A4,Suministros,37,30.05,0.15,CL-1077,Diego Salazar,
+TX-2026Q1-00396,2026-03-08,Q1,Piura,Resma Papel A4,Suministros,7,29.52,0.15,CL-1114,Diego Salazar,Pedido grande
+TX-2026Q1-00397,2026-03-27,Q1,Trujillo,Cartucho Tinta Negra,Suministros,15,76.57,0.15,CL-4438,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00398,2026-03-26,Q1,Arequipa,Escritorio Ajustable,Mobiliario,9,1302.83,0.1,CL-4250,Ana Torres,
+TX-2026Q1-00399,2026-01-16,Q1,Lima,Laptop Pro 15,Tecnologia,4,4562.85,0.1,CL-5459,Lucia Romero,
+TX-2026Q1-00400,2026-01-24,Q1,Lima,Webcam HD,Electronica,40,200.17,0.2,CL-3359,Diego Salazar,Compra urgente
+TX-2026Q1-00401,2026-03-19,Q1,Cusco,Lampara LED,Mobiliario,43,97.8,0.1,CL-8510,Carlos Vega,
+TX-2026Q1-00402,2026-03-09,Q1,Trujillo,Mouse Inalambrico,Tecnologia,4,134.31,0.0,CL-5505,Lucia Romero,
+TX-2026Q1-00403,2026-03-18,Q1,Trujillo,Laptop Pro 15,Tecnologia,13,5028.71,0.1,CL-5952,Ana Torres,Pedido grande
+TX-2026Q1-00404,2026-01-01,Q1,Lima,Mouse Inalambrico,Tecnologia,10,126.54,0.2,CL-1220,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00405,2026-03-07,Q1,Arequipa,Laptop Air 13,Tecnologia,2,3334.94,0.0,CL-5791,Carlos Vega,Primera compra del ano
+TX-2026Q1-00406,2026-03-14,Q1,Lima,Monitor 27 4K,Tecnologia,34,1941.62,0.15,CL-8317,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00407,2026-01-11,Q1,Piura,Laptop Air 13,Tecnologia,31,3459.19,0.05,CL-8476,Lucia Romero,Pedido grande
+TX-2026Q1-00408,2026-03-14,Q1,Cusco,Escritorio Ajustable,Mobiliario,20,1250.6,0.05,CL-4768,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00409,2026-03-12,Q1,Trujillo,Escritorio Ajustable,Mobiliario,25,1258.09,0.05,CL-7676,Lucia Romero,
+TX-2026Q1-00410,2026-01-05,Q1,Piura,Webcam HD,Electronica,31,186.04,0.2,CL-6496,Maria Fernandez,
+TX-2026Q1-00411,2026-03-25,Q1,Piura,Auriculares BT,Electronica,19,236.27,0.05,CL-6098,Lucia Romero,Pedido grande
+TX-2026Q1-00412,2026-01-09,Q1,Piura,Monitor 27 4K,Tecnologia,32,1828.91,0.0,CL-6901,Carlos Vega,Compra urgente
+TX-2026Q1-00413,2026-02-20,Q1,Cusco,Silla Ergonomica,Mobiliario,26,878.24,0.05,CL-6594,Diego Salazar,Compra urgente
+TX-2026Q1-00414,2026-02-19,Q1,Chiclayo,Laptop Air 13,Tecnologia,49,3538.19,0.1,CL-9612,Jose Luis Quispe,
+TX-2026Q1-00415,2026-03-19,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,17,130.74,0.2,CL-8347,Lucia Romero,Primera compra del ano
+TX-2026Q1-00416,2026-03-10,Q1,Trujillo,Laptop Air 13,Tecnologia,27,3435.52,0.1,CL-6752,Diego Salazar,
+TX-2026Q1-00417,2026-02-10,Q1,Lima,Webcam HD,Electronica,37,192.32,0.15,CL-9056,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00418,2026-03-07,Q1,Trujillo,Teclado Mecanico,Tecnologia,6,368.29,0.1,CL-7295,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00419,2026-01-15,Q1,Chiclayo,Resma Papel A4,Suministros,24,29.6,0.1,CL-8905,Maria Fernandez,Pedido grande
+TX-2026Q1-00420,2026-03-03,Q1,Piura,Auriculares BT,Electronica,46,238.43,0.1,CL-8879,Lucia Romero,
+TX-2026Q1-00421,2026-03-03,Q1,Trujillo,Teclado Mecanico,Tecnologia,37,396.82,0.0,CL-7545,Jose Luis Quispe,
+TX-2026Q1-00422,2026-03-10,Q1,Arequipa,Teclado Mecanico,Tecnologia,25,382.75,0.1,CL-3800,Maria Fernandez,Compra urgente
+TX-2026Q1-00423,2026-03-17,Q1,Lima,Monitor 27 4K,Tecnologia,12,1836.1,0.2,CL-7990,Carlos Vega,
+TX-2026Q1-00424,2026-02-23,Q1,Lima,Silla Ergonomica,Mobiliario,14,927.44,0.1,CL-6356,Maria Fernandez,Pedido grande
+TX-2026Q1-00425,2026-03-01,Q1,Arequipa,Laptop Pro 15,Tecnologia,43,4792.11,0.2,CL-7697,Ana Torres,
+TX-2026Q1-00426,2026-01-22,Q1,Piura,Webcam HD,Electronica,1,202.46,0.2,CL-4725,Diego Salazar,Primera compra del ano
+TX-2026Q1-00427,2026-02-26,Q1,Arequipa,Teclado Mecanico,Tecnologia,26,365.65,0.05,CL-6634,Diego Salazar,
+TX-2026Q1-00428,2026-01-03,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,19,126.31,0.1,CL-8574,Carlos Vega,
+TX-2026Q1-00429,2026-01-08,Q1,Cusco,Mouse Inalambrico,Tecnologia,4,128.17,0.1,CL-3996,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00430,2026-03-24,Q1,Cusco,Silla Ergonomica,Mobiliario,39,927.45,0.15,CL-6347,Maria Fernandez,Pedido grande
+TX-2026Q1-00431,2026-01-21,Q1,Chiclayo,Webcam HD,Electronica,31,186.58,0.05,CL-5458,Lucia Romero,Pedido grande
+TX-2026Q1-00432,2026-02-07,Q1,Chiclayo,Webcam HD,Electronica,3,187.64,0.1,CL-8455,Maria Fernandez,
+TX-2026Q1-00433,2026-02-11,Q1,Piura,Cartucho Tinta Negra,Suministros,5,81.08,0.15,CL-3043,Jose Luis Quispe,
+TX-2026Q1-00434,2026-03-07,Q1,Arequipa,Teclado Mecanico,Tecnologia,4,383.84,0.0,CL-8026,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00435,2026-02-19,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,44,135.29,0.2,CL-6934,Ana Torres,
+TX-2026Q1-00436,2026-01-24,Q1,Cusco,Monitor 27 4K,Tecnologia,31,1853.02,0.0,CL-8841,Jose Luis Quispe,
+TX-2026Q1-00437,2026-01-25,Q1,Chiclayo,Monitor 27 4K,Tecnologia,7,1926.78,0.1,CL-6481,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00438,2026-03-30,Q1,Chiclayo,Resma Papel A4,Suministros,43,28.63,0.0,CL-9510,Ana Torres,Primera compra del ano
+TX-2026Q1-00439,2026-01-19,Q1,Lima,Webcam HD,Electronica,7,193.27,0.1,CL-1089,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00440,2026-01-17,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,45,130.03,0.1,CL-1368,Ana Torres,Solicita factura electronica
+TX-2026Q1-00441,2026-02-07,Q1,Cusco,Laptop Air 13,Tecnologia,13,3427.31,0.05,CL-6793,Diego Salazar,Pedido grande
+TX-2026Q1-00442,2026-01-05,Q1,Trujillo,Escritorio Ajustable,Mobiliario,32,1299.84,0.1,CL-8467,Carlos Vega,
+TX-2026Q1-00443,2026-03-02,Q1,Lima,Webcam HD,Electronica,33,196.27,0.1,CL-6508,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00444,2026-02-14,Q1,Chiclayo,Webcam HD,Electronica,13,189.59,0.2,CL-2590,Lucia Romero,Compra urgente
+TX-2026Q1-00445,2026-01-25,Q1,Trujillo,Silla Ergonomica,Mobiliario,20,919.43,0.05,CL-9370,Ana Torres,
+TX-2026Q1-00446,2026-02-03,Q1,Cusco,Cartucho Tinta Negra,Suministros,16,81.07,0.1,CL-4194,Maria Fernandez,
+TX-2026Q1-00447,2026-02-28,Q1,Arequipa,Silla Ergonomica,Mobiliario,47,921.43,0.0,CL-1820,Jose Luis Quispe,
+TX-2026Q1-00448,2026-03-01,Q1,Arequipa,Silla Ergonomica,Mobiliario,10,864.69,0.2,CL-3374,Ana Torres,Compra urgente
+TX-2026Q1-00449,2026-03-11,Q1,Trujillo,Teclado Mecanico,Tecnologia,28,382.28,0.0,CL-7251,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00450,2026-01-01,Q1,Trujillo,Laptop Air 13,Tecnologia,4,3433.79,0.1,CL-5797,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00451,2026-02-27,Q1,Cusco,Teclado Mecanico,Tecnologia,2,376.98,0.1,CL-1561,Lucia Romero,Pedido grande
+TX-2026Q1-00452,2026-01-13,Q1,Chiclayo,Auriculares BT,Electronica,42,231.23,0.1,CL-3394,Ana Torres,
+TX-2026Q1-00453,2026-02-01,Q1,Trujillo,Escritorio Ajustable,Mobiliario,28,1279.39,0.15,CL-5012,Ana Torres,Solicita factura electronica
+TX-2026Q1-00454,2026-03-19,Q1,Lima,Lampara LED,Mobiliario,1,99.04,0.0,CL-9511,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00455,2026-02-25,Q1,Cusco,Resma Papel A4,Suministros,9,29.79,0.0,CL-6786,Carlos Vega,
+TX-2026Q1-00456,2026-03-03,Q1,Cusco,Laptop Air 13,Tecnologia,48,3248.85,0.15,CL-6291,Diego Salazar,
+TX-2026Q1-00457,2026-02-07,Q1,Cusco,Resma Papel A4,Suministros,12,30.94,0.1,CL-2551,Lucia Romero,Primera compra del ano
+TX-2026Q1-00458,2026-01-30,Q1,Piura,Webcam HD,Electronica,21,196.52,0.05,CL-6089,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00459,2026-01-10,Q1,Chiclayo,Monitor 27 4K,Tecnologia,5,1940.38,0.2,CL-5462,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00460,2026-01-03,Q1,Trujillo,Mouse Inalambrico,Tecnologia,40,129.71,0.15,CL-6974,Maria Fernandez,Compra urgente
+TX-2026Q1-00461,2026-03-17,Q1,Chiclayo,Webcam HD,Electronica,26,200.84,0.2,CL-9007,Diego Salazar,Compra urgente
+TX-2026Q1-00462,2026-01-04,Q1,Arequipa,Laptop Pro 15,Tecnologia,26,4804.8,0.05,CL-2258,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00463,2026-01-14,Q1,Chiclayo,Auriculares BT,Electronica,6,230.25,0.05,CL-5917,Carlos Vega,
+TX-2026Q1-00464,2026-02-05,Q1,Arequipa,Webcam HD,Electronica,12,186.25,0.0,CL-6029,Ana Torres,Solicita factura electronica
+TX-2026Q1-00465,2026-02-08,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,4,1270.42,0.2,CL-7776,Diego Salazar,Primera compra del ano
+TX-2026Q1-00466,2026-03-26,Q1,Lima,Lampara LED,Mobiliario,6,99.31,0.1,CL-5975,Carlos Vega,Primera compra del ano
+TX-2026Q1-00467,2026-03-18,Q1,Trujillo,Lampara LED,Mobiliario,45,103.6,0.15,CL-1609,Jose Luis Quispe,
+TX-2026Q1-00468,2026-03-24,Q1,Trujillo,Silla Ergonomica,Mobiliario,38,874.56,0.1,CL-9683,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00469,2026-02-17,Q1,Piura,Teclado Mecanico,Tecnologia,3,390.91,0.1,CL-2213,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00470,2026-01-29,Q1,Chiclayo,Silla Ergonomica,Mobiliario,24,866.23,0.0,CL-2745,Maria Fernandez,
+TX-2026Q1-00471,2026-03-05,Q1,Piura,Auriculares BT,Electronica,43,239.22,0.15,CL-5406,Ana Torres,
+TX-2026Q1-00472,2026-02-03,Q1,Lima,Webcam HD,Electronica,21,192.17,0.2,CL-3326,Maria Fernandez,Compra urgente
+TX-2026Q1-00473,2026-02-11,Q1,Arequipa,Laptop Pro 15,Tecnologia,11,4888.94,0.0,CL-9895,Ana Torres,Compra urgente
+TX-2026Q1-00474,2026-01-25,Q1,Piura,Teclado Mecanico,Tecnologia,16,388.43,0.05,CL-6380,Diego Salazar,
+TX-2026Q1-00475,2026-01-29,Q1,Piura,Mouse Inalambrico,Tecnologia,6,125.52,0.05,CL-1098,Jose Luis Quispe,
+TX-2026Q1-00476,2026-01-13,Q1,Arequipa,Mouse Inalambrico,Tecnologia,28,130.87,0.15,CL-6561,Carlos Vega,
+TX-2026Q1-00477,2026-03-22,Q1,Chiclayo,Webcam HD,Electronica,43,194.77,0.15,CL-9113,Carlos Vega,Compra urgente
+TX-2026Q1-00478,2026-02-23,Q1,Trujillo,Laptop Air 13,Tecnologia,30,3287.76,0.0,CL-8731,Carlos Vega,
+TX-2026Q1-00479,2026-02-13,Q1,Trujillo,Escritorio Ajustable,Mobiliario,35,1350.55,0.2,CL-1378,Diego Salazar,Pedido grande
+TX-2026Q1-00480,2026-02-11,Q1,Chiclayo,Monitor 27 4K,Tecnologia,37,1862.65,0.15,CL-1620,Ana Torres,
+TX-2026Q1-00481,2026-02-14,Q1,Lima,Mouse Inalambrico,Tecnologia,27,128.32,0.05,CL-2852,Lucia Romero,
+TX-2026Q1-00482,2026-03-17,Q1,Piura,Laptop Pro 15,Tecnologia,10,4899.44,0.1,CL-7716,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00483,2026-03-10,Q1,Lima,Silla Ergonomica,Mobiliario,13,873.92,0.2,CL-4341,Diego Salazar,Primera compra del ano
+TX-2026Q1-00484,2026-02-14,Q1,Cusco,Mouse Inalambrico,Tecnologia,22,132.89,0.15,CL-3172,Lucia Romero,Pedido grande
+TX-2026Q1-00485,2026-01-21,Q1,Trujillo,Escritorio Ajustable,Mobiliario,18,1364.75,0.05,CL-5675,Ana Torres,
+TX-2026Q1-00486,2026-01-02,Q1,Arequipa,Cartucho Tinta Negra,Suministros,24,80.64,0.1,CL-5290,Diego Salazar,
+TX-2026Q1-00487,2026-02-11,Q1,Lima,Auriculares BT,Electronica,27,230.99,0.15,CL-7202,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00488,2026-02-09,Q1,Trujillo,Silla Ergonomica,Mobiliario,29,902.62,0.2,CL-2883,Lucia Romero,
+TX-2026Q1-00489,2026-03-12,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,39,78.32,0.1,CL-6655,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00490,2026-01-13,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,18,1325.55,0.2,CL-9816,Diego Salazar,
+TX-2026Q1-00491,2026-01-17,Q1,Lima,Teclado Mecanico,Tecnologia,39,393.3,0.2,CL-4037,Lucia Romero,
+TX-2026Q1-00492,2026-01-30,Q1,Piura,Resma Papel A4,Suministros,42,31.5,0.0,CL-1852,Carlos Vega,
+TX-2026Q1-00493,2026-02-28,Q1,Cusco,Teclado Mecanico,Tecnologia,20,361.15,0.05,CL-7897,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00494,2026-02-15,Q1,Chiclayo,Silla Ergonomica,Mobiliario,21,888.35,0.1,CL-7060,Carlos Vega,
+TX-2026Q1-00495,2026-01-06,Q1,Chiclayo,Resma Papel A4,Suministros,35,29.78,0.1,CL-1030,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00496,2026-02-18,Q1,Piura,Monitor 27 4K,Tecnologia,45,1903.91,0.05,CL-8049,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00497,2026-01-29,Q1,Chiclayo,Laptop Air 13,Tecnologia,38,3291.0,0.05,CL-6379,Carlos Vega,
+TX-2026Q1-00498,2026-03-04,Q1,Chiclayo,Auriculares BT,Electronica,5,248.39,0.2,CL-7757,Maria Fernandez,Pedido grande
+TX-2026Q1-00499,2026-02-12,Q1,Piura,Lampara LED,Mobiliario,12,96.38,0.1,CL-5924,Ana Torres,Solicita factura electronica
+TX-2026Q1-00500,2026-03-28,Q1,Chiclayo,Lampara LED,Mobiliario,32,98.98,0.0,CL-3872,Maria Fernandez,Compra urgente
+TX-2026Q1-00501,2026-01-11,Q1,Trujillo,Resma Papel A4,Suministros,44,30.11,0.0,CL-5746,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00502,2026-02-03,Q1,Lima,Auriculares BT,Electronica,38,243.45,0.15,CL-5119,Maria Fernandez,Pedido grande
+TX-2026Q1-00503,2026-02-03,Q1,Trujillo,Mouse Inalambrico,Tecnologia,20,127.09,0.2,CL-7098,Diego Salazar,Pedido grande
+TX-2026Q1-00504,2026-03-09,Q1,Piura,Lampara LED,Mobiliario,9,96.43,0.0,CL-3007,Ana Torres,Solicita factura electronica
+TX-2026Q1-00505,2026-03-08,Q1,Trujillo,Webcam HD,Electronica,49,185.32,0.2,CL-8037,Diego Salazar,
+TX-2026Q1-00506,2026-02-17,Q1,Lima,Silla Ergonomica,Mobiliario,34,893.23,0.1,CL-9017,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00507,2026-01-20,Q1,Chiclayo,Laptop Air 13,Tecnologia,4,3345.82,0.1,CL-5119,Ana Torres,
+TX-2026Q1-00508,2026-03-19,Q1,Piura,Auriculares BT,Electronica,25,248.1,0.1,CL-3683,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00509,2026-02-05,Q1,Arequipa,Silla Ergonomica,Mobiliario,43,890.05,0.0,CL-7357,Diego Salazar,
+TX-2026Q1-00510,2026-02-20,Q1,Piura,Laptop Pro 15,Tecnologia,13,4580.16,0.1,CL-9653,Diego Salazar,
+TX-2026Q1-00511,2026-01-25,Q1,Cusco,Lampara LED,Mobiliario,5,104.16,0.1,CL-6737,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00512,2026-02-04,Q1,Trujillo,Webcam HD,Electronica,32,198.06,0.1,CL-3197,Diego Salazar,Primera compra del ano
+TX-2026Q1-00513,2026-01-22,Q1,Chiclayo,Auriculares BT,Electronica,36,245.37,0.1,CL-8224,Jose Luis Quispe,
+TX-2026Q1-00514,2026-02-14,Q1,Trujillo,Monitor 27 4K,Tecnologia,9,1824.19,0.2,CL-9059,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00515,2026-01-05,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,4,82.12,0.05,CL-4865,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00516,2026-02-17,Q1,Lima,Laptop Pro 15,Tecnologia,29,4560.81,0.0,CL-9574,Ana Torres,
+TX-2026Q1-00517,2026-02-28,Q1,Lima,Cartucho Tinta Negra,Suministros,9,76.73,0.05,CL-9131,Diego Salazar,Primera compra del ano
+TX-2026Q1-00518,2026-03-30,Q1,Arequipa,Teclado Mecanico,Tecnologia,10,374.33,0.05,CL-5310,Ana Torres,Solicita factura electronica
+TX-2026Q1-00519,2026-02-10,Q1,Lima,Escritorio Ajustable,Mobiliario,1,1260.94,0.0,CL-2799,Carlos Vega,Compra urgente
+TX-2026Q1-00520,2026-01-06,Q1,Arequipa,Resma Papel A4,Suministros,10,30.38,0.2,CL-3687,Diego Salazar,
+TX-2026Q1-00521,2026-03-31,Q1,Piura,Laptop Pro 15,Tecnologia,35,4836.33,0.05,CL-6905,Ana Torres,
+TX-2026Q1-00522,2026-01-05,Q1,Cusco,Lampara LED,Mobiliario,8,98.36,0.15,CL-5808,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00523,2026-03-04,Q1,Trujillo,Escritorio Ajustable,Mobiliario,1,1337.43,0.0,CL-3989,Ana Torres,
+TX-2026Q1-00524,2026-01-18,Q1,Lima,Auriculares BT,Electronica,2,251.13,0.0,CL-9610,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00525,2026-02-15,Q1,Trujillo,Resma Papel A4,Suministros,11,31.38,0.0,CL-4461,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00526,2026-01-01,Q1,Cusco,Laptop Air 13,Tecnologia,10,3329.26,0.15,CL-5841,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00527,2026-01-23,Q1,Piura,Escritorio Ajustable,Mobiliario,28,1315.51,0.1,CL-1057,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00528,2026-01-10,Q1,Lima,Laptop Air 13,Tecnologia,9,3262.49,0.0,CL-5746,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00529,2026-01-17,Q1,Piura,Mouse Inalambrico,Tecnologia,30,128.59,0.05,CL-6009,Maria Fernandez,Compra urgente
+TX-2026Q1-00530,2026-02-05,Q1,Lima,Laptop Pro 15,Tecnologia,11,4729.42,0.05,CL-4104,Diego Salazar,Compra urgente
+TX-2026Q1-00531,2026-02-02,Q1,Cusco,Laptop Pro 15,Tecnologia,10,4653.81,0.0,CL-7786,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00532,2026-01-19,Q1,Chiclayo,Auriculares BT,Electronica,44,249.54,0.15,CL-2488,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00533,2026-02-09,Q1,Lima,Escritorio Ajustable,Mobiliario,15,1267.88,0.2,CL-5787,Ana Torres,Solicita factura electronica
+TX-2026Q1-00534,2026-02-13,Q1,Arequipa,Silla Ergonomica,Mobiliario,24,924.9,0.1,CL-5575,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00535,2026-03-07,Q1,Cusco,Silla Ergonomica,Mobiliario,12,899.39,0.1,CL-8741,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00536,2026-03-18,Q1,Lima,Teclado Mecanico,Tecnologia,45,371.28,0.1,CL-9564,Ana Torres,Pedido grande
+TX-2026Q1-00537,2026-02-15,Q1,Piura,Resma Papel A4,Suministros,20,30.45,0.0,CL-3132,Lucia Romero,Pedido grande
+TX-2026Q1-00538,2026-02-27,Q1,Cusco,Monitor 27 4K,Tecnologia,31,1942.91,0.0,CL-8190,Ana Torres,Solicita factura electronica
+TX-2026Q1-00539,2026-01-02,Q1,Cusco,Laptop Pro 15,Tecnologia,4,4566.43,0.2,CL-3715,Maria Fernandez,Pedido grande
+TX-2026Q1-00540,2026-03-11,Q1,Arequipa,Webcam HD,Electronica,36,199.67,0.15,CL-2801,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00541,2026-02-11,Q1,Cusco,Silla Ergonomica,Mobiliario,8,928.8,0.0,CL-8655,Carlos Vega,
+TX-2026Q1-00542,2026-03-16,Q1,Chiclayo,Lampara LED,Mobiliario,16,102.38,0.1,CL-5972,Jose Luis Quispe,
+TX-2026Q1-00543,2026-02-08,Q1,Lima,Silla Ergonomica,Mobiliario,5,943.67,0.2,CL-1513,Maria Fernandez,
+TX-2026Q1-00544,2026-01-12,Q1,Arequipa,Lampara LED,Mobiliario,1,96.55,0.15,CL-9551,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00545,2026-02-06,Q1,Arequipa,Escritorio Ajustable,Mobiliario,8,1314.18,0.1,CL-5489,Jose Luis Quispe,
+TX-2026Q1-00546,2026-01-04,Q1,Piura,Resma Papel A4,Suministros,33,30.43,0.0,CL-5174,Maria Fernandez,
+TX-2026Q1-00547,2026-01-09,Q1,Arequipa,Resma Papel A4,Suministros,33,30.2,0.05,CL-2853,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00548,2026-02-10,Q1,Arequipa,Laptop Pro 15,Tecnologia,24,4988.81,0.0,CL-2005,Diego Salazar,Primera compra del ano
+TX-2026Q1-00549,2026-03-21,Q1,Piura,Webcam HD,Electronica,25,188.99,0.1,CL-2236,Maria Fernandez,
+TX-2026Q1-00550,2026-02-11,Q1,Trujillo,Cartucho Tinta Negra,Suministros,37,80.84,0.05,CL-5114,Ana Torres,Solicita factura electronica
+TX-2026Q1-00551,2026-02-24,Q1,Cusco,Webcam HD,Electronica,7,202.13,0.15,CL-6166,Carlos Vega,
+TX-2026Q1-00552,2026-03-28,Q1,Lima,Teclado Mecanico,Tecnologia,32,365.66,0.05,CL-4414,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00553,2026-01-25,Q1,Piura,Silla Ergonomica,Mobiliario,6,941.04,0.0,CL-8247,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00554,2026-01-24,Q1,Lima,Lampara LED,Mobiliario,17,101.21,0.15,CL-7705,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00555,2026-02-27,Q1,Trujillo,Cartucho Tinta Negra,Suministros,17,80.23,0.05,CL-9603,Ana Torres,Solicita factura electronica
+TX-2026Q1-00556,2026-02-09,Q1,Trujillo,Laptop Air 13,Tecnologia,29,3351.96,0.1,CL-2658,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00557,2026-01-22,Q1,Lima,Teclado Mecanico,Tecnologia,9,380.79,0.1,CL-8499,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00558,2026-02-20,Q1,Cusco,Cartucho Tinta Negra,Suministros,2,76.65,0.15,CL-9835,Carlos Vega,Primera compra del ano
+TX-2026Q1-00559,2026-03-25,Q1,Trujillo,Mouse Inalambrico,Tecnologia,15,130.79,0.1,CL-6249,Diego Salazar,
+TX-2026Q1-00560,2026-03-18,Q1,Chiclayo,Webcam HD,Electronica,29,185.78,0.05,CL-3808,Ana Torres,
+TX-2026Q1-00561,2026-03-15,Q1,Arequipa,Laptop Pro 15,Tecnologia,17,4732.71,0.1,CL-3988,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00562,2026-01-12,Q1,Arequipa,Silla Ergonomica,Mobiliario,47,924.32,0.2,CL-5382,Diego Salazar,
+TX-2026Q1-00563,2026-03-18,Q1,Chiclayo,Monitor 27 4K,Tecnologia,37,1886.32,0.0,CL-7265,Diego Salazar,
+TX-2026Q1-00564,2026-03-25,Q1,Chiclayo,Lampara LED,Mobiliario,23,95.76,0.0,CL-3251,Ana Torres,Solicita factura electronica
+TX-2026Q1-00565,2026-03-19,Q1,Chiclayo,Laptop Pro 15,Tecnologia,20,4685.88,0.0,CL-6243,Maria Fernandez,
+TX-2026Q1-00566,2026-02-22,Q1,Lima,Laptop Air 13,Tecnologia,17,3436.99,0.0,CL-9961,Carlos Vega,
+TX-2026Q1-00567,2026-02-17,Q1,Cusco,Silla Ergonomica,Mobiliario,35,895.79,0.1,CL-4406,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00568,2026-02-11,Q1,Piura,Cartucho Tinta Negra,Suministros,40,76.56,0.2,CL-7417,Diego Salazar,
+TX-2026Q1-00569,2026-02-27,Q1,Cusco,Escritorio Ajustable,Mobiliario,32,1243.96,0.15,CL-8507,Jose Luis Quispe,
+TX-2026Q1-00570,2026-02-09,Q1,Cusco,Escritorio Ajustable,Mobiliario,21,1342.1,0.05,CL-7138,Diego Salazar,Compra urgente
+TX-2026Q1-00571,2026-03-26,Q1,Chiclayo,Lampara LED,Mobiliario,2,101.23,0.0,CL-6501,Jose Luis Quispe,
+TX-2026Q1-00572,2026-01-05,Q1,Piura,Escritorio Ajustable,Mobiliario,7,1264.07,0.2,CL-9224,Ana Torres,Primera compra del ano
+TX-2026Q1-00573,2026-01-30,Q1,Piura,Laptop Pro 15,Tecnologia,5,5031.51,0.15,CL-2460,Jose Luis Quispe,
+TX-2026Q1-00574,2026-01-25,Q1,Arequipa,Monitor 27 4K,Tecnologia,29,1973.08,0.05,CL-1345,Lucia Romero,
+TX-2026Q1-00575,2026-03-28,Q1,Lima,Laptop Pro 15,Tecnologia,37,4571.59,0.1,CL-2670,Diego Salazar,
+TX-2026Q1-00576,2026-02-25,Q1,Arequipa,Teclado Mecanico,Tecnologia,10,385.33,0.1,CL-2247,Maria Fernandez,Compra urgente
+TX-2026Q1-00577,2026-02-05,Q1,Trujillo,Teclado Mecanico,Tecnologia,3,390.68,0.15,CL-9918,Diego Salazar,
+TX-2026Q1-00578,2026-03-24,Q1,Chiclayo,Laptop Air 13,Tecnologia,7,3458.14,0.05,CL-4187,Maria Fernandez,Compra urgente
+TX-2026Q1-00579,2026-01-05,Q1,Trujillo,Silla Ergonomica,Mobiliario,39,921.09,0.1,CL-7399,Ana Torres,Solicita factura electronica
+TX-2026Q1-00580,2026-03-24,Q1,Lima,Escritorio Ajustable,Mobiliario,29,1260.4,0.1,CL-1494,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00581,2026-03-26,Q1,Piura,Resma Papel A4,Suministros,13,30.23,0.0,CL-9407,Ana Torres,
+TX-2026Q1-00582,2026-01-24,Q1,Chiclayo,Lampara LED,Mobiliario,43,101.02,0.15,CL-6078,Ana Torres,
+TX-2026Q1-00583,2026-02-21,Q1,Cusco,Laptop Air 13,Tecnologia,1,3354.23,0.1,CL-8911,Ana Torres,
+TX-2026Q1-00584,2026-02-18,Q1,Trujillo,Escritorio Ajustable,Mobiliario,22,1347.44,0.0,CL-7693,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00585,2026-02-02,Q1,Lima,Laptop Air 13,Tecnologia,42,3488.4,0.15,CL-6773,Lucia Romero,Primera compra del ano
+TX-2026Q1-00586,2026-01-28,Q1,Trujillo,Resma Papel A4,Suministros,22,31.07,0.1,CL-6680,Jose Luis Quispe,
+TX-2026Q1-00587,2026-03-13,Q1,Arequipa,Auriculares BT,Electronica,23,251.49,0.0,CL-7925,Ana Torres,Pedido grande
+TX-2026Q1-00588,2026-02-03,Q1,Chiclayo,Auriculares BT,Electronica,12,228.79,0.2,CL-8078,Ana Torres,
+TX-2026Q1-00589,2026-01-02,Q1,Lima,Silla Ergonomica,Mobiliario,25,872.44,0.15,CL-9247,Lucia Romero,Primera compra del ano
+TX-2026Q1-00590,2026-02-01,Q1,Trujillo,Resma Papel A4,Suministros,47,30.95,0.05,CL-3765,Ana Torres,
+TX-2026Q1-00591,2026-03-11,Q1,Cusco,Monitor 27 4K,Tecnologia,44,1977.9,0.2,CL-5972,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00592,2026-02-08,Q1,Lima,Escritorio Ajustable,Mobiliario,18,1327.58,0.15,CL-3901,Lucia Romero,Primera compra del ano
+TX-2026Q1-00593,2026-01-23,Q1,Piura,Webcam HD,Electronica,13,190.44,0.0,CL-6546,Jose Luis Quispe,
+TX-2026Q1-00594,2026-01-01,Q1,Trujillo,Cartucho Tinta Negra,Suministros,27,80.17,0.15,CL-4108,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00595,2026-01-04,Q1,Cusco,Silla Ergonomica,Mobiliario,12,876.1,0.0,CL-4463,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00596,2026-02-10,Q1,Chiclayo,Laptop Pro 15,Tecnologia,22,4936.47,0.0,CL-8279,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00597,2026-01-10,Q1,Cusco,Silla Ergonomica,Mobiliario,48,872.42,0.2,CL-3265,Lucia Romero,
+TX-2026Q1-00598,2026-01-29,Q1,Trujillo,Teclado Mecanico,Tecnologia,42,378.35,0.15,CL-6457,Jose Luis Quispe,
+TX-2026Q1-00599,2026-03-12,Q1,Lima,Monitor 27 4K,Tecnologia,39,1842.51,0.05,CL-8534,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00600,2026-01-24,Q1,Cusco,Webcam HD,Electronica,43,203.26,0.15,CL-2528,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00601,2026-02-15,Q1,Lima,Lampara LED,Mobiliario,14,96.24,0.05,CL-1706,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00602,2026-02-21,Q1,Lima,Lampara LED,Mobiliario,42,98.86,0.1,CL-6538,Lucia Romero,
+TX-2026Q1-00603,2026-01-10,Q1,Piura,Cartucho Tinta Negra,Suministros,45,80.04,0.05,CL-4766,Carlos Vega,Pedido grande
+TX-2026Q1-00604,2026-02-14,Q1,Arequipa,Cartucho Tinta Negra,Suministros,29,78.08,0.2,CL-8748,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00605,2026-01-25,Q1,Lima,Silla Ergonomica,Mobiliario,11,931.98,0.1,CL-9716,Lucia Romero,
+TX-2026Q1-00606,2026-03-06,Q1,Lima,Silla Ergonomica,Mobiliario,24,894.36,0.15,CL-6237,Ana Torres,Compra urgente
+TX-2026Q1-00607,2026-02-28,Q1,Chiclayo,Teclado Mecanico,Tecnologia,37,390.22,0.0,CL-1465,Diego Salazar,Pedido grande
+TX-2026Q1-00608,2026-02-11,Q1,Piura,Webcam HD,Electronica,16,185.91,0.1,CL-3887,Jose Luis Quispe,
+TX-2026Q1-00609,2026-03-23,Q1,Cusco,Escritorio Ajustable,Mobiliario,24,1266.33,0.0,CL-5923,Carlos Vega,Compra urgente
+TX-2026Q1-00610,2026-03-18,Q1,Piura,Auriculares BT,Electronica,26,241.12,0.0,CL-5223,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00611,2026-03-19,Q1,Piura,Teclado Mecanico,Tecnologia,23,379.87,0.0,CL-2397,Maria Fernandez,
+TX-2026Q1-00612,2026-03-12,Q1,Chiclayo,Monitor 27 4K,Tecnologia,17,1980.48,0.15,CL-1201,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00613,2026-01-26,Q1,Cusco,Laptop Air 13,Tecnologia,22,3357.11,0.1,CL-5798,Diego Salazar,
+TX-2026Q1-00614,2026-02-18,Q1,Lima,Monitor 27 4K,Tecnologia,7,1905.18,0.05,CL-7490,Maria Fernandez,
+TX-2026Q1-00615,2026-02-09,Q1,Cusco,Teclado Mecanico,Tecnologia,40,381.02,0.0,CL-9970,Jose Luis Quispe,
+TX-2026Q1-00616,2026-03-27,Q1,Lima,Teclado Mecanico,Tecnologia,34,393.71,0.2,CL-7553,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00617,2026-03-04,Q1,Piura,Auriculares BT,Electronica,25,236.8,0.0,CL-4364,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00618,2026-02-28,Q1,Cusco,Lampara LED,Mobiliario,45,101.53,0.05,CL-4982,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00619,2026-03-30,Q1,Arequipa,Escritorio Ajustable,Mobiliario,30,1278.8,0.2,CL-1542,Lucia Romero,
+TX-2026Q1-00620,2026-02-07,Q1,Piura,Mouse Inalambrico,Tecnologia,34,136.39,0.15,CL-7297,Lucia Romero,
+TX-2026Q1-00621,2026-03-27,Q1,Piura,Silla Ergonomica,Mobiliario,34,916.33,0.0,CL-6805,Carlos Vega,
+TX-2026Q1-00622,2026-01-21,Q1,Cusco,Mouse Inalambrico,Tecnologia,41,132.35,0.1,CL-2262,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00623,2026-03-23,Q1,Piura,Laptop Pro 15,Tecnologia,48,4778.14,0.05,CL-8048,Diego Salazar,Compra urgente
+TX-2026Q1-00624,2026-01-15,Q1,Cusco,Laptop Air 13,Tecnologia,47,3341.31,0.15,CL-1022,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00625,2026-01-10,Q1,Arequipa,Lampara LED,Mobiliario,38,96.52,0.1,CL-6167,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00626,2026-02-01,Q1,Arequipa,Teclado Mecanico,Tecnologia,17,383.62,0.2,CL-2986,Diego Salazar,
+TX-2026Q1-00627,2026-02-22,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,7,1238.22,0.1,CL-3897,Ana Torres,Solicita factura electronica
+TX-2026Q1-00628,2026-01-23,Q1,Piura,Laptop Air 13,Tecnologia,18,3267.92,0.1,CL-1908,Maria Fernandez,
+TX-2026Q1-00629,2026-01-08,Q1,Cusco,Laptop Pro 15,Tecnologia,12,4854.4,0.2,CL-8167,Ana Torres,Primera compra del ano
+TX-2026Q1-00630,2026-02-12,Q1,Arequipa,Silla Ergonomica,Mobiliario,35,870.97,0.2,CL-5059,Diego Salazar,Pedido grande
+TX-2026Q1-00631,2026-01-30,Q1,Trujillo,Monitor 27 4K,Tecnologia,2,1892.64,0.1,CL-6688,Ana Torres,Compra urgente
+TX-2026Q1-00632,2026-03-11,Q1,Piura,Lampara LED,Mobiliario,6,100.12,0.2,CL-2818,Ana Torres,Pedido grande
+TX-2026Q1-00633,2026-02-10,Q1,Lima,Silla Ergonomica,Mobiliario,32,913.23,0.15,CL-1740,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00634,2026-01-04,Q1,Chiclayo,Silla Ergonomica,Mobiliario,46,929.24,0.0,CL-1412,Diego Salazar,
+TX-2026Q1-00635,2026-02-28,Q1,Arequipa,Cartucho Tinta Negra,Suministros,34,79.0,0.15,CL-6549,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00636,2026-03-12,Q1,Trujillo,Auriculares BT,Electronica,44,250.62,0.15,CL-6887,Ana Torres,Compra urgente
+TX-2026Q1-00637,2026-01-19,Q1,Arequipa,Cartucho Tinta Negra,Suministros,45,77.42,0.2,CL-9116,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00638,2026-01-16,Q1,Piura,Webcam HD,Electronica,1,200.28,0.2,CL-6095,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00639,2026-02-27,Q1,Chiclayo,Laptop Air 13,Tecnologia,4,3309.68,0.2,CL-1739,Diego Salazar,
+TX-2026Q1-00640,2026-02-22,Q1,Piura,Auriculares BT,Electronica,18,241.85,0.0,CL-7950,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00641,2026-03-24,Q1,Trujillo,Laptop Pro 15,Tecnologia,15,4902.1,0.05,CL-5614,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00642,2026-01-01,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,27,132.07,0.05,CL-8633,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00643,2026-02-14,Q1,Trujillo,Escritorio Ajustable,Mobiliario,19,1347.66,0.1,CL-3085,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00644,2026-03-16,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,40,132.69,0.0,CL-4396,Diego Salazar,Compra urgente
+TX-2026Q1-00645,2026-03-26,Q1,Arequipa,Mouse Inalambrico,Tecnologia,11,129.97,0.1,CL-1810,Lucia Romero,
+TX-2026Q1-00646,2026-03-06,Q1,Arequipa,Lampara LED,Mobiliario,23,101.06,0.1,CL-5920,Diego Salazar,Pedido grande
+TX-2026Q1-00647,2026-03-04,Q1,Cusco,Monitor 27 4K,Tecnologia,8,1913.29,0.1,CL-5735,Lucia Romero,Pedido grande
+TX-2026Q1-00648,2026-01-17,Q1,Trujillo,Lampara LED,Mobiliario,12,99.82,0.0,CL-6432,Diego Salazar,
+TX-2026Q1-00649,2026-01-18,Q1,Trujillo,Silla Ergonomica,Mobiliario,2,863.88,0.15,CL-7757,Ana Torres,Solicita factura electronica
+TX-2026Q1-00650,2026-03-24,Q1,Lima,Lampara LED,Mobiliario,38,98.87,0.2,CL-3071,Ana Torres,Primera compra del ano
+TX-2026Q1-00651,2026-03-28,Q1,Trujillo,Lampara LED,Mobiliario,36,98.92,0.05,CL-1592,Carlos Vega,Solicita factura electronica
+TX-2026Q1-00652,2026-02-01,Q1,Cusco,Teclado Mecanico,Tecnologia,4,386.48,0.0,CL-5224,Maria Fernandez,
+TX-2026Q1-00653,2026-03-01,Q1,Piura,Laptop Pro 15,Tecnologia,49,4637.12,0.1,CL-5953,Jose Luis Quispe,
+TX-2026Q1-00654,2026-02-25,Q1,Chiclayo,Teclado Mecanico,Tecnologia,34,391.73,0.0,CL-4255,Ana Torres,Primera compra del ano
+TX-2026Q1-00655,2026-02-19,Q1,Lima,Escritorio Ajustable,Mobiliario,32,1357.82,0.0,CL-4905,Lucia Romero,Primera compra del ano
+TX-2026Q1-00656,2026-01-20,Q1,Cusco,Cartucho Tinta Negra,Suministros,29,80.91,0.2,CL-1916,Jose Luis Quispe,
+TX-2026Q1-00657,2026-01-27,Q1,Piura,Teclado Mecanico,Tecnologia,29,396.37,0.0,CL-9871,Jose Luis Quispe,
+TX-2026Q1-00658,2026-02-14,Q1,Trujillo,Resma Papel A4,Suministros,11,29.95,0.15,CL-1496,Maria Fernandez,Compra urgente
+TX-2026Q1-00659,2026-02-17,Q1,Arequipa,Laptop Air 13,Tecnologia,27,3431.92,0.15,CL-6183,Jose Luis Quispe,
+TX-2026Q1-00660,2026-03-03,Q1,Cusco,Monitor 27 4K,Tecnologia,2,1919.96,0.1,CL-5920,Carlos Vega,Compra urgente
+TX-2026Q1-00661,2026-02-12,Q1,Trujillo,Monitor 27 4K,Tecnologia,46,1864.29,0.1,CL-7077,Ana Torres,Primera compra del ano
+TX-2026Q1-00662,2026-01-18,Q1,Trujillo,Cartucho Tinta Negra,Suministros,13,76.68,0.0,CL-8435,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00663,2026-01-07,Q1,Arequipa,Mouse Inalambrico,Tecnologia,16,132.16,0.1,CL-2172,Maria Fernandez,Pedido grande
+TX-2026Q1-00664,2026-01-30,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,5,1279.66,0.2,CL-6659,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00665,2026-03-14,Q1,Arequipa,Teclado Mecanico,Tecnologia,2,369.45,0.2,CL-5582,Carlos Vega,Compra urgente
+TX-2026Q1-00666,2026-02-09,Q1,Chiclayo,Resma Papel A4,Suministros,32,30.06,0.15,CL-9257,Lucia Romero,
+TX-2026Q1-00667,2026-03-22,Q1,Cusco,Laptop Pro 15,Tecnologia,3,4890.5,0.1,CL-4513,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00668,2026-02-19,Q1,Arequipa,Silla Ergonomica,Mobiliario,19,881.74,0.0,CL-8741,Diego Salazar,
+TX-2026Q1-00669,2026-01-06,Q1,Cusco,Lampara LED,Mobiliario,33,100.35,0.15,CL-5205,Carlos Vega,
+TX-2026Q1-00670,2026-01-27,Q1,Trujillo,Monitor 27 4K,Tecnologia,48,1906.15,0.0,CL-8534,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00671,2026-02-10,Q1,Lima,Monitor 27 4K,Tecnologia,34,1810.39,0.1,CL-2583,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00672,2026-02-12,Q1,Arequipa,Resma Papel A4,Suministros,45,29.13,0.2,CL-3063,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00673,2026-01-27,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,25,126.17,0.15,CL-7098,Ana Torres,Solicita factura electronica
+TX-2026Q1-00674,2026-01-10,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,12,77.73,0.05,CL-8232,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00675,2026-01-30,Q1,Trujillo,Silla Ergonomica,Mobiliario,4,864.6,0.15,CL-6055,Ana Torres,Compra urgente
+TX-2026Q1-00676,2026-02-09,Q1,Lima,Escritorio Ajustable,Mobiliario,38,1330.76,0.0,CL-8907,Diego Salazar,
+TX-2026Q1-00677,2026-03-06,Q1,Cusco,Lampara LED,Mobiliario,2,98.1,0.15,CL-8263,Diego Salazar,
+TX-2026Q1-00678,2026-01-02,Q1,Trujillo,Auriculares BT,Electronica,36,230.27,0.15,CL-4407,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00679,2026-01-07,Q1,Cusco,Resma Papel A4,Suministros,33,30.91,0.1,CL-6067,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00680,2026-01-17,Q1,Chiclayo,Webcam HD,Electronica,49,190.01,0.2,CL-9609,Lucia Romero,Pedido grande
+TX-2026Q1-00681,2026-03-16,Q1,Lima,Resma Papel A4,Suministros,18,28.8,0.2,CL-8732,Carlos Vega,Compra urgente
+TX-2026Q1-00682,2026-03-24,Q1,Piura,Lampara LED,Mobiliario,8,101.15,0.0,CL-8209,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00683,2026-03-15,Q1,Cusco,Cartucho Tinta Negra,Suministros,7,78.52,0.0,CL-3580,Carlos Vega,Compra urgente
+TX-2026Q1-00684,2026-01-19,Q1,Cusco,Cartucho Tinta Negra,Suministros,46,80.77,0.05,CL-9659,Ana Torres,Primera compra del ano
+TX-2026Q1-00685,2026-03-28,Q1,Lima,Mouse Inalambrico,Tecnologia,13,127.3,0.1,CL-7988,Ana Torres,
+TX-2026Q1-00686,2026-02-02,Q1,Trujillo,Auriculares BT,Electronica,48,246.54,0.0,CL-7454,Lucia Romero,
+TX-2026Q1-00687,2026-01-11,Q1,Lima,Laptop Air 13,Tecnologia,45,3519.22,0.1,CL-8092,Lucia Romero,
+TX-2026Q1-00688,2026-01-17,Q1,Trujillo,Webcam HD,Electronica,28,186.38,0.2,CL-7972,Carlos Vega,
+TX-2026Q1-00689,2026-03-21,Q1,Piura,Monitor 27 4K,Tecnologia,21,1865.81,0.0,CL-6034,Carlos Vega,Primera compra del ano
+TX-2026Q1-00690,2026-02-22,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,31,1306.78,0.05,CL-2955,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00691,2026-01-20,Q1,Chiclayo,Lampara LED,Mobiliario,16,100.06,0.05,CL-8534,Maria Fernandez,Pedido grande
+TX-2026Q1-00692,2026-02-22,Q1,Arequipa,Auriculares BT,Electronica,8,246.47,0.1,CL-7865,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00693,2026-02-22,Q1,Cusco,Auriculares BT,Electronica,8,238.83,0.2,CL-5464,Diego Salazar,
+TX-2026Q1-00694,2026-03-22,Q1,Arequipa,Teclado Mecanico,Tecnologia,9,386.78,0.2,CL-1848,Diego Salazar,Pedido grande
+TX-2026Q1-00695,2026-01-28,Q1,Trujillo,Auriculares BT,Electronica,11,229.11,0.0,CL-1900,Ana Torres,
+TX-2026Q1-00696,2026-03-07,Q1,Lima,Laptop Air 13,Tecnologia,35,3453.64,0.15,CL-7982,Jose Luis Quispe,
+TX-2026Q1-00697,2026-02-07,Q1,Trujillo,Lampara LED,Mobiliario,37,99.16,0.15,CL-3305,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00698,2026-03-26,Q1,Lima,Auriculares BT,Electronica,23,242.57,0.05,CL-5195,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00699,2026-03-19,Q1,Trujillo,Monitor 27 4K,Tecnologia,46,1881.88,0.0,CL-9395,Lucia Romero,Pedido grande
+TX-2026Q1-00700,2026-01-18,Q1,Piura,Mouse Inalambrico,Tecnologia,33,135.05,0.2,CL-2127,Lucia Romero,Compra urgente
+TX-2026Q1-00701,2026-01-23,Q1,Lima,Teclado Mecanico,Tecnologia,23,372.96,0.0,CL-6857,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00702,2026-01-22,Q1,Chiclayo,Silla Ergonomica,Mobiliario,5,916.54,0.15,CL-8505,Carlos Vega,
+TX-2026Q1-00703,2026-03-06,Q1,Lima,Cartucho Tinta Negra,Suministros,9,83.96,0.15,CL-5672,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00704,2026-03-19,Q1,Trujillo,Teclado Mecanico,Tecnologia,45,383.12,0.2,CL-1147,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00705,2026-02-22,Q1,Lima,Laptop Air 13,Tecnologia,46,3381.03,0.1,CL-3147,Ana Torres,Compra urgente
+TX-2026Q1-00706,2026-03-20,Q1,Trujillo,Auriculares BT,Electronica,23,230.85,0.1,CL-6707,Maria Fernandez,Compra urgente
+TX-2026Q1-00707,2026-03-17,Q1,Arequipa,Lampara LED,Mobiliario,42,103.23,0.1,CL-3810,Diego Salazar,
+TX-2026Q1-00708,2026-01-13,Q1,Piura,Laptop Pro 15,Tecnologia,4,4640.13,0.15,CL-8293,Carlos Vega,Pedido grande
+TX-2026Q1-00709,2026-02-05,Q1,Chiclayo,Monitor 27 4K,Tecnologia,14,1827.18,0.0,CL-2700,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00710,2026-02-02,Q1,Lima,Silla Ergonomica,Mobiliario,26,922.59,0.15,CL-4248,Jose Luis Quispe,
+TX-2026Q1-00711,2026-01-22,Q1,Lima,Escritorio Ajustable,Mobiliario,16,1314.67,0.15,CL-8676,Maria Fernandez,
+TX-2026Q1-00712,2026-01-02,Q1,Cusco,Silla Ergonomica,Mobiliario,47,868.56,0.15,CL-4281,Jose Luis Quispe,
+TX-2026Q1-00713,2026-03-22,Q1,Trujillo,Teclado Mecanico,Tecnologia,26,373.01,0.15,CL-9873,Ana Torres,
+TX-2026Q1-00714,2026-01-22,Q1,Lima,Webcam HD,Electronica,38,192.05,0.1,CL-4170,Lucia Romero,Primera compra del ano
+TX-2026Q1-00715,2026-01-19,Q1,Arequipa,Lampara LED,Mobiliario,41,100.05,0.1,CL-7319,Carlos Vega,Pedido grande
+TX-2026Q1-00716,2026-02-01,Q1,Lima,Auriculares BT,Electronica,17,239.18,0.05,CL-4498,Carlos Vega,Pedido grande
+TX-2026Q1-00717,2026-02-24,Q1,Lima,Monitor 27 4K,Tecnologia,11,1829.6,0.2,CL-1524,Carlos Vega,
+TX-2026Q1-00718,2026-01-28,Q1,Piura,Cartucho Tinta Negra,Suministros,20,83.76,0.15,CL-8744,Lucia Romero,
+TX-2026Q1-00719,2026-01-23,Q1,Lima,Laptop Air 13,Tecnologia,32,3513.78,0.1,CL-1467,Ana Torres,
+TX-2026Q1-00720,2026-01-11,Q1,Arequipa,Teclado Mecanico,Tecnologia,12,385.73,0.0,CL-6704,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00721,2026-02-16,Q1,Chiclayo,Laptop Air 13,Tecnologia,44,3557.92,0.15,CL-3958,Jose Luis Quispe,
+TX-2026Q1-00722,2026-03-27,Q1,Lima,Cartucho Tinta Negra,Suministros,9,76.8,0.2,CL-8618,Carlos Vega,
+TX-2026Q1-00723,2026-01-24,Q1,Piura,Monitor 27 4K,Tecnologia,6,1986.92,0.0,CL-5749,Lucia Romero,
+TX-2026Q1-00724,2026-02-02,Q1,Arequipa,Silla Ergonomica,Mobiliario,22,911.36,0.1,CL-3073,Lucia Romero,Pedido grande
+TX-2026Q1-00725,2026-03-29,Q1,Cusco,Lampara LED,Mobiliario,24,100.41,0.05,CL-4552,Diego Salazar,
+TX-2026Q1-00726,2026-02-12,Q1,Cusco,Teclado Mecanico,Tecnologia,17,363.72,0.1,CL-1596,Diego Salazar,Pedido grande
+TX-2026Q1-00727,2026-03-13,Q1,Arequipa,Laptop Pro 15,Tecnologia,19,4593.48,0.15,CL-6969,Maria Fernandez,
+TX-2026Q1-00728,2026-03-04,Q1,Trujillo,Lampara LED,Mobiliario,30,101.08,0.1,CL-4969,Diego Salazar,Compra urgente
+TX-2026Q1-00729,2026-02-02,Q1,Cusco,Laptop Pro 15,Tecnologia,48,4876.63,0.15,CL-1713,Diego Salazar,Pedido grande
+TX-2026Q1-00730,2026-03-15,Q1,Trujillo,Auriculares BT,Electronica,13,241.67,0.1,CL-1749,Diego Salazar,Pedido grande
+TX-2026Q1-00731,2026-03-30,Q1,Trujillo,Laptop Air 13,Tecnologia,13,3544.39,0.1,CL-6044,Carlos Vega,Compra urgente
+TX-2026Q1-00732,2026-03-22,Q1,Piura,Escritorio Ajustable,Mobiliario,5,1351.74,0.0,CL-9345,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00733,2026-01-30,Q1,Cusco,Silla Ergonomica,Mobiliario,16,940.54,0.0,CL-3457,Lucia Romero,Pedido grande
+TX-2026Q1-00734,2026-02-22,Q1,Trujillo,Cartucho Tinta Negra,Suministros,23,77.58,0.1,CL-1341,Diego Salazar,
+TX-2026Q1-00735,2026-01-15,Q1,Trujillo,Resma Papel A4,Suministros,20,29.01,0.0,CL-3445,Diego Salazar,Primera compra del ano
+TX-2026Q1-00736,2026-03-21,Q1,Trujillo,Escritorio Ajustable,Mobiliario,5,1272.43,0.0,CL-7505,Maria Fernandez,Compra urgente
+TX-2026Q1-00737,2026-03-22,Q1,Cusco,Mouse Inalambrico,Tecnologia,16,130.92,0.0,CL-2023,Lucia Romero,Primera compra del ano
+TX-2026Q1-00738,2026-02-19,Q1,Piura,Monitor 27 4K,Tecnologia,37,1805.32,0.05,CL-4694,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00739,2026-01-29,Q1,Trujillo,Webcam HD,Electronica,43,191.84,0.0,CL-8769,Maria Fernandez,Pedido grande
+TX-2026Q1-00740,2026-03-13,Q1,Trujillo,Cartucho Tinta Negra,Suministros,13,76.64,0.15,CL-9773,Maria Fernandez,
+TX-2026Q1-00741,2026-01-27,Q1,Arequipa,Cartucho Tinta Negra,Suministros,1,80.08,0.15,CL-3104,Lucia Romero,
+TX-2026Q1-00742,2026-01-22,Q1,Trujillo,Webcam HD,Electronica,12,200.85,0.2,CL-8434,Lucia Romero,
+TX-2026Q1-00743,2026-02-07,Q1,Piura,Escritorio Ajustable,Mobiliario,22,1261.42,0.1,CL-7121,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00744,2026-03-09,Q1,Trujillo,Escritorio Ajustable,Mobiliario,46,1358.56,0.0,CL-2936,Carlos Vega,Pedido grande
+TX-2026Q1-00745,2026-03-17,Q1,Lima,Monitor 27 4K,Tecnologia,39,1907.26,0.05,CL-9312,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00746,2026-01-24,Q1,Chiclayo,Laptop Pro 15,Tecnologia,23,4660.54,0.2,CL-5580,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00747,2026-02-04,Q1,Cusco,Teclado Mecanico,Tecnologia,27,365.87,0.2,CL-8732,Maria Fernandez,Compra urgente
+TX-2026Q1-00748,2026-02-21,Q1,Arequipa,Lampara LED,Mobiliario,13,103.88,0.15,CL-7723,Jose Luis Quispe,
+TX-2026Q1-00749,2026-02-13,Q1,Lima,Laptop Air 13,Tecnologia,35,3521.96,0.1,CL-1186,Diego Salazar,Compra urgente
+TX-2026Q1-00750,2026-03-26,Q1,Lima,Laptop Pro 15,Tecnologia,27,4659.18,0.05,CL-5063,Ana Torres,Solicita factura electronica
+TX-2026Q1-00751,2026-01-06,Q1,Piura,Escritorio Ajustable,Mobiliario,9,1269.16,0.1,CL-8251,Maria Fernandez,Pedido grande
+TX-2026Q1-00752,2026-02-25,Q1,Arequipa,Laptop Pro 15,Tecnologia,38,5018.29,0.0,CL-7314,Lucia Romero,Primera compra del ano
+TX-2026Q1-00753,2026-01-14,Q1,Cusco,Laptop Pro 15,Tecnologia,10,4864.28,0.2,CL-3513,Jose Luis Quispe,
+TX-2026Q1-00754,2026-01-07,Q1,Trujillo,Resma Papel A4,Suministros,48,31.1,0.0,CL-2821,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00755,2026-03-08,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,6,1328.3,0.15,CL-6701,Jose Luis Quispe,
+TX-2026Q1-00756,2026-03-22,Q1,Lima,Mouse Inalambrico,Tecnologia,29,131.49,0.05,CL-8223,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00757,2026-02-11,Q1,Arequipa,Monitor 27 4K,Tecnologia,47,1981.01,0.1,CL-4326,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00758,2026-02-16,Q1,Lima,Mouse Inalambrico,Tecnologia,1,132.98,0.0,CL-7483,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00759,2026-01-18,Q1,Arequipa,Silla Ergonomica,Mobiliario,23,856.99,0.1,CL-8756,Lucia Romero,Pedido grande
+TX-2026Q1-00760,2026-01-08,Q1,Chiclayo,Lampara LED,Mobiliario,7,104.71,0.15,CL-4674,Carlos Vega,Compra urgente
+TX-2026Q1-00761,2026-02-09,Q1,Lima,Laptop Pro 15,Tecnologia,9,4723.9,0.05,CL-4832,Diego Salazar,
+TX-2026Q1-00762,2026-02-03,Q1,Arequipa,Laptop Pro 15,Tecnologia,49,4748.62,0.0,CL-7260,Diego Salazar,Compra urgente
+TX-2026Q1-00763,2026-03-15,Q1,Cusco,Teclado Mecanico,Tecnologia,47,367.0,0.05,CL-1073,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00764,2026-03-07,Q1,Lima,Webcam HD,Electronica,7,200.82,0.0,CL-5846,Jose Luis Quispe,
+TX-2026Q1-00765,2026-01-02,Q1,Lima,Auriculares BT,Electronica,48,238.15,0.1,CL-1595,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00766,2026-01-09,Q1,Lima,Laptop Air 13,Tecnologia,19,3541.55,0.1,CL-6492,Carlos Vega,
+TX-2026Q1-00767,2026-03-16,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,40,78.63,0.0,CL-7203,Jose Luis Quispe,
+TX-2026Q1-00768,2026-03-02,Q1,Lima,Cartucho Tinta Negra,Suministros,13,77.48,0.2,CL-6525,Diego Salazar,Pedido grande
+TX-2026Q1-00769,2026-02-08,Q1,Piura,Escritorio Ajustable,Mobiliario,34,1352.97,0.0,CL-5565,Lucia Romero,
+TX-2026Q1-00770,2026-03-31,Q1,Cusco,Auriculares BT,Electronica,17,236.25,0.05,CL-3829,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00771,2026-01-06,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,46,81.41,0.0,CL-1493,Ana Torres,
+TX-2026Q1-00772,2026-01-18,Q1,Chiclayo,Lampara LED,Mobiliario,33,104.66,0.1,CL-6702,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00773,2026-02-17,Q1,Cusco,Monitor 27 4K,Tecnologia,9,1891.88,0.2,CL-4999,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00774,2026-02-27,Q1,Cusco,Lampara LED,Mobiliario,29,99.03,0.15,CL-8851,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00775,2026-03-09,Q1,Piura,Auriculares BT,Electronica,22,231.01,0.15,CL-1602,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00776,2026-03-25,Q1,Lima,Auriculares BT,Electronica,31,250.11,0.05,CL-1919,Carlos Vega,
+TX-2026Q1-00777,2026-02-15,Q1,Cusco,Resma Papel A4,Suministros,7,31.23,0.1,CL-2320,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00778,2026-03-15,Q1,Cusco,Laptop Air 13,Tecnologia,24,3333.31,0.15,CL-4807,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00779,2026-02-23,Q1,Cusco,Teclado Mecanico,Tecnologia,34,385.51,0.2,CL-6608,Carlos Vega,Primera compra del ano
+TX-2026Q1-00780,2026-01-22,Q1,Arequipa,Lampara LED,Mobiliario,1,97.6,0.1,CL-6742,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00781,2026-01-06,Q1,Piura,Cartucho Tinta Negra,Suministros,15,83.78,0.2,CL-4806,Ana Torres,
+TX-2026Q1-00782,2026-03-01,Q1,Piura,Mouse Inalambrico,Tecnologia,39,133.6,0.2,CL-5370,Lucia Romero,Pedido grande
+TX-2026Q1-00783,2026-03-04,Q1,Trujillo,Escritorio Ajustable,Mobiliario,38,1274.13,0.0,CL-2862,Diego Salazar,
+TX-2026Q1-00784,2026-03-20,Q1,Cusco,Resma Papel A4,Suministros,32,31.14,0.05,CL-1187,Lucia Romero,
+TX-2026Q1-00785,2026-02-27,Q1,Cusco,Resma Papel A4,Suministros,32,29.7,0.1,CL-2677,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00786,2026-03-03,Q1,Cusco,Escritorio Ajustable,Mobiliario,48,1241.29,0.15,CL-7080,Ana Torres,
+TX-2026Q1-00787,2026-02-09,Q1,Cusco,Cartucho Tinta Negra,Suministros,9,77.09,0.1,CL-9655,Diego Salazar,
+TX-2026Q1-00788,2026-01-16,Q1,Trujillo,Escritorio Ajustable,Mobiliario,1,1250.53,0.2,CL-8497,Diego Salazar,
+TX-2026Q1-00789,2026-01-15,Q1,Trujillo,Silla Ergonomica,Mobiliario,13,879.46,0.15,CL-2611,Ana Torres,Solicita factura electronica
+TX-2026Q1-00790,2026-03-16,Q1,Chiclayo,Auriculares BT,Electronica,11,245.86,0.05,CL-2263,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00791,2026-01-19,Q1,Cusco,Laptop Air 13,Tecnologia,40,3318.92,0.2,CL-5751,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00792,2026-03-17,Q1,Piura,Monitor 27 4K,Tecnologia,19,1863.07,0.05,CL-3922,Lucia Romero,
+TX-2026Q1-00793,2026-03-20,Q1,Chiclayo,Silla Ergonomica,Mobiliario,5,907.06,0.05,CL-6491,Lucia Romero,Primera compra del ano
+TX-2026Q1-00794,2026-03-20,Q1,Lima,Cartucho Tinta Negra,Suministros,2,82.01,0.15,CL-7165,Lucia Romero,Primera compra del ano
+TX-2026Q1-00795,2026-01-10,Q1,Piura,Lampara LED,Mobiliario,17,100.21,0.1,CL-4190,Carlos Vega,Pedido grande
+TX-2026Q1-00796,2026-01-11,Q1,Piura,Laptop Air 13,Tecnologia,10,3562.09,0.1,CL-2012,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00797,2026-02-19,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,1,76.24,0.2,CL-3178,Jose Luis Quispe,
+TX-2026Q1-00798,2026-02-04,Q1,Lima,Lampara LED,Mobiliario,33,99.61,0.0,CL-3866,Lucia Romero,Compra urgente
+TX-2026Q1-00799,2026-03-03,Q1,Lima,Silla Ergonomica,Mobiliario,10,893.14,0.1,CL-1729,Ana Torres,
+TX-2026Q1-00800,2026-02-17,Q1,Piura,Monitor 27 4K,Tecnologia,34,1881.35,0.15,CL-8546,Carlos Vega,
+TX-2026Q1-00801,2026-01-11,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,28,79.26,0.1,CL-5990,Maria Fernandez,
+TX-2026Q1-00802,2026-01-12,Q1,Chiclayo,Monitor 27 4K,Tecnologia,13,1842.44,0.1,CL-9635,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00803,2026-01-12,Q1,Arequipa,Silla Ergonomica,Mobiliario,23,932.58,0.15,CL-8873,Carlos Vega,
+TX-2026Q1-00804,2026-02-05,Q1,Piura,Webcam HD,Electronica,18,202.36,0.1,CL-3075,Ana Torres,Pedido grande
+TX-2026Q1-00805,2026-03-27,Q1,Trujillo,Mouse Inalambrico,Tecnologia,42,127.81,0.05,CL-2474,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00806,2026-03-24,Q1,Arequipa,Escritorio Ajustable,Mobiliario,27,1340.11,0.15,CL-8718,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00807,2026-03-17,Q1,Piura,Resma Papel A4,Suministros,24,29.82,0.1,CL-9909,Diego Salazar,
+TX-2026Q1-00808,2026-03-09,Q1,Chiclayo,Auriculares BT,Electronica,48,243.16,0.0,CL-8115,Carlos Vega,Pedido grande
+TX-2026Q1-00809,2026-03-10,Q1,Arequipa,Lampara LED,Mobiliario,5,102.11,0.15,CL-5195,Jose Luis Quispe,
+TX-2026Q1-00810,2026-01-06,Q1,Trujillo,Resma Papel A4,Suministros,23,30.8,0.05,CL-7808,Lucia Romero,
+TX-2026Q1-00811,2026-03-05,Q1,Arequipa,Silla Ergonomica,Mobiliario,7,883.67,0.05,CL-1476,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00812,2026-03-08,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,10,78.03,0.0,CL-7325,Diego Salazar,
+TX-2026Q1-00813,2026-03-20,Q1,Chiclayo,Auriculares BT,Electronica,4,244.25,0.1,CL-2165,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00814,2026-02-18,Q1,Arequipa,Lampara LED,Mobiliario,45,102.26,0.0,CL-3223,Diego Salazar,
+TX-2026Q1-00815,2026-02-20,Q1,Chiclayo,Teclado Mecanico,Tecnologia,7,372.23,0.05,CL-2473,Lucia Romero,
+TX-2026Q1-00816,2026-03-29,Q1,Cusco,Mouse Inalambrico,Tecnologia,2,128.22,0.0,CL-4068,Carlos Vega,Primera compra del ano
+TX-2026Q1-00817,2026-03-01,Q1,Piura,Webcam HD,Electronica,10,199.5,0.15,CL-7652,Lucia Romero,Pedido grande
+TX-2026Q1-00818,2026-03-04,Q1,Trujillo,Teclado Mecanico,Tecnologia,16,368.2,0.2,CL-6553,Lucia Romero,Primera compra del ano
+TX-2026Q1-00819,2026-02-13,Q1,Cusco,Teclado Mecanico,Tecnologia,15,397.46,0.1,CL-1662,Lucia Romero,
+TX-2026Q1-00820,2026-03-31,Q1,Chiclayo,Silla Ergonomica,Mobiliario,29,907.0,0.15,CL-2046,Ana Torres,Solicita factura electronica
+TX-2026Q1-00821,2026-01-15,Q1,Lima,Auriculares BT,Electronica,47,241.53,0.05,CL-4599,Ana Torres,Compra urgente
+TX-2026Q1-00822,2026-02-05,Q1,Lima,Escritorio Ajustable,Mobiliario,47,1317.08,0.0,CL-5258,Carlos Vega,Compra urgente
+TX-2026Q1-00823,2026-03-13,Q1,Cusco,Webcam HD,Electronica,42,194.53,0.15,CL-8932,Lucia Romero,
+TX-2026Q1-00824,2026-03-12,Q1,Piura,Auriculares BT,Electronica,15,236.75,0.0,CL-7846,Diego Salazar,Pedido grande
+TX-2026Q1-00825,2026-01-28,Q1,Arequipa,Cartucho Tinta Negra,Suministros,25,81.98,0.15,CL-3431,Diego Salazar,Pedido grande
+TX-2026Q1-00826,2026-03-14,Q1,Chiclayo,Auriculares BT,Electronica,47,246.49,0.15,CL-4933,Jose Luis Quispe,Compra urgente
+TX-2026Q1-00827,2026-03-16,Q1,Cusco,Webcam HD,Electronica,39,189.48,0.2,CL-8841,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-00828,2026-01-12,Q1,Cusco,Mouse Inalambrico,Tecnologia,22,125.7,0.2,CL-1145,Lucia Romero,Primera compra del ano
+TX-2026Q1-00829,2026-03-29,Q1,Lima,Laptop Air 13,Tecnologia,13,3495.63,0.0,CL-7794,Maria Fernandez,Compra urgente
+TX-2026Q1-00830,2026-01-18,Q1,Piura,Laptop Pro 15,Tecnologia,38,4889.99,0.15,CL-3719,Diego Salazar,Compra urgente
+TX-2026Q1-00831,2026-03-30,Q1,Trujillo,Lampara LED,Mobiliario,43,103.13,0.0,CL-2065,Lucia Romero,Compra urgente
+TX-2026Q1-00832,2026-02-19,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,30,135.39,0.0,CL-9855,Ana Torres,Primera compra del ano
+TX-2026Q1-00833,2026-01-31,Q1,Arequipa,Mouse Inalambrico,Tecnologia,9,125.96,0.0,CL-9880,Diego Salazar,
+TX-2026Q1-00834,2026-03-15,Q1,Cusco,Escritorio Ajustable,Mobiliario,6,1296.41,0.05,CL-6947,Maria Fernandez,
+TX-2026Q1-00835,2026-03-23,Q1,Trujillo,Laptop Air 13,Tecnologia,32,3362.77,0.05,CL-5482,Carlos Vega,
+TX-2026Q1-00836,2026-01-24,Q1,Arequipa,Escritorio Ajustable,Mobiliario,35,1279.79,0.2,CL-1656,Carlos Vega,
+TX-2026Q1-00837,2026-03-26,Q1,Cusco,Laptop Pro 15,Tecnologia,27,5015.09,0.05,CL-7091,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00838,2026-01-02,Q1,Lima,Laptop Air 13,Tecnologia,14,3472.14,0.0,CL-1557,Carlos Vega,
+TX-2026Q1-00839,2026-01-21,Q1,Piura,Laptop Pro 15,Tecnologia,28,4900.97,0.1,CL-3849,Jose Luis Quispe,
+TX-2026Q1-00840,2026-01-28,Q1,Lima,Auriculares BT,Electronica,47,235.09,0.1,CL-3247,Maria Fernandez,
+TX-2026Q1-00841,2026-02-25,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,39,79.1,0.1,CL-8572,Maria Fernandez,
+TX-2026Q1-00842,2026-02-02,Q1,Lima,Lampara LED,Mobiliario,23,95.97,0.15,CL-9196,Lucia Romero,
+TX-2026Q1-00843,2026-01-18,Q1,Lima,Cartucho Tinta Negra,Suministros,36,82.73,0.0,CL-2898,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00844,2026-02-24,Q1,Trujillo,Auriculares BT,Electronica,15,236.32,0.0,CL-3347,Carlos Vega,Primera compra del ano
+TX-2026Q1-00845,2026-01-15,Q1,Chiclayo,Webcam HD,Electronica,7,189.96,0.0,CL-3294,Ana Torres,Pedido grande
+TX-2026Q1-00846,2026-01-17,Q1,Arequipa,Escritorio Ajustable,Mobiliario,24,1359.17,0.1,CL-8901,Carlos Vega,
+TX-2026Q1-00847,2026-02-16,Q1,Piura,Mouse Inalambrico,Tecnologia,14,132.68,0.15,CL-6660,Diego Salazar,
+TX-2026Q1-00848,2026-01-24,Q1,Lima,Cartucho Tinta Negra,Suministros,16,77.22,0.0,CL-2168,Carlos Vega,
+TX-2026Q1-00849,2026-02-26,Q1,Trujillo,Silla Ergonomica,Mobiliario,8,919.39,0.05,CL-8313,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00850,2026-02-25,Q1,Trujillo,Laptop Air 13,Tecnologia,25,3272.44,0.05,CL-2202,Ana Torres,Compra urgente
+TX-2026Q1-00851,2026-02-10,Q1,Chiclayo,Resma Papel A4,Suministros,18,28.82,0.15,CL-8499,Jose Luis Quispe,
+TX-2026Q1-00852,2026-01-12,Q1,Trujillo,Mouse Inalambrico,Tecnologia,24,132.47,0.15,CL-4486,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00853,2026-02-11,Q1,Piura,Laptop Pro 15,Tecnologia,19,4659.78,0.05,CL-4422,Ana Torres,Primera compra del ano
+TX-2026Q1-00854,2026-02-07,Q1,Trujillo,Laptop Pro 15,Tecnologia,21,4982.44,0.0,CL-3726,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00855,2026-01-05,Q1,Cusco,Resma Papel A4,Suministros,36,30.48,0.05,CL-9850,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00856,2026-02-08,Q1,Cusco,Escritorio Ajustable,Mobiliario,42,1344.66,0.0,CL-9711,Jose Luis Quispe,
+TX-2026Q1-00857,2026-02-08,Q1,Arequipa,Laptop Pro 15,Tecnologia,48,4989.18,0.2,CL-7025,Diego Salazar,Compra urgente
+TX-2026Q1-00858,2026-01-12,Q1,Chiclayo,Lampara LED,Mobiliario,13,100.03,0.0,CL-2597,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00859,2026-01-06,Q1,Arequipa,Cartucho Tinta Negra,Suministros,44,79.27,0.0,CL-1199,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00860,2026-01-14,Q1,Cusco,Teclado Mecanico,Tecnologia,39,397.76,0.2,CL-4199,Diego Salazar,
+TX-2026Q1-00861,2026-01-09,Q1,Trujillo,Silla Ergonomica,Mobiliario,10,874.33,0.15,CL-4175,Ana Torres,
+TX-2026Q1-00862,2026-02-05,Q1,Piura,Mouse Inalambrico,Tecnologia,13,124.54,0.2,CL-8770,Diego Salazar,Primera compra del ano
+TX-2026Q1-00863,2026-02-21,Q1,Chiclayo,Laptop Air 13,Tecnologia,30,3408.28,0.0,CL-6278,Diego Salazar,
+TX-2026Q1-00864,2026-03-08,Q1,Piura,Silla Ergonomica,Mobiliario,28,942.08,0.1,CL-2829,Lucia Romero,Compra urgente
+TX-2026Q1-00865,2026-01-10,Q1,Cusco,Auriculares BT,Electronica,33,231.48,0.1,CL-4221,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00866,2026-02-27,Q1,Chiclayo,Monitor 27 4K,Tecnologia,23,1921.12,0.15,CL-7893,Carlos Vega,
+TX-2026Q1-00867,2026-03-21,Q1,Piura,Mouse Inalambrico,Tecnologia,26,127.07,0.1,CL-7674,Carlos Vega,Pedido grande
+TX-2026Q1-00868,2026-03-13,Q1,Piura,Cartucho Tinta Negra,Suministros,1,80.82,0.15,CL-7628,Ana Torres,Primera compra del ano
+TX-2026Q1-00869,2026-01-29,Q1,Chiclayo,Laptop Air 13,Tecnologia,32,3327.67,0.1,CL-7156,Diego Salazar,Pedido grande
+TX-2026Q1-00870,2026-02-28,Q1,Trujillo,Silla Ergonomica,Mobiliario,10,857.91,0.15,CL-7393,Ana Torres,Primera compra del ano
+TX-2026Q1-00871,2026-02-06,Q1,Piura,Laptop Pro 15,Tecnologia,31,4889.65,0.0,CL-9520,Maria Fernandez,
+TX-2026Q1-00872,2026-01-05,Q1,Piura,Teclado Mecanico,Tecnologia,2,366.11,0.0,CL-6210,Ana Torres,Primera compra del ano
+TX-2026Q1-00873,2026-03-25,Q1,Cusco,Escritorio Ajustable,Mobiliario,6,1360.53,0.05,CL-8561,Maria Fernandez,Pedido grande
+TX-2026Q1-00874,2026-03-14,Q1,Lima,Cartucho Tinta Negra,Suministros,41,76.57,0.2,CL-6691,Ana Torres,Compra urgente
+TX-2026Q1-00875,2026-01-11,Q1,Arequipa,Monitor 27 4K,Tecnologia,44,1853.79,0.1,CL-7236,Diego Salazar,Primera compra del ano
+TX-2026Q1-00876,2026-01-27,Q1,Lima,Auriculares BT,Electronica,11,240.13,0.2,CL-4894,Jose Luis Quispe,
+TX-2026Q1-00877,2026-03-07,Q1,Cusco,Cartucho Tinta Negra,Suministros,46,76.88,0.1,CL-1573,Diego Salazar,Primera compra del ano
+TX-2026Q1-00878,2026-02-07,Q1,Trujillo,Resma Papel A4,Suministros,43,29.8,0.15,CL-9890,Diego Salazar,
+TX-2026Q1-00879,2026-01-03,Q1,Trujillo,Auriculares BT,Electronica,1,250.25,0.1,CL-7166,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00880,2026-01-21,Q1,Piura,Mouse Inalambrico,Tecnologia,38,125.07,0.05,CL-9685,Carlos Vega,
+TX-2026Q1-00881,2026-02-22,Q1,Lima,Laptop Pro 15,Tecnologia,30,4598.83,0.15,CL-6271,Diego Salazar,
+TX-2026Q1-00882,2026-03-07,Q1,Piura,Lampara LED,Mobiliario,40,96.46,0.15,CL-2563,Ana Torres,Compra urgente
+TX-2026Q1-00883,2026-03-30,Q1,Trujillo,Silla Ergonomica,Mobiliario,44,891.06,0.05,CL-6902,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00884,2026-03-14,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,33,129.39,0.05,CL-8742,Diego Salazar,
+TX-2026Q1-00885,2026-01-29,Q1,Cusco,Webcam HD,Electronica,7,199.19,0.15,CL-5456,Jose Luis Quispe,
+TX-2026Q1-00886,2026-03-19,Q1,Cusco,Lampara LED,Mobiliario,31,99.71,0.2,CL-1707,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00887,2026-02-13,Q1,Chiclayo,Resma Papel A4,Suministros,38,28.92,0.15,CL-5496,Lucia Romero,Compra urgente
+TX-2026Q1-00888,2026-01-24,Q1,Arequipa,Teclado Mecanico,Tecnologia,12,382.21,0.05,CL-8853,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-00889,2026-01-06,Q1,Trujillo,Escritorio Ajustable,Mobiliario,13,1257.56,0.0,CL-4837,Jose Luis Quispe,
+TX-2026Q1-00890,2026-02-25,Q1,Chiclayo,Monitor 27 4K,Tecnologia,5,1985.83,0.2,CL-1583,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00891,2026-01-14,Q1,Lima,Laptop Air 13,Tecnologia,5,3550.32,0.2,CL-5269,Diego Salazar,Compra urgente
+TX-2026Q1-00892,2026-01-30,Q1,Lima,Escritorio Ajustable,Mobiliario,43,1255.81,0.05,CL-5680,Ana Torres,
+TX-2026Q1-00893,2026-01-03,Q1,Trujillo,Monitor 27 4K,Tecnologia,32,1939.78,0.05,CL-7082,Carlos Vega,
+TX-2026Q1-00894,2026-03-15,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,31,132.13,0.2,CL-3333,Ana Torres,
+TX-2026Q1-00895,2026-02-15,Q1,Trujillo,Laptop Air 13,Tecnologia,28,3514.09,0.15,CL-1349,Jose Luis Quispe,
+TX-2026Q1-00896,2026-01-12,Q1,Trujillo,Laptop Air 13,Tecnologia,49,3249.27,0.05,CL-9250,Diego Salazar,Compra urgente
+TX-2026Q1-00897,2026-03-15,Q1,Trujillo,Resma Papel A4,Suministros,21,31.3,0.1,CL-6163,Carlos Vega,Compra urgente
+TX-2026Q1-00898,2026-03-12,Q1,Arequipa,Mouse Inalambrico,Tecnologia,9,131.91,0.2,CL-8157,Ana Torres,Primera compra del ano
+TX-2026Q1-00899,2026-02-25,Q1,Cusco,Lampara LED,Mobiliario,3,97.62,0.2,CL-6125,Diego Salazar,Compra urgente
+TX-2026Q1-00900,2026-02-20,Q1,Chiclayo,Lampara LED,Mobiliario,21,98.77,0.2,CL-8996,Ana Torres,Pedido grande
+TX-2026Q1-00901,2026-01-16,Q1,Arequipa,Lampara LED,Mobiliario,14,104.54,0.05,CL-2786,Ana Torres,Compra urgente
+TX-2026Q1-00902,2026-01-19,Q1,Trujillo,Auriculares BT,Electronica,35,249.69,0.05,CL-1126,Carlos Vega,
+TX-2026Q1-00903,2026-03-04,Q1,Cusco,Monitor 27 4K,Tecnologia,32,1843.21,0.15,CL-3406,Carlos Vega,
+TX-2026Q1-00904,2026-01-04,Q1,Chiclayo,Auriculares BT,Electronica,11,239.11,0.05,CL-2064,Lucia Romero,Solicita factura electronica
+TX-2026Q1-00905,2026-03-24,Q1,Trujillo,Laptop Pro 15,Tecnologia,4,4987.18,0.1,CL-7850,Diego Salazar,
+TX-2026Q1-00906,2026-01-09,Q1,Cusco,Auriculares BT,Electronica,1,234.15,0.15,CL-1548,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-00907,2026-02-02,Q1,Cusco,Laptop Pro 15,Tecnologia,6,4645.66,0.05,CL-8324,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00908,2026-03-20,Q1,Piura,Webcam HD,Electronica,47,191.13,0.1,CL-2871,Diego Salazar,Primera compra del ano
+TX-2026Q1-00909,2026-02-25,Q1,Trujillo,Laptop Pro 15,Tecnologia,8,4985.94,0.1,CL-2886,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00910,2026-03-07,Q1,Cusco,Teclado Mecanico,Tecnologia,6,398.19,0.1,CL-9714,Diego Salazar,Pedido grande
+TX-2026Q1-00911,2026-02-03,Q1,Chiclayo,Webcam HD,Electronica,13,193.52,0.1,CL-5005,Jose Luis Quispe,
+TX-2026Q1-00912,2026-03-10,Q1,Chiclayo,Webcam HD,Electronica,15,196.99,0.05,CL-2209,Diego Salazar,
+TX-2026Q1-00913,2026-02-05,Q1,Trujillo,Monitor 27 4K,Tecnologia,23,1812.87,0.1,CL-7364,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00914,2026-02-19,Q1,Trujillo,Silla Ergonomica,Mobiliario,42,923.81,0.1,CL-9291,Carlos Vega,
+TX-2026Q1-00915,2026-02-23,Q1,Arequipa,Resma Papel A4,Suministros,27,30.13,0.2,CL-6175,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00916,2026-02-04,Q1,Piura,Mouse Inalambrico,Tecnologia,30,124.78,0.15,CL-3391,Ana Torres,
+TX-2026Q1-00917,2026-03-13,Q1,Trujillo,Laptop Air 13,Tecnologia,20,3312.54,0.05,CL-7331,Ana Torres,Solicita factura electronica
+TX-2026Q1-00918,2026-02-05,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,34,132.01,0.0,CL-1439,Diego Salazar,Compra urgente
+TX-2026Q1-00919,2026-01-24,Q1,Arequipa,Resma Papel A4,Suministros,31,31.34,0.2,CL-8477,Maria Fernandez,Pedido grande
+TX-2026Q1-00920,2026-01-06,Q1,Arequipa,Webcam HD,Electronica,40,194.18,0.0,CL-1065,Carlos Vega,
+TX-2026Q1-00921,2026-02-04,Q1,Lima,Escritorio Ajustable,Mobiliario,25,1344.66,0.0,CL-2247,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00922,2026-02-24,Q1,Trujillo,Webcam HD,Electronica,7,203.82,0.1,CL-6019,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00923,2026-01-16,Q1,Piura,Resma Papel A4,Suministros,1,28.97,0.15,CL-8191,Diego Salazar,
+TX-2026Q1-00924,2026-03-02,Q1,Lima,Webcam HD,Electronica,22,193.41,0.0,CL-6007,Jose Luis Quispe,
+TX-2026Q1-00925,2026-03-28,Q1,Chiclayo,Resma Papel A4,Suministros,3,29.59,0.1,CL-7383,Maria Fernandez,
+TX-2026Q1-00926,2026-01-10,Q1,Trujillo,Cartucho Tinta Negra,Suministros,18,77.82,0.1,CL-3469,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-00927,2026-01-16,Q1,Trujillo,Auriculares BT,Electronica,15,238.04,0.15,CL-2567,Jose Luis Quispe,
+TX-2026Q1-00928,2026-03-16,Q1,Cusco,Laptop Pro 15,Tecnologia,9,5007.32,0.2,CL-2940,Lucia Romero,Pedido grande
+TX-2026Q1-00929,2026-02-19,Q1,Piura,Resma Papel A4,Suministros,46,28.87,0.05,CL-1633,Maria Fernandez,
+TX-2026Q1-00930,2026-03-03,Q1,Trujillo,Teclado Mecanico,Tecnologia,29,391.12,0.1,CL-2296,Ana Torres,
+TX-2026Q1-00931,2026-02-04,Q1,Arequipa,Monitor 27 4K,Tecnologia,12,1918.13,0.05,CL-2713,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00932,2026-03-27,Q1,Piura,Silla Ergonomica,Mobiliario,4,933.96,0.0,CL-9016,Carlos Vega,
+TX-2026Q1-00933,2026-02-06,Q1,Arequipa,Auriculares BT,Electronica,8,237.02,0.2,CL-9871,Carlos Vega,
+TX-2026Q1-00934,2026-03-28,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,4,134.98,0.05,CL-6650,Diego Salazar,
+TX-2026Q1-00935,2026-01-11,Q1,Piura,Lampara LED,Mobiliario,43,103.34,0.0,CL-1553,Jose Luis Quispe,Pedido grande
+TX-2026Q1-00936,2026-03-17,Q1,Trujillo,Teclado Mecanico,Tecnologia,27,389.43,0.0,CL-3080,Maria Fernandez,
+TX-2026Q1-00937,2026-03-15,Q1,Arequipa,Laptop Air 13,Tecnologia,12,3497.85,0.2,CL-9244,Ana Torres,
+TX-2026Q1-00938,2026-02-15,Q1,Piura,Webcam HD,Electronica,44,198.09,0.1,CL-2338,Maria Fernandez,
+TX-2026Q1-00939,2026-03-24,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,12,135.78,0.1,CL-1375,Carlos Vega,
+TX-2026Q1-00940,2026-02-07,Q1,Lima,Mouse Inalambrico,Tecnologia,5,131.82,0.15,CL-7494,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-00941,2026-03-06,Q1,Cusco,Webcam HD,Electronica,30,192.33,0.0,CL-2372,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00942,2026-01-02,Q1,Trujillo,Teclado Mecanico,Tecnologia,33,372.21,0.2,CL-3926,Carlos Vega,
+TX-2026Q1-00943,2026-03-18,Q1,Cusco,Teclado Mecanico,Tecnologia,40,363.78,0.0,CL-3973,Ana Torres,Pedido grande
+TX-2026Q1-00944,2026-02-03,Q1,Cusco,Lampara LED,Mobiliario,16,95.92,0.15,CL-8233,Lucia Romero,Primera compra del ano
+TX-2026Q1-00945,2026-02-17,Q1,Trujillo,Auriculares BT,Electronica,32,238.25,0.2,CL-3533,Jose Luis Quispe,
+TX-2026Q1-00946,2026-01-12,Q1,Trujillo,Teclado Mecanico,Tecnologia,9,396.66,0.1,CL-7699,Maria Fernandez,
+TX-2026Q1-00947,2026-01-18,Q1,Piura,Teclado Mecanico,Tecnologia,5,386.21,0.05,CL-7700,Diego Salazar,Pedido grande
+TX-2026Q1-00948,2026-01-03,Q1,Cusco,Auriculares BT,Electronica,23,247.74,0.2,CL-7060,Carlos Vega,Compra urgente
+TX-2026Q1-00949,2026-03-14,Q1,Arequipa,Resma Papel A4,Suministros,22,30.22,0.15,CL-3203,Jose Luis Quispe,
+TX-2026Q1-00950,2026-02-25,Q1,Cusco,Lampara LED,Mobiliario,38,104.33,0.0,CL-1349,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00951,2026-02-02,Q1,Piura,Resma Papel A4,Suministros,46,30.66,0.0,CL-2471,Maria Fernandez,
+TX-2026Q1-00952,2026-02-23,Q1,Arequipa,Mouse Inalambrico,Tecnologia,30,132.56,0.1,CL-5446,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-00953,2026-02-22,Q1,Lima,Auriculares BT,Electronica,24,242.87,0.05,CL-6077,Ana Torres,
+TX-2026Q1-00954,2026-03-07,Q1,Lima,Laptop Pro 15,Tecnologia,19,4915.82,0.0,CL-7447,Maria Fernandez,
+TX-2026Q1-00955,2026-01-12,Q1,Chiclayo,Silla Ergonomica,Mobiliario,1,911.92,0.0,CL-9325,Ana Torres,Primera compra del ano
+TX-2026Q1-00956,2026-02-23,Q1,Arequipa,Laptop Air 13,Tecnologia,15,3286.17,0.0,CL-8584,Lucia Romero,Primera compra del ano
+TX-2026Q1-00957,2026-02-02,Q1,Piura,Laptop Pro 15,Tecnologia,29,4778.09,0.2,CL-2323,Ana Torres,Primera compra del ano
+TX-2026Q1-00958,2026-02-19,Q1,Piura,Lampara LED,Mobiliario,3,102.6,0.2,CL-9822,Carlos Vega,
+TX-2026Q1-00959,2026-02-15,Q1,Cusco,Mouse Inalambrico,Tecnologia,16,130.99,0.05,CL-6433,Lucia Romero,Compra urgente
+TX-2026Q1-00960,2026-02-21,Q1,Piura,Cartucho Tinta Negra,Suministros,8,79.16,0.0,CL-2636,Diego Salazar,Solicita factura electronica
+TX-2026Q1-00961,2026-02-27,Q1,Chiclayo,Laptop Air 13,Tecnologia,20,3494.15,0.2,CL-6304,Carlos Vega,Compra urgente
+TX-2026Q1-00962,2026-02-08,Q1,Piura,Silla Ergonomica,Mobiliario,38,907.24,0.2,CL-5553,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-00963,2026-03-25,Q1,Cusco,Auriculares BT,Electronica,43,244.92,0.0,CL-6746,Ana Torres,
+TX-2026Q1-00964,2026-03-17,Q1,Piura,Laptop Pro 15,Tecnologia,2,5015.12,0.0,CL-6288,Lucia Romero,
+TX-2026Q1-00965,2026-02-07,Q1,Arequipa,Silla Ergonomica,Mobiliario,8,902.75,0.2,CL-9808,Lucia Romero,
+TX-2026Q1-00966,2026-01-07,Q1,Cusco,Escritorio Ajustable,Mobiliario,49,1292.86,0.0,CL-3953,Jose Luis Quispe,
+TX-2026Q1-00967,2026-03-06,Q1,Piura,Laptop Pro 15,Tecnologia,31,4917.75,0.0,CL-6057,Carlos Vega,
+TX-2026Q1-00968,2026-01-04,Q1,Cusco,Teclado Mecanico,Tecnologia,27,369.12,0.1,CL-2146,Diego Salazar,
+TX-2026Q1-00969,2026-01-04,Q1,Chiclayo,Laptop Pro 15,Tecnologia,43,4770.1,0.1,CL-4414,Maria Fernandez,
+TX-2026Q1-00970,2026-01-03,Q1,Piura,Mouse Inalambrico,Tecnologia,10,124.93,0.1,CL-3773,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-00971,2026-01-01,Q1,Piura,Resma Papel A4,Suministros,23,29.58,0.15,CL-6715,Jose Luis Quispe,
+TX-2026Q1-00972,2026-02-11,Q1,Piura,Escritorio Ajustable,Mobiliario,25,1318.29,0.0,CL-7204,Carlos Vega,Primera compra del ano
+TX-2026Q1-00973,2026-03-08,Q1,Piura,Auriculares BT,Electronica,19,239.69,0.05,CL-3112,Maria Fernandez,
+TX-2026Q1-00974,2026-03-05,Q1,Arequipa,Monitor 27 4K,Tecnologia,24,1811.78,0.15,CL-9411,Lucia Romero,Pedido grande
+TX-2026Q1-00975,2026-02-16,Q1,Cusco,Resma Papel A4,Suministros,49,31.09,0.0,CL-1552,Diego Salazar,Pedido grande
+TX-2026Q1-00976,2026-03-11,Q1,Lima,Laptop Air 13,Tecnologia,40,3365.97,0.05,CL-6904,Jose Luis Quispe,
+TX-2026Q1-00977,2026-01-17,Q1,Cusco,Escritorio Ajustable,Mobiliario,28,1239.24,0.0,CL-8982,Jose Luis Quispe,
+TX-2026Q1-00978,2026-02-20,Q1,Chiclayo,Teclado Mecanico,Tecnologia,24,373.19,0.15,CL-5559,Diego Salazar,
+TX-2026Q1-00979,2026-03-21,Q1,Cusco,Silla Ergonomica,Mobiliario,24,864.31,0.15,CL-9008,Diego Salazar,
+TX-2026Q1-00980,2026-03-15,Q1,Trujillo,Escritorio Ajustable,Mobiliario,22,1277.81,0.2,CL-4804,Diego Salazar,Compra urgente
+TX-2026Q1-00981,2026-02-27,Q1,Chiclayo,Lampara LED,Mobiliario,39,101.69,0.15,CL-5751,Carlos Vega,
+TX-2026Q1-00982,2026-03-15,Q1,Trujillo,Lampara LED,Mobiliario,40,103.09,0.1,CL-7406,Ana Torres,Compra urgente
+TX-2026Q1-00983,2026-02-27,Q1,Cusco,Escritorio Ajustable,Mobiliario,28,1297.42,0.15,CL-7347,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00984,2026-01-18,Q1,Cusco,Resma Papel A4,Suministros,17,30.13,0.2,CL-4283,Maria Fernandez,Primera compra del ano
+TX-2026Q1-00985,2026-01-02,Q1,Chiclayo,Laptop Air 13,Tecnologia,2,3454.38,0.2,CL-6821,Ana Torres,Compra urgente
+TX-2026Q1-00986,2026-01-20,Q1,Arequipa,Auriculares BT,Electronica,21,237.18,0.2,CL-1170,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00987,2026-02-13,Q1,Lima,Teclado Mecanico,Tecnologia,3,363.15,0.1,CL-9290,Lucia Romero,
+TX-2026Q1-00988,2026-03-19,Q1,Trujillo,Laptop Pro 15,Tecnologia,9,4712.98,0.1,CL-6954,Ana Torres,Compra urgente
+TX-2026Q1-00989,2026-02-26,Q1,Piura,Webcam HD,Electronica,1,191.62,0.05,CL-5004,Carlos Vega,
+TX-2026Q1-00990,2026-03-31,Q1,Chiclayo,Lampara LED,Mobiliario,21,96.12,0.05,CL-5158,Maria Fernandez,Compra urgente
+TX-2026Q1-00991,2026-03-10,Q1,Arequipa,Mouse Inalambrico,Tecnologia,15,129.31,0.15,CL-2461,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-00992,2026-01-19,Q1,Piura,Webcam HD,Electronica,11,196.41,0.1,CL-2257,Maria Fernandez,
+TX-2026Q1-00993,2026-02-07,Q1,Piura,Lampara LED,Mobiliario,13,102.85,0.0,CL-1232,Carlos Vega,Compra urgente
+TX-2026Q1-00994,2026-02-24,Q1,Trujillo,Resma Papel A4,Suministros,49,28.62,0.15,CL-5181,Jose Luis Quispe,
+TX-2026Q1-00995,2026-02-17,Q1,Arequipa,Resma Papel A4,Suministros,18,29.95,0.0,CL-7667,Ana Torres,
+TX-2026Q1-00996,2026-01-25,Q1,Cusco,Silla Ergonomica,Mobiliario,45,913.91,0.2,CL-3792,Ana Torres,Compra urgente
+TX-2026Q1-00997,2026-01-13,Q1,Chiclayo,Laptop Pro 15,Tecnologia,40,4665.56,0.0,CL-7503,Ana Torres,Pedido grande
+TX-2026Q1-00998,2026-02-19,Q1,Cusco,Laptop Pro 15,Tecnologia,21,4980.39,0.0,CL-7515,Lucia Romero,Pedido grande
+TX-2026Q1-00999,2026-01-12,Q1,Arequipa,Webcam HD,Electronica,31,188.55,0.15,CL-1099,Jose Luis Quispe,
+TX-2026Q1-01000,2026-03-26,Q1,Cusco,Cartucho Tinta Negra,Suministros,44,77.38,0.0,CL-9483,Carlos Vega,Primera compra del ano
+TX-2026Q1-01001,2026-01-30,Q1,Trujillo,Teclado Mecanico,Tecnologia,20,383.48,0.2,CL-3699,Lucia Romero,
+TX-2026Q1-01002,2026-01-20,Q1,Piura,Resma Papel A4,Suministros,32,29.73,0.2,CL-1251,Diego Salazar,
+TX-2026Q1-01003,2026-01-14,Q1,Arequipa,Teclado Mecanico,Tecnologia,9,363.54,0.05,CL-8911,Carlos Vega,
+TX-2026Q1-01004,2026-01-05,Q1,Piura,Teclado Mecanico,Tecnologia,4,366.23,0.05,CL-2765,Maria Fernandez,Compra urgente
+TX-2026Q1-01005,2026-02-15,Q1,Arequipa,Escritorio Ajustable,Mobiliario,8,1235.59,0.05,CL-4198,Diego Salazar,Pedido grande
+TX-2026Q1-01006,2026-02-22,Q1,Cusco,Teclado Mecanico,Tecnologia,24,391.17,0.05,CL-3772,Ana Torres,
+TX-2026Q1-01007,2026-01-14,Q1,Lima,Monitor 27 4K,Tecnologia,14,1993.25,0.15,CL-5444,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01008,2026-03-17,Q1,Lima,Mouse Inalambrico,Tecnologia,16,129.6,0.15,CL-3681,Ana Torres,
+TX-2026Q1-01009,2026-03-13,Q1,Piura,Cartucho Tinta Negra,Suministros,9,82.67,0.15,CL-4731,Lucia Romero,Primera compra del ano
+TX-2026Q1-01010,2026-02-18,Q1,Piura,Webcam HD,Electronica,8,186.63,0.05,CL-4751,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01011,2026-01-29,Q1,Piura,Laptop Air 13,Tecnologia,2,3448.05,0.15,CL-9250,Ana Torres,Solicita factura electronica
+TX-2026Q1-01012,2026-02-21,Q1,Lima,Monitor 27 4K,Tecnologia,21,1839.74,0.0,CL-4838,Ana Torres,Solicita factura electronica
+TX-2026Q1-01013,2026-02-02,Q1,Arequipa,Silla Ergonomica,Mobiliario,14,938.67,0.1,CL-7457,Maria Fernandez,
+TX-2026Q1-01014,2026-02-25,Q1,Arequipa,Escritorio Ajustable,Mobiliario,10,1294.88,0.0,CL-8391,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-01015,2026-02-06,Q1,Trujillo,Auriculares BT,Electronica,7,240.91,0.0,CL-1313,Carlos Vega,
+TX-2026Q1-01016,2026-02-13,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,4,80.01,0.0,CL-1533,Lucia Romero,Compra urgente
+TX-2026Q1-01017,2026-01-08,Q1,Chiclayo,Resma Papel A4,Suministros,35,31.42,0.0,CL-9246,Jose Luis Quispe,
+TX-2026Q1-01018,2026-01-07,Q1,Chiclayo,Resma Papel A4,Suministros,39,30.61,0.05,CL-8344,Carlos Vega,
+TX-2026Q1-01019,2026-02-15,Q1,Cusco,Silla Ergonomica,Mobiliario,37,906.6,0.1,CL-4347,Lucia Romero,
+TX-2026Q1-01020,2026-02-14,Q1,Chiclayo,Silla Ergonomica,Mobiliario,16,889.72,0.05,CL-7287,Diego Salazar,Primera compra del ano
+TX-2026Q1-01021,2026-01-02,Q1,Lima,Cartucho Tinta Negra,Suministros,20,77.37,0.05,CL-6476,Diego Salazar,Primera compra del ano
+TX-2026Q1-01022,2026-02-23,Q1,Chiclayo,Teclado Mecanico,Tecnologia,30,367.88,0.0,CL-9633,Jose Luis Quispe,Pedido grande
+TX-2026Q1-01023,2026-02-15,Q1,Chiclayo,Teclado Mecanico,Tecnologia,43,371.4,0.0,CL-5212,Diego Salazar,
+TX-2026Q1-01024,2026-01-06,Q1,Trujillo,Mouse Inalambrico,Tecnologia,15,125.26,0.05,CL-2588,Jose Luis Quispe,Pedido grande
+TX-2026Q1-01025,2026-03-22,Q1,Arequipa,Laptop Pro 15,Tecnologia,8,4999.56,0.1,CL-7357,Carlos Vega,Compra urgente
+TX-2026Q1-01026,2026-03-02,Q1,Trujillo,Teclado Mecanico,Tecnologia,5,365.97,0.1,CL-1275,Ana Torres,
+TX-2026Q1-01027,2026-03-25,Q1,Lima,Mouse Inalambrico,Tecnologia,10,135.26,0.1,CL-3291,Ana Torres,
+TX-2026Q1-01028,2026-03-12,Q1,Piura,Resma Papel A4,Suministros,49,28.69,0.15,CL-8229,Maria Fernandez,Pedido grande
+TX-2026Q1-01029,2026-02-14,Q1,Cusco,Teclado Mecanico,Tecnologia,18,376.33,0.05,CL-7132,Ana Torres,
+TX-2026Q1-01030,2026-03-26,Q1,Arequipa,Laptop Air 13,Tecnologia,35,3297.63,0.15,CL-1810,Diego Salazar,Solicita factura electronica
+TX-2026Q1-01031,2026-03-31,Q1,Arequipa,Webcam HD,Electronica,31,199.26,0.15,CL-9539,Jose Luis Quispe,
+TX-2026Q1-01032,2026-03-06,Q1,Chiclayo,Auriculares BT,Electronica,37,236.71,0.2,CL-2364,Jose Luis Quispe,
+TX-2026Q1-01033,2026-02-03,Q1,Chiclayo,Silla Ergonomica,Mobiliario,2,939.51,0.05,CL-6678,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-01034,2026-03-23,Q1,Piura,Laptop Air 13,Tecnologia,13,3264.23,0.05,CL-3565,Lucia Romero,
+TX-2026Q1-01035,2026-02-19,Q1,Piura,Laptop Air 13,Tecnologia,38,3374.92,0.2,CL-3615,Ana Torres,Solicita factura electronica
+TX-2026Q1-01036,2026-03-18,Q1,Trujillo,Resma Papel A4,Suministros,29,30.19,0.1,CL-8696,Ana Torres,Compra urgente
+TX-2026Q1-01037,2026-01-06,Q1,Cusco,Webcam HD,Electronica,27,199.25,0.1,CL-2247,Ana Torres,
+TX-2026Q1-01038,2026-03-04,Q1,Cusco,Monitor 27 4K,Tecnologia,31,1841.13,0.1,CL-9588,Carlos Vega,Solicita factura electronica
+TX-2026Q1-01039,2026-01-04,Q1,Arequipa,Cartucho Tinta Negra,Suministros,43,76.23,0.1,CL-1309,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-01040,2026-01-30,Q1,Cusco,Mouse Inalambrico,Tecnologia,36,132.46,0.05,CL-5880,Lucia Romero,Pedido grande
+TX-2026Q1-01041,2026-02-14,Q1,Chiclayo,Auriculares BT,Electronica,25,235.03,0.0,CL-3426,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-01042,2026-01-06,Q1,Trujillo,Laptop Pro 15,Tecnologia,33,4618.8,0.1,CL-7344,Lucia Romero,Compra urgente
+TX-2026Q1-01043,2026-02-04,Q1,Chiclayo,Auriculares BT,Electronica,20,243.23,0.2,CL-4703,Lucia Romero,
+TX-2026Q1-01044,2026-03-29,Q1,Lima,Teclado Mecanico,Tecnologia,20,385.87,0.05,CL-8112,Carlos Vega,
+TX-2026Q1-01045,2026-01-01,Q1,Cusco,Silla Ergonomica,Mobiliario,14,934.89,0.0,CL-9573,Jose Luis Quispe,
+TX-2026Q1-01046,2026-02-26,Q1,Piura,Auriculares BT,Electronica,27,250.54,0.15,CL-5285,Carlos Vega,Primera compra del ano
+TX-2026Q1-01047,2026-02-08,Q1,Trujillo,Escritorio Ajustable,Mobiliario,45,1238.7,0.2,CL-3616,Maria Fernandez,
+TX-2026Q1-01048,2026-03-27,Q1,Arequipa,Monitor 27 4K,Tecnologia,36,1876.36,0.0,CL-4224,Jose Luis Quispe,
+TX-2026Q1-01049,2026-03-05,Q1,Arequipa,Mouse Inalambrico,Tecnologia,27,124.35,0.0,CL-8370,Diego Salazar,
+TX-2026Q1-01050,2026-01-15,Q1,Arequipa,Mouse Inalambrico,Tecnologia,22,124.8,0.0,CL-6251,Diego Salazar,
+TX-2026Q1-01051,2026-03-06,Q1,Cusco,Auriculares BT,Electronica,16,248.64,0.0,CL-3372,Carlos Vega,
+TX-2026Q1-01052,2026-01-21,Q1,Piura,Lampara LED,Mobiliario,49,98.28,0.05,CL-7445,Diego Salazar,Solicita factura electronica
+TX-2026Q1-01053,2026-01-20,Q1,Lima,Escritorio Ajustable,Mobiliario,9,1284.31,0.2,CL-9594,Diego Salazar,Compra urgente
+TX-2026Q1-01054,2026-02-21,Q1,Cusco,Cartucho Tinta Negra,Suministros,19,83.97,0.15,CL-1062,Diego Salazar,Solicita factura electronica
+TX-2026Q1-01055,2026-01-01,Q1,Chiclayo,Auriculares BT,Electronica,5,247.95,0.1,CL-4426,Lucia Romero,
+TX-2026Q1-01056,2026-01-26,Q1,Cusco,Escritorio Ajustable,Mobiliario,28,1332.61,0.0,CL-2776,Diego Salazar,Primera compra del ano
+TX-2026Q1-01057,2026-01-12,Q1,Trujillo,Laptop Pro 15,Tecnologia,1,4830.79,0.15,CL-1222,Lucia Romero,Primera compra del ano
+TX-2026Q1-01058,2026-01-02,Q1,Lima,Silla Ergonomica,Mobiliario,19,932.11,0.1,CL-7067,Ana Torres,Primera compra del ano
+TX-2026Q1-01059,2026-03-13,Q1,Lima,Laptop Air 13,Tecnologia,49,3551.0,0.0,CL-1552,Carlos Vega,
+TX-2026Q1-01060,2026-03-01,Q1,Trujillo,Laptop Air 13,Tecnologia,7,3495.38,0.05,CL-7692,Carlos Vega,
+TX-2026Q1-01061,2026-01-08,Q1,Chiclayo,Webcam HD,Electronica,30,199.2,0.1,CL-3257,Carlos Vega,
+TX-2026Q1-01062,2026-01-18,Q1,Lima,Lampara LED,Mobiliario,15,99.89,0.0,CL-2054,Ana Torres,
+TX-2026Q1-01063,2026-01-21,Q1,Arequipa,Webcam HD,Electronica,10,199.3,0.05,CL-5061,Ana Torres,
+TX-2026Q1-01064,2026-03-18,Q1,Trujillo,Mouse Inalambrico,Tecnologia,20,126.24,0.15,CL-9760,Maria Fernandez,Pedido grande
+TX-2026Q1-01065,2026-02-19,Q1,Trujillo,Silla Ergonomica,Mobiliario,30,857.49,-0.05,CL-5569,Lucia Romero,Compra urgente
+TX-2026Q1-01066,2026-01-10,Q1,Chiclayo,Laptop Air 13,Tecnologia,39,3257.41,0.15,CL-8237,Lucia Romero,
+TX-2026Q1-01067,2026-02-24,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,6,76.53,0.05,CL-1881,Maria Fernandez,
+TX-2026Q1-01068,2026-01-31,Q1,Cusco,Monitor 27 4K,Tecnologia,46,1877.71,0.2,CL-6331,Maria Fernandez,
+TX-2026Q1-01069,2026-02-07,Q1,Piura,Monitor 27 4K,Tecnologia,39,1813.91,0.2,CL-3451,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-01070,2026-01-29,Q1,Arequipa,Monitor 27 4K,Tecnologia,29,1928.85,0.05,CL-8033,Jose Luis Quispe,Compra urgente
+TX-2026Q1-01071,2026-03-25,Q1,Chiclayo,Webcam HD,Electronica,8888,186.81,0.1,CL-3773,Diego Salazar,Primera compra del ano
+TX-2026Q1-01072,2026-01-25,Q1,Lima,Webcam HD,Electronica,35,200.5,0.05,CL-2106,Ana Torres,
+TX-2026Q1-01073,2026-01-26,Q1,Trujillo,Webcam HD,Electronica,39,200.64,0.15,CL-5670,Lucia Romero,
+TX-2026Q1-01074,2026-02-20,Q1,Trujillo,Escritorio Ajustable,Mobiliario,48,1326.0,0.1,CL-3974,Carlos Vega,
+TX-2026Q1-01075,2026-02-18,Q1,Lima,Mouse Inalambrico,Tecnologia,24,131.31,0.0,CL-3157,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-01076,2026-02-18,Q1,Cusco,Silla Ergonomica,Mobiliario,14,907.14,0.15,CL-5205,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-01077,2026-01-25,Q1,Trujillo,Resma Papel A4,Suministros,19,30.47,0.0,CL-8504,Diego Salazar,
+TX-2026Q1-01078,2026-01-09,Q1,Arequipa,Teclado Mecanico,Tecnologia,26,396.64,0.15,CL-3471,Maria Fernandez,
+TX-2026Q1-01079,2026-01-09,Q1,Lima,Lampara LED,Mobiliario,48,101.97,0.0,CL-5490,Maria Fernandez,
+TX-2026Q1-01080,2026-02-04,Q1,Cusco,Silla Ergonomica,Mobiliario,31,903.78,0.2,CL-3771,Carlos Vega,
+TX-2026Q1-01081,2026-03-03,Q1,Cusco,Silla Ergonomica,Mobiliario,36,856.69,0.1,CL-8193,Diego Salazar,Pedido grande
+TX-2026Q1-01082,2026-02-11,Q1,Arequipa,Laptop Air 13,Tecnologia,24,3360.25,0.15,CL-1698,Carlos Vega,
+TX-2026Q1-01083,2026-01-01,Q1,Chiclayo,Resma Papel A4,Suministros,14,31.23,0.2,CL-4222,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-01084,2026-03-19,Q1,Lima,Teclado Mecanico,Tecnologia,35,391.56,0.15,CL-9744,Jose Luis Quispe,
+TX-2026Q1-01085,2026-03-16,Q1,Trujillo,Teclado Mecanico,Tecnologia,14,376.23,0.2,CL-9042,Maria Fernandez,
+TX-2026Q1-01086,2026-03-12,Q1,Arequipa,Laptop Air 13,Tecnologia,30,3259.76,0.1,CL-2823,Lucia Romero,
+TX-2026Q1-01087,2026-02-12,Q1,Arequipa,Monitor 27 4K,Tecnologia,6,1901.7,0.0,CL-3005,Carlos Vega,Compra urgente
+TX-2026Q1-01088,2026-03-16,Q1,Cusco,Monitor 27 4K,Tecnologia,35,1856.91,0.2,CL-4873,Ana Torres,
+TX-2026Q1-01089,2026-01-30,Q1,Cusco,Laptop Air 13,Tecnologia,48,3386.37,0.1,CL-5057,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01090,2026-02-25,Q1,Arequipa,Monitor 27 4K,Tecnologia,12,1982.54,0.1,CL-5629,Lucia Romero,Pedido grande
+TX-2026Q1-01091,2026-01-27,Q1,Trujillo,Silla Ergonomica,Mobiliario,47,889.63,0.15,CL-6005,Lucia Romero,Compra urgente
+TX-2026Q1-01092,2026-02-16,Q1,Trujillo,Escritorio Ajustable,Mobiliario,36,1308.38,0.0,CL-5917,Diego Salazar,Compra urgente
+TX-2026Q1-01093,2026-02-16,Q1,Piura,Resma Papel A4,Suministros,18,29.29,0.0,CL-5911,Lucia Romero,
+TX-2026Q1-01094,2026-03-27,Q1,Trujillo,Teclado Mecanico,Tecnologia,46,388.53,0.0,CL-3876,Jose Luis Quispe,
+TX-2026Q1-01095,2026-01-21,Q1,Piura,Monitor 27 4K,Tecnologia,22,1961.07,0.1,CL-3883,Lucia Romero,Solicita factura electronica
+TX-2026Q1-01096,2026-02-14,Q1,Chiclayo,Webcam HD,Electronica,2,203.31,0.15,CL-1770,Maria Fernandez,
+TX-2026Q1-01097,2026-01-19,Q1,Piura,Silla Ergonomica,Mobiliario,3,868.76,0.15,CL-3484,Jose Luis Quispe,
+TX-2026Q1-01098,2026-02-12,Q1,Piura,Mouse Inalambrico,Tecnologia,4,127.77,0.15,CL-2977,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01099,2026-02-17,Q1,Trujillo,Resma Papel A4,Suministros,43,30.26,0.2,CL-8114,Carlos Vega,Pedido grande
+TX-2026Q1-01100,2026-02-21,Q1,Lima,Teclado Mecanico,Tecnologia,37,379.85,0.2,CL-3797,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-01101,2026-03-28,Q1,Arequipa,Cartucho Tinta Negra,Suministros,33,77.3,0.2,CL-5444,Jose Luis Quispe,
+TX-2026Q1-01102,2026-01-28,Q1,Chiclayo,Lampara LED,Mobiliario,5,100.46,0.15,CL-2009,Jose Luis Quispe,
+TX-2026Q1-01103,2026-03-28,Q1,Arequipa,Monitor 27 4K,Tecnologia,44,1891.57,0.15,CL-8096,Jose Luis Quispe,
+TX-2026Q1-01104,2026-03-21,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,7,80.26,0.2,CL-7423,Ana Torres,Pedido grande
+TX-2026Q1-01105,2026-03-31,Q1,Trujillo,Monitor 27 4K,Tecnologia,26,1954.72,0.2,CL-8339,Carlos Vega,
+TX-2026Q1-01106,2026-02-17,Q1,Cusco,Webcam HD,Electronica,15,191.26,0.1,CL-9462,Diego Salazar,Solicita factura electronica
+TX-2026Q1-01107,2026-03-29,Q1,Cusco,Laptop Pro 15,Tecnologia,41,4841.18,0.0,CL-7085,Jose Luis Quispe,Pedido grande
+TX-2026Q1-01108,2026-02-19,Q1,Trujillo,Auriculares BT,Electronica,17,238.58,0.15,CL-4874,Carlos Vega,Compra urgente
+TX-2026Q1-01109,2026-03-17,Q1,Piura,Monitor 27 4K,Tecnologia,18,1915.36,0.1,CL-8419,Carlos Vega,Primera compra del ano
+TX-2026Q1-01110,2026-01-20,Q1,Arequipa,Lampara LED,Mobiliario,24,98.17,0.15,CL-6162,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-01111,2026-03-25,Q1,Piura,Laptop Air 13,Tecnologia,46,3368.91,0.2,CL-7672,Lucia Romero,
+TX-2026Q1-01112,2026-02-19,Q1,Lima,Teclado Mecanico,Tecnologia,47,366.15,0.0,CL-8724,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-01113,2026-01-08,Q1,Cusco,Lampara LED,Mobiliario,10,102.09,0.0,CL-7630,Carlos Vega,Pedido grande
+TX-2026Q1-01114,2026-02-16,Q1,Chiclayo,Lampara LED,Mobiliario,40,99.17,0.05,CL-1823,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01115,2026-02-25,Q1,Piura,Resma Papel A4,Suministros,34,29.57,0.0,CL-1142,Lucia Romero,Primera compra del ano
+TX-2026Q1-01116,2026-01-22,Q1,Lima,Auriculares BT,Electronica,33,231.75,0.05,CL-3954,Ana Torres,Pedido grande
+TX-2026Q1-01117,2026-02-23,Q1,Trujillo,Webcam HD,Electronica,25,204.5,0.2,CL-8534,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-01118,2026-02-08,Q1,Cusco,Monitor 27 4K,Tecnologia,45,1853.55,0.05,CL-4149,Lucia Romero,Compra urgente
+TX-2026Q1-01119,2026-01-21,Q1,Chiclayo,Resma Papel A4,Suministros,17,28.57,0.0,CL-2841,Ana Torres,
+TX-2026Q1-01120,2026-01-09,Q1,Cusco,Auriculares BT,Electronica,16,236.67,0.15,CL-5577,Diego Salazar,Compra urgente
+TX-2026Q1-01121,2026-02-08,Q1,Cusco,Lampara LED,Mobiliario,7,103.61,0.0,CL-4178,Maria Fernandez,Pedido grande
+TX-2026Q1-01122,2026-01-20,Q1,Arequipa,Lampara LED,Mobiliario,29,100.84,0.1,CL-3173,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-01123,2026-01-10,Q1,Trujillo,Lampara LED,Mobiliario,29,103.48,0.05,CL-5491,Carlos Vega,
+TX-2026Q1-01124,2026-03-24,Q1,Cusco,Laptop Air 13,Tecnologia,18,3437.73,0.0,CL-9536,Carlos Vega,Primera compra del ano
+TX-2026Q1-01125,2026-03-17,Q1,Lima,Monitor 27 4K,Tecnologia,16,1923.94,0.15,CL-5573,Maria Fernandez,
+TX-2026Q1-01126,2026-03-21,Q1,Trujillo,Cartucho Tinta Negra,Suministros,13,79.04,0.05,CL-4291,Maria Fernandez,Compra urgente
+TX-2026Q1-01127,2026-01-06,Q1,Cusco,Mouse Inalambrico,Tecnologia,15,131.52,0.2,CL-8332,Maria Fernandez,Compra urgente
+TX-2026Q1-01128,2026-03-16,Q1,Piura,Teclado Mecanico,Tecnologia,23,373.13,0.2,CL-9888,Lucia Romero,
+TX-2026Q1-01129,2026-02-18,Q1,Trujillo,Webcam HD,Electronica,45,186.83,0.1,CL-8197,Carlos Vega,Pedido grande
+TX-2026Q1-01130,2026-03-06,Q1,Piura,Webcam HD,Electronica,7,200.13,0.1,CL-3748,Ana Torres,Pedido grande
+TX-2026Q1-01131,2026-01-12,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,40,81.64,0.2,CL-4311,Ana Torres,Solicita factura electronica
+TX-2026Q1-01132,2026-01-30,Q1,Piura,Lampara LED,Mobiliario,45,99.29,0.0,CL-1379,Ana Torres,Pedido grande
+TX-2026Q1-01133,2026-03-05,Q1,Piura,Escritorio Ajustable,Mobiliario,26,1248.18,0.0,CL-8073,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01134,2026-01-07,Q1,Chiclayo,Monitor 27 4K,Tecnologia,35,1951.8,0.0,CL-7614,Diego Salazar,
+TX-2026Q1-01135,2026-03-23,Q1,Cusco,Laptop Pro 15,Tecnologia,30,4632.02,0.1,CL-6341,Diego Salazar,Pedido grande
+TX-2026Q1-01136,2026-03-07,Q1,Piura,Webcam HD,Electronica,3,188.82,0.2,CL-5633,Ana Torres,
+TX-2026Q1-01137,2026-02-05,Q1,Cusco,Laptop Air 13,Tecnologia,3,3443.61,0.1,CL-2214,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-01138,2026-01-16,Q1,Piura,Mouse Inalambrico,Tecnologia,15,128.46,0.1,CL-5850,Maria Fernandez,
+TX-2026Q1-01139,2026-02-26,Q1,Lima,Escritorio Ajustable,Mobiliario,16,1295.79,0.0,CL-3306,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01140,2026-03-04,Q1,Cusco,Laptop Pro 15,Tecnologia,20,4965.51,0.15,CL-4025,Diego Salazar,Compra urgente
+TX-2026Q1-01141,2026-02-20,Q1,Piura,Mouse Inalambrico,Tecnologia,13,133.51,0.1,CL-1894,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-01142,2026-03-11,Q1,Cusco,Webcam HD,Electronica,44,202.84,0.2,CL-1690,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-01143,2026-02-20,Q1,Trujillo,Resma Papel A4,Suministros,29,31.24,0.0,CL-5381,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01144,2026-02-04,Q1,Trujillo,Escritorio Ajustable,Mobiliario,43,1298.38,0.15,CL-5131,Lucia Romero,Solicita factura electronica
+TX-2026Q1-01145,2026-03-26,Q1,Chiclayo,Lampara LED,Mobiliario,41,101.75,0.1,CL-8541,Diego Salazar,Pedido grande
+TX-2026Q1-01146,2026-01-05,Q1,Arequipa,Teclado Mecanico,Tecnologia,41,372.87,0.1,CL-9463,Maria Fernandez,
+TX-2026Q1-01147,2026-03-06,Q1,Cusco,Laptop Air 13,Tecnologia,38,3238.87,0.2,CL-9638,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-01148,2026-02-26,Q1,Trujillo,Silla Ergonomica,Mobiliario,6,911.83,0.1,CL-6182,Maria Fernandez,Pedido grande
+TX-2026Q1-01149,2026-02-05,Q1,Trujillo,Cartucho Tinta Negra,Suministros,7,78.59,0.05,CL-2032,Ana Torres,
+TX-2026Q1-01150,2026-02-07,Q1,Piura,Resma Papel A4,Suministros,39,28.77,0.05,CL-7912,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01151,2026-03-18,Q1,Cusco,Auriculares BT,Electronica,27,239.38,0.2,CL-4350,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01152,2026-01-06,Q1,Piura,Escritorio Ajustable,Mobiliario,6,1305.85,0.1,CL-3281,Lucia Romero,Compra urgente
+TX-2026Q1-01153,2026-02-15,Q1,Arequipa,Laptop Air 13,Tecnologia,36,3329.3,0.0,CL-6928,Maria Fernandez,
+TX-2026Q1-01154,2026-02-05,Q1,Lima,Laptop Pro 15,Tecnologia,9,4586.19,0.05,CL-9138,Diego Salazar,
+TX-2026Q1-01155,2026-02-10,Q1,Trujillo,Lampara LED,Mobiliario,6,99.53,0.0,CL-8390,Diego Salazar,Pedido grande
+TX-2026Q1-01156,2026-03-25,Q1,Chiclayo,Lampara LED,Mobiliario,46,95.35,0.15,CL-7712,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01157,2026-02-25,Q1,Trujillo,Auriculares BT,Electronica,26,243.51,0.1,CL-8176,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-01158,2026-01-19,Q1,Lima,Webcam HD,Electronica,48,188.43,0.0,CL-8462,Lucia Romero,Solicita factura electronica
+TX-2026Q1-01159,2026-03-03,Q1,Arequipa,Auriculares BT,Electronica,16,242.07,0.2,CL-6495,Maria Fernandez,Primera compra del ano
+TX-2026Q1-01160,2026-03-19,Q1,Cusco,Auriculares BT,Electronica,15,246.3,0.2,CL-1355,Carlos Vega,Solicita factura electronica
+TX-2026Q1-01161,2026-03-27,Q1,Chiclayo,Lampara LED,Mobiliario,41,96.63,0.0,CL-9074,Lucia Romero,Primera compra del ano
+TX-2026Q1-01162,2026-02-12,Q1,Cusco,Laptop Pro 15,Tecnologia,32,4677.15,0.15,CL-4182,Ana Torres,Primera compra del ano
+TX-2026Q1-01163,2026-01-29,Q1,Piura,Mouse Inalambrico,Tecnologia,23,128.44,0.15,CL-2457,Lucia Romero,
+TX-2026Q1-01164,2026-02-25,Q1,Piura,Auriculares BT,Electronica,35,234.54,0.2,CL-3559,Maria Fernandez,Primera compra del ano
+TX-2026Q1-01165,2026-03-11,Q1,Lima,Mouse Inalambrico,Tecnologia,42,129.41,0.0,CL-2984,Diego Salazar,
+TX-2026Q1-01166,2026-01-25,Q1,Piura,Mouse Inalambrico,Tecnologia,21,126.12,0.2,CL-2892,Carlos Vega,Pedido grande
+TX-2026Q1-01167,2026-01-31,Q1,Trujillo,Silla Ergonomica,Mobiliario,26,886.33,0.05,CL-2694,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-01168,2026-02-01,Q1,Lima,Laptop Air 13,Tecnologia,5,3276.51,0.05,CL-1168,Diego Salazar,
+TX-2026Q1-01169,2026-01-22,Q1,Piura,Laptop Air 13,Tecnologia,49,3491.09,0.2,CL-1302,Jose Luis Quispe,
+TX-2026Q1-01170,2026-01-06,Q1,Lima,Cartucho Tinta Negra,Suministros,38,82.24,0.2,CL-5198,Lucia Romero,
+TX-2026Q1-01171,2026-01-31,Q1,Cusco,Resma Papel A4,Suministros,43,29.69,0.2,CL-7713,Lucia Romero,Solicita factura electronica
+TX-2026Q1-01172,2026-01-09,Q1,Lima,Escritorio Ajustable,Mobiliario,6,1237.79,0.15,CL-6905,Carlos Vega,Primera compra del ano
+TX-2026Q1-01173,2026-02-08,Q1,Lima,Escritorio Ajustable,Mobiliario,41,1300.65,0.1,CL-4794,Maria Fernandez,
+TX-2026Q1-01174,2026-02-15,Q1,Trujillo,Webcam HD,Electronica,33,188.18,0.05,CL-1555,Carlos Vega,Primera compra del ano
+TX-2026Q1-01175,2026-03-01,Q1,Cusco,Auriculares BT,Electronica,21,242.23,0.1,CL-6073,Ana Torres,Primera compra del ano
+TX-2026Q1-01176,2026-01-23,Q1,Chiclayo,Monitor 27 4K,Tecnologia,30,1981.32,0.05,CL-8381,Jose Luis Quispe,
+TX-2026Q1-01177,2026-02-25,Q1,Lima,Escritorio Ajustable,Mobiliario,12,1305.3,0.05,CL-2274,Maria Fernandez,Compra urgente
+TX-2026Q1-01178,2026-03-11,Q1,Lima,Escritorio Ajustable,Mobiliario,31,1356.2,0.05,CL-4313,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01179,2026-01-30,Q1,Lima,Silla Ergonomica,Mobiliario,17,922.24,0.1,CL-4059,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-01180,2026-02-01,Q1,Chiclayo,Silla Ergonomica,Mobiliario,1,863.06,0.2,CL-6435,Diego Salazar,
+TX-2026Q1-01181,2026-01-27,Q1,Chiclayo,Resma Papel A4,Suministros,34,29.24,0.2,CL-9387,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-01182,2026-03-19,Q1,Chiclayo,Laptop Pro 15,Tecnologia,33,4756.28,0.0,CL-8646,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-01183,2026-03-16,Q1,Arequipa,Lampara LED,Mobiliario,22,102.35,0.1,CL-6424,Diego Salazar,Solicita factura electronica
+TX-2026Q1-01184,2026-03-15,Q1,Arequipa,Teclado Mecanico,Tecnologia,2,381.42,0.1,CL-4407,Carlos Vega,
+TX-2026Q1-01185,2026-01-16,Q1,Arequipa,Cartucho Tinta Negra,Suministros,31,81.4,0.15,CL-5208,Ana Torres,
+TX-2026Q1-01186,2026-01-20,Q1,Piura,Silla Ergonomica,Mobiliario,23,877.14,0.2,CL-5564,Ana Torres,Pedido grande
+TX-2026Q1-01187,2026-02-27,Q1,Cusco,Mouse Inalambrico,Tecnologia,19,134.71,0.0,CL-1149,Diego Salazar,
+TX-2026Q1-01188,2026-01-11,Q1,Trujillo,Lampara LED,Mobiliario,20,95.23,0.05,CL-8487,Diego Salazar,
+TX-2026Q1-01189,2026-02-28,Q1,Arequipa,Lampara LED,Mobiliario,1,100.39,0.05,CL-2204,Ana Torres,Primera compra del ano
+TX-2026Q1-01190,2026-01-30,Q1,Trujillo,Escritorio Ajustable,Mobiliario,46,1318.81,0.05,CL-5922,Carlos Vega,
+TX-2026Q1-01191,2026-02-24,Q1,Lima,Lampara LED,Mobiliario,7,102.77,0.0,CL-9485,Ana Torres,Primera compra del ano
+TX-2026Q1-01192,2026-02-20,Q1,Cusco,Cartucho Tinta Negra,Suministros,32,78.31,0.2,CL-6172,Jose Luis Quispe,Pedido grande
+TX-2026Q1-01193,2026-02-17,Q1,Lima,Webcam HD,Electronica,23,198.35,0.05,CL-3883,Diego Salazar,Compra urgente
+TX-2026Q1-01194,2026-03-18,Q1,Cusco,Laptop Pro 15,Tecnologia,30,4708.55,0.1,CL-4446,Carlos Vega,
+TX-2026Q1-01195,2026-03-17,Q1,Piura,Cartucho Tinta Negra,OTRO,31,76.67,0.1,CL-9479,Ana Torres,Primera compra del ano
+TX-2026Q1-01196,2026-03-30,Q1,Lima,Teclado Mecanico,Tecnologia,27,374.02,0.05,CL-9282,Lucia Romero,
+TX-2026Q1-01197,2026-03-31,Q1,Lima,Escritorio Ajustable,Mobiliario,6,1334.96,0.0,CL-7651,Maria Fernandez,
+TX-2026Q1-01198,2026-03-12,Q1,Trujillo,Monitor 27 4K,Tecnologia,35,1877.17,0.05,CL-5784,Diego Salazar,
+TX-2026Q1-01199,2026-02-16,Q1,Trujillo,Teclado Mecanico,Tecnologia,39,379.7,0.15,CL-3757,Carlos Vega,Compra urgente
+TX-2026Q1-01200,2026-01-30,Q1,Lima,Webcam HD,Electronica,38,193.52,0.0,CL-8940,Ana Torres,
+TX-2026Q1-01201,2026-03-27,Q1,Lima,Silla Ergonomica,Mobiliario,33,888.34,0.1,CL-5728,Maria Fernandez,
+TX-2026Q1-01202,2026-03-29,Q1,Cusco,Cartucho Tinta Negra,Suministros,1,76.5,0.05,CL-4309,Lucia Romero,Primera compra del ano
+TX-2026Q1-01203,2026-03-28,Q1,Piura,Laptop Air 13,Tecnologia,28,3348.44,0.1,CL-6652,Ana Torres,Primera compra del ano
+TX-2026Q1-01204,2026-03-23,Q1,Arequipa,Escritorio Ajustable,Mobiliario,32,1243.25,0.15,CL-6680,Lucia Romero,Pedido grande
+TX-2026Q1-01205,2026-02-17,Q1,Cusco,Laptop Pro 15,Tecnologia,35,4708.97,0.15,CL-2630,Lucia Romero,Compra urgente
+TX-2026Q1-01206,2026-02-16,Q1,Arequipa,Laptop Pro 15,Tecnologia,20,4581.64,0.05,CL-6530,Ana Torres,
+TX-2026Q1-01207,2026-01-13,Q1,Chiclayo,Webcam HD,Electronica,27,192.23,0.2,CL-5741,Lucia Romero,Compra urgente
+TX-2026Q1-01208,2026-02-05,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,11,126.74,0.2,CL-1557,Lucia Romero,Pedido grande
+TX-2026Q1-01209,2026-01-27,Q1,Arequipa,Resma Papel A4,Suministros,1,30.54,0.1,CL-8062,Maria Fernandez,
+TX-2026Q1-01210,2026-02-03,Q1,Lima,Cartucho Tinta Negra,Suministros,23,81.87,0.05,CL-6053,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-01211,2026-03-01,Q1,Chiclayo,Auriculares BT,Electronica,31,234.95,0.2,CL-4065,Ana Torres,Solicita factura electronica
+TX-2026Q1-01212,2026-03-30,Q1,Trujillo,Mouse Inalambrico,Tecnologia,44,126.81,0.05,CL-8687,Jose Luis Quispe,
+TX-2026Q1-01213,2026-03-09,Q1,Arequipa,Silla Ergonomica,Mobiliario,38,882.21,0.2,CL-1475,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-01214,2026-02-05,Q1,Trujillo,Resma Papel A4,Suministros,9,29.86,0.05,CL-1987,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-01215,2026-01-15,Q1,Chiclayo,Resma Papel A4,Suministros,3,29.09,0.0,CL-9938,Maria Fernandez,Primera compra del ano
+TX-2026Q1-01216,2026-02-27,Q1,Cusco,Monitor 27 4K,Tecnologia,2,1867.27,0.0,CL-3137,Ana Torres,Primera compra del ano
+TX-2026Q1-01217,2026-01-20,Q1,Arequipa,Resma Papel A4,Suministros,18,30.68,0.2,CL-3315,Ana Torres,Primera compra del ano
+TX-2026Q1-01218,2026-01-11,Q1,Lima,Mouse Inalambrico,Tecnologia,44,135.97,0.05,CL-3868,Lucia Romero,Pedido grande
+TX-2026Q1-01219,2026-02-21,Q1,Piura,Laptop Pro 15,Tecnologia,10,4635.15,0.2,CL-1795,Jose Luis Quispe,
+TX-2026Q1-01220,2026-01-11,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,5,80.41,0.05,CL-1895,Carlos Vega,Pedido grande
+TX-2026Q1-01221,2026-02-16,Q1,Arequipa,Lampara LED,Mobiliario,23,96.11,0.15,CL-6547,Lucia Romero,
+TX-2026Q1-01222,2026-03-07,Q1,Arequipa,Teclado Mecanico,Tecnologia,32,362.93,0.1,CL-5169,Jose Luis Quispe,Compra urgente
+TX-2026Q1-01223,2026-02-19,Q1,Arequipa,Mouse Inalambrico,Tecnologia,15,134.32,0.05,CL-9792,Jose Luis Quispe,Pedido grande
+TX-2026Q1-01224,2026-03-20,Q1,Chiclayo,Auriculares BT,Electronica,11,246.57,0.05,CL-1708,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01225,2026-01-10,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,14,1314.13,0.2,CL-7144,Jose Luis Quispe,
+TX-2026Q1-01226,2026-02-20,Q1,Piura,Mouse Inalambrico,Tecnologia,36,129.94,0.1,CL-7276,Diego Salazar,Solicita factura electronica
+TX-2026Q1-01227,2026-02-13,Q1,Cusco,Silla Ergonomica,Mobiliario,23,899.84,0.15,CL-5028,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01228,2026-03-18,Q1,Trujillo,Laptop Pro 15,Tecnologia,19,4711.42,0.15,CL-9511,Diego Salazar,Pedido grande
+TX-2026Q1-01229,2026-01-03,Q1,Arequipa,Resma Papel A4,Suministros,1,30.62,0.1,CL-9170,Ana Torres,Primera compra del ano
+TX-2026Q1-01230,2026-01-01,Q1,Piura,Monitor 27 4K,Tecnologia,16,1834.69,0.0,CL-1406,Maria Fernandez,
+TX-2026Q1-01231,2026-01-25,Q1,Lima,Laptop Pro 15,Tecnologia,8,4630.41,0.1,CL-3547,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-01232,2026-02-03,Q1,Arequipa,Cartucho Tinta Negra,Suministros,27,83.22,0.15,CL-7175,Ana Torres,Solicita factura electronica
+TX-2026Q1-01233,2026-01-02,Q1,Lima,Cartucho Tinta Negra,Suministros,31,78.8,0.05,CL-8022,Maria Fernandez,Compra urgente
+TX-2026Q1-01234,2026-01-03,Q1,Trujillo,Lampara LED,Mobiliario,24,95.25,0.05,CL-7606,Carlos Vega,
+TX-2026Q1-01235,2026-02-03,Q1,Cusco,Webcam HD,Electronica,49,204.07,0.05,CL-3487,Lucia Romero,
+TX-2026Q1-01236,2026-02-05,Q1,Chiclayo,Monitor 27 4K,Tecnologia,40,1946.88,0.1,CL-9526,Carlos Vega,Solicita factura electronica
+TX-2026Q1-01237,2026-03-31,Q1,Piura,Cartucho Tinta Negra,Suministros,13,81.53,0.2,CL-7381,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01238,2026-01-29,Q1,Chiclayo,Silla Ergonomica,Mobiliario,34,917.28,0.05,CL-1806,Carlos Vega,
+TX-2026Q1-01239,2026-03-30,Q1,Cusco,Monitor 27 4K,Tecnologia,38,1968.94,0.2,CL-2228,Lucia Romero,Solicita factura electronica
+TX-2026Q1-01240,2026-02-02,Q1,Cusco,Teclado Mecanico,Tecnologia,25,361.55,0.0,CL-7817,Diego Salazar,Solicita factura electronica
+TX-2026Q1-01241,2026-01-07,Q1,Piura,Lampara LED,Mobiliario,29,100.29,0.0,CL-3575,Maria Fernandez,Primera compra del ano
+TX-2026Q1-01242,2026-01-14,Q1,Piura,Silla Ergonomica,Mobiliario,27,925.37,0.0,CL-3942,Ana Torres,Pedido grande
+TX-2026Q1-01243,2026-03-05,Q1,Trujillo,Resma Papel A4,Suministros,36,29.52,0.1,CL-5824,Carlos Vega,Solicita factura electronica
+TX-2026Q1-01244,2026-03-09,Q1,Arequipa,Mouse Inalambrico,Tecnologia,19,132.0,0.1,CL-2421,Jose Luis Quispe,
+TX-2026Q1-01245,2026-03-23,Q1,Chiclayo,Resma Papel A4,Suministros,27,30.08,0.05,CL-9423,Jose Luis Quispe,
+TX-2026Q1-01246,2026-03-31,Q1,Arequipa,Mouse Inalambrico,Tecnologia,7777,131.13,0.2,CL-4691,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01247,2026-01-22,Q1,Trujillo,Mouse Inalambrico,Tecnologia,32,124.58,0.15,CL-5118,Ana Torres,Solicita factura electronica
+TX-2026Q1-01248,2026-01-01,Q1,Arequipa,Cartucho Tinta Negra,Suministros,11,77.67,0.05,CL-9432,Carlos Vega,Pedido grande
+TX-2026Q1-01249,2026-03-31,Q1,Cusco,Webcam HD,Electronica,23,189.57,0.15,CL-1004,Ana Torres,Compra urgente
+TX-2026Q1-01250,2026-02-27,Q1,Piura,Escritorio Ajustable,Mobiliario,28,1332.63,0.15,CL-3166,Carlos Vega,
+TX-2026Q1-01251,2026-03-26,Q1,Lima,Escritorio Ajustable,Mobiliario,34,1362.96,0.05,CL-2650,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-01252,2026-01-30,Q1,Chiclayo,Monitor 27 4K,Tecnologia,25,1807.94,0.15,CL-2773,Maria Fernandez,
+TX-2026Q1-01253,2026-03-29,Q1,Chiclayo,Monitor 27 4K,Tecnologia,3,1970.75,0.15,CL-5766,Ana Torres,Pedido grande
+TX-2026Q1-01254,2026-02-18,Q1,Arequipa,Laptop Pro 15,Tecnologia,4,4699.47,0.15,CL-5049,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-01255,2026-03-02,Q1,Chiclayo,Silla Ergonomica,Mobiliario,34,912.13,0.0,CL-6484,Ana Torres,
+TX-2026Q1-01256,2026-02-08,Q1,Piura,Webcam HD,Electronica,26,200.6,0.2,CL-5246,Carlos Vega,Compra urgente
+TX-2026Q1-01257,2026-03-20,Q1,Trujillo,Laptop Air 13,Tecnologia,38,3358.35,0.15,CL-9117,Carlos Vega,
+TX-2026Q1-01258,2026-03-29,Q1,Trujillo,Resma Papel A4,Suministros,4,30.51,0.05,CL-7093,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-01259,2026-03-30,Q1,Chiclayo,Teclado Mecanico,Tecnologia,20,373.7,0.15,CL-1293,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-01260,2026-01-18,Q1,Piura,Resma Papel A4,Suministros,42,30.14,0.0,CL-9562,Lucia Romero,
+TX-2026Q1-01261,2026-02-02,Q1,Cusco,Cartucho Tinta Negra,Suministros,15,77.4,0.2,CL-2429,Carlos Vega,
+TX-2026Q1-01262,2026-02-24,Q1,Chiclayo,Resma Papel A4,Suministros,3,30.96,0.15,CL-7625,Carlos Vega,Solicita factura electronica
+TX-2026Q1-01263,2026-01-03,Q1,Cusco,Escritorio Ajustable,Mobiliario,27,1277.89,0.2,CL-4159,Carlos Vega,Pedido grande
+TX-2026Q1-01264,2026-03-07,Q1,Chiclayo,Silla Ergonomica,Mobiliario,32,875.71,0.15,CL-2863,Carlos Vega,
+TX-2026Q1-01265,2026-02-27,Q1,Lima,Cartucho Tinta Negra,Suministros,3,79.64,0.15,CL-5221,Carlos Vega,
+TX-2026Q1-01266,2026-01-12,Q1,Lima,Silla Ergonomica,Mobiliario,4,921.54,0.1,CL-1422,Jose Luis Quispe,Compra urgente
+TX-2026Q1-01267,2026-01-14,Q1,Chiclayo,Laptop Air 13,Tecnologia,14,3433.13,0.1,CL-6139,Lucia Romero,
+TX-2026Q1-01268,2026-03-03,Q1,Piura,Lampara LED,Mobiliario,4,98.01,0.15,CL-5539,Carlos Vega,
+TX-2026Q1-01269,2026-02-09,Q1,Arequipa,Teclado Mecanico,Tecnologia,48,379.77,0.2,CL-5898,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-01270,2026-03-16,Q1,Piura,Resma Papel A4,Suministros,22,31.46,0.1,CL-6145,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-01271,2026-02-21,Q1,Cusco,Teclado Mecanico,Tecnologia,17,388.52,0.2,CL-1412,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-01272,2026-02-09,Q1,Piura,Monitor 27 4K,Tecnologia,46,1831.45,0.0,CL-3483,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-01273,2026-02-15,Q1,Trujillo,Teclado Mecanico,Tecnologia,25,367.44,0.05,CL-7813,Lucia Romero,
+TX-2026Q1-01274,2026-01-09,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,2,1259.1,0.1,CL-4645,Ana Torres,Solicita factura electronica
+TX-2026Q1-01275,2026-03-29,Q1,Piura,Mouse Inalambrico,Tecnologia,27,129.43,0.15,CL-6434,Ana Torres,
+TX-2026Q1-01276,2026-01-12,Q1,Arequipa,Laptop Pro 15,Tecnologia,26,4846.35,0.0,CL-4589,Carlos Vega,
+TX-2026Q1-01277,2026-01-27,Q1,Arequipa,Silla Ergonomica,Mobiliario,28,890.72,0.05,CL-1482,Ana Torres,Pedido grande
+TX-2026Q1-01278,2026-02-12,Q1,Chiclayo,Silla Ergonomica,Mobiliario,33,892.38,0.15,CL-1617,Ana Torres,Primera compra del ano
+TX-2026Q1-01279,2026-02-13,Q1,Trujillo,Laptop Air 13,Tecnologia,39,3326.23,0.1,CL-9818,Ana Torres,
+TX-2026Q1-01280,2026-03-07,Q1,Cusco,Laptop Pro 15,Tecnologia,5,4836.16,0.05,CL-3664,Jose Luis Quispe,
+TX-2026Q1-01281,2026-01-05,Q1,Arequipa,Mouse Inalambrico,Tecnologia,14,133.96,0.2,CL-7264,Maria Fernandez,Primera compra del ano
+TX-2026Q1-01282,2026-02-26,Q1,Piura,Mouse Inalambrico,Tecnologia,43,128.99,0.1,CL-4057,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-01283,2026-03-18,Q1,Cusco,Laptop Pro 15,Tecnologia,41,4813.91,0.2,CL-9331,Ana Torres,
+TX-2026Q1-01284,2026-01-10,Q1,Chiclayo,Cartucho Tinta Negra,Suministros,5,83.25,0.2,CL-4159,Diego Salazar,Compra urgente
+TX-2026Q1-01285,2026-01-10,Q1,Cusco,Laptop Air 13,Tecnologia,16,3394.11,0.15,CL-6471,Diego Salazar,
+TX-2026Q1-01286,2026-01-31,Q1,Trujillo,Lampara LED,Mobiliario,16,97.86,0.15,CL-1622,Ana Torres,
+TX-2026Q1-01287,2026-03-06,Q1,Trujillo,Resma Papel A4,Suministros,24,30.17,0.1,CL-2139,Lucia Romero,Primera compra del ano
+TX-2026Q1-01288,2026-01-26,Q1,Chiclayo,Lampara LED,Mobiliario,18,96.95,0.05,CL-6592,Diego Salazar,Pedido grande
+TX-2026Q1-01289,2026-03-04,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,5,1307.78,0.15,CL-3915,Jose Luis Quispe,
+TX-2026Q1-01290,2026-02-01,Q1,Lima,Mouse Inalambrico,Tecnologia,3,123.52,0.15,CL-7497,Lucia Romero,Solicita factura electronica
+TX-2026Q1-01291,2026-01-11,Q1,Arequipa,Cartucho Tinta Negra,Suministros,36,83.88,0.15,CL-5942,Lucia Romero,Solicita factura electronica
+TX-2026Q1-01292,2026-01-11,Q1,Chiclayo,Silla Ergonomica,Mobiliario,1,902.35,0.05,CL-3893,Maria Fernandez,Primera compra del ano
+TX-2026Q1-01293,2026-03-15,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,14,1286.93,0.05,CL-5069,Jose Luis Quispe,
+TX-2026Q1-01294,2026-02-15,Q1,Chiclayo,Monitor 27 4K,Tecnologia,20,1942.68,0.0,CL-5650,Diego Salazar,Compra urgente
+TX-2026Q1-01295,2026-01-27,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,41,1344.93,0.2,CL-9090,Lucia Romero,Primera compra del ano
+TX-2026Q1-01296,2026-02-01,Q1,Arequipa,Monitor 27 4K,Tecnologia,7,1956.27,0.0,CL-5940,Ana Torres,Primera compra del ano
+TX-2026Q1-01297,2026-03-06,Q1,Lima,Laptop Pro 15,Tecnologia,27,5017.25,0.0,CL-6176,Diego Salazar,Primera compra del ano
+TX-2026Q1-01298,2026-03-07,Q1,Cusco,Laptop Air 13,Tecnologia,3,3462.24,0.2,CL-7764,Lucia Romero,
+TX-2026Q1-01299,2026-03-06,Q1,Chiclayo,Teclado Mecanico,Tecnologia,1,385.57,0.15,CL-8311,Diego Salazar,
+TX-2026Q1-01300,2026-01-08,Q1,Lima,Teclado Mecanico,Tecnologia,15,371.09,0.15,CL-2579,Maria Fernandez,
+TX-2026Q1-01301,2026-02-13,Q1,Piura,Mouse Inalambrico,Tecnologia,36,132.79,0.15,CL-1780,Ana Torres,
+TX-2026Q1-01302,2026-01-18,Q1,Piura,Auriculares BT,Electronica,42,251.34,0.15,CL-7516,Ana Torres,
+TX-2026Q1-01303,2026-03-11,Q1,Lima,Laptop Air 13,Tecnologia,17,3496.76,0.2,CL-7999,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01304,2026-01-05,Q1,Chiclayo,Auriculares BT,Electronica,46,251.78,0.2,CL-4212,Diego Salazar,
+TX-2026Q1-01305,2026-01-16,Q1,Trujillo,Laptop Pro 15,Tecnologia,16,4896.05,0.2,CL-9520,Carlos Vega,
+TX-2026Q1-01306,2026-02-02,Q1,Cusco,Webcam HD,Electronica,1,203.55,0.2,CL-5261,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-01307,2026-03-26,Q1,Trujillo,Teclado Mecanico,Tecnologia,30,371.9,0.1,CL-3561,Maria Fernandez,
+TX-2026Q1-01308,2026-03-13,Q1,Piura,Auriculares BT,Electronica,26,247.15,0.05,CL-7030,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-01309,2026-01-29,Q1,Lima,Monitor 27 4K,Tecnologia,10,1906.76,0.05,CL-9642,Carlos Vega,Primera compra del ano
+TX-2026Q1-01310,2026-01-12,Q1,Trujillo,Laptop Air 13,Tecnologia,18,3402.81,0.15,CL-3668,Lucia Romero,
+TX-2026Q1-01311,2026-03-09,Q1,Lima,Mouse Inalambrico,Tecnologia,13,126.88,0.15,CL-4146,Diego Salazar,
+TX-2026Q1-01312,2026-02-07,Q1,Piura,Cartucho Tinta Negra,Suministros,30,78.11,0.15,CL-2480,Jose Luis Quispe,
+TX-2026Q1-01313,2026-01-01,Q1,Piura,Mouse Inalambrico,Tecnologia,41,128.74,0.05,CL-3622,Maria Fernandez,Compra urgente
+TX-2026Q1-01314,2026-03-03,Q1,Arequipa,Silla Ergonomica,Mobiliario,31,868.63,0.05,CL-1026,Carlos Vega,
+TX-2026Q1-01315,2026-01-28,Q1,Cusco,Escritorio Ajustable,Mobiliario,26,1257.6,0.2,CL-5294,Diego Salazar,
+TX-2026Q1-01316,2026-01-13,Q1,Cusco,Resma Papel A4,Suministros,20,28.91,0.05,CL-2101,Lucia Romero,Primera compra del ano
+TX-2026Q1-01317,2026-03-03,Q1,Chiclayo,Auriculares BT,Electronica,35,246.26,0.15,CL-7636,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-01318,2026-01-02,Q1,Cusco,Auriculares BT,Electronica,49,249.88,0.2,CL-5737,Jose Luis Quispe,
+TX-2026Q1-01319,2026-03-19,Q1,Lima,Teclado Mecanico,Tecnologia,35,366.03,0.0,CL-7820,Maria Fernandez,
+TX-2026Q1-01320,2026-01-02,Q1,Chiclayo,Resma Papel A4,Suministros,3,31.19,0.1,CL-3149,Ana Torres,Compra urgente
+TX-2026Q1-01321,2026-02-08,Q1,Piura,Laptop Pro 15,Tecnologia,49,4851.66,0.1,CL-6091,Carlos Vega,
+TX-2026Q1-01322,2026-02-21,Q1,Trujillo,Resma Papel A4,Suministros,25,28.76,0.15,CL-4407,Lucia Romero,Compra urgente
+TX-2026Q1-01323,2026-01-01,Q1,Piura,Escritorio Ajustable,Mobiliario,19,1288.95,0.0,CL-6733,Ana Torres,Solicita factura electronica
+TX-2026Q1-01324,2026-01-26,Q1,Piura,Auriculares BT,Electronica,40,247.8,0.05,CL-7232,Lucia Romero,Compra urgente
+TX-2026Q1-01325,2026-02-09,Q1,Chiclayo,Auriculares BT,Electronica,9,230.14,0.1,CL-6731,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-01326,2026-03-02,Q1,Piura,Monitor 27 4K,Tecnologia,41,1933.35,0.15,CL-2378,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-01327,2026-01-29,Q1,Cusco,Silla Ergonomica,Mobiliario,42,885.25,-0.05,CL-1724,Ana Torres,
+TX-2026Q1-01328,2026-01-19,Q1,Cusco,Teclado Mecanico,Tecnologia,41,382.82,0.15,CL-6829,Diego Salazar,
+TX-2026Q1-01329,2026-03-08,Q1,Cusco,Laptop Air 13,Tecnologia,27,3303.27,0.2,CL-3205,Ana Torres,
+TX-2026Q1-01330,2026-02-15,Q1,Lima,Webcam HD,Electronica,35,202.4,0.05,CL-8131,Diego Salazar,Compra urgente
+TX-2026Q1-01331,2026-03-04,Q1,Arequipa,Monitor 27 4K,Tecnologia,4,1954.66,0.0,CL-7023,Ana Torres,
+TX-2026Q1-01332,2026-03-22,Q1,Trujillo,Laptop Pro 15,Tecnologia,24,4717.57,0.2,CL-2784,Ana Torres,
+TX-2026Q1-01333,2026-01-07,Q1,Piura,Webcam HD,Electronica,14,196.85,0.05,CL-8992,Carlos Vega,
+TX-2026Q1-01334,2026-02-23,Q1,Piura,Silla Ergonomica,Mobiliario,6,904.21,0.1,CL-7362,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01335,2026-03-01,Q1,Piura,Webcam HD,Electronica,29,186.04,0.1,CL-6523,Ana Torres,
+TX-2026Q1-01336,2026-02-26,Q1,Piura,Webcam HD,Electronica,2,188.03,0.05,CL-6511,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-01337,2026-03-27,Q1,Trujillo,Cartucho Tinta Negra,Suministros,37,81.04,0.1,CL-7831,Ana Torres,Compra urgente
+TX-2026Q1-01338,2026-03-27,Q1,Piura,Silla Ergonomica,Mobiliario,19,889.68,0.1,CL-5469,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-01339,2026-01-10,Q1,Cusco,Monitor 27 4K,Tecnologia,19,1836.41,0.2,CL-7165,Maria Fernandez,Compra urgente
+TX-2026Q1-01340,2026-01-31,Q1,Trujillo,Monitor 27 4K,Tecnologia,37,1942.49,0.15,CL-9582,Carlos Vega,Solicita factura electronica
+TX-2026Q1-01341,2026-01-28,Q1,Piura,Laptop Air 13,Tecnologia,48,3542.6,0.2,CL-1997,Jose Luis Quispe,
+TX-2026Q1-01342,2026-02-10,Q1,Cusco,Webcam HD,Electronica,28,199.87,0.1,CL-9848,Carlos Vega,Primera compra del ano
+TX-2026Q1-01343,2026-02-15,Q1,Chiclayo,Lampara LED,Mobiliario,35,100.15,0.2,CL-4080,Maria Fernandez,
+TX-2026Q1-01344,2026-02-28,Q1,Lima,Auriculares BT,Electronica,5,247.05,0.05,CL-9533,Jose Luis Quispe,Pedido grande
+TX-2026Q1-01345,2026-02-14,Q1,Trujillo,Auriculares BT,Electronica,32,234.83,0.05,CL-1417,Carlos Vega,
+TX-2026Q1-01346,2026-02-11,Q1,Lima,Laptop Air 13,Tecnologia,16,3329.9,0.05,CL-4346,Ana Torres,Pedido grande
+TX-2026Q1-01347,2026-02-06,Q1,Cusco,Teclado Mecanico,Tecnologia,48,378.79,0.0,CL-3363,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01348,2026-02-23,Q1,Lima,Webcam HD,Electronica,22,191.68,0.2,CL-6357,Diego Salazar,
+TX-2026Q1-01349,2026-01-27,Q1,Lima,Escritorio Ajustable,Mobiliario,33,1266.41,0.2,CL-2890,Jose Luis Quispe,
+TX-2026Q1-01350,2026-01-01,Q1,Arequipa,Laptop Pro 15,Tecnologia,26,4676.77,0.1,CL-4925,Ana Torres,Pedido grande
+TX-2026Q1-01351,2026-03-19,Q1,Arequipa,Cartucho Tinta Negra,Suministros,49,81.45,0.0,CL-6884,Lucia Romero,
+TX-2026Q1-01352,2026-02-18,Q1,Piura,Escritorio Ajustable,Mobiliario,18,1357.17,0.15,CL-5824,Jose Luis Quispe,Pedido grande
+TX-2026Q1-01353,2026-03-22,Q1,Arequipa,Laptop Pro 15,Tecnologia,31,4624.65,0.2,CL-3517,Lucia Romero,Pedido grande
+TX-2026Q1-01354,2026-01-24,Q1,Trujillo,Silla Ergonomica,Mobiliario,13,923.9,0.0,CL-6500,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-01355,2026-03-05,Q1,Lima,Webcam HD,Electronica,2,190.8,0.0,CL-6915,Maria Fernandez,
+TX-2026Q1-01356,2026-02-03,Q1,Cusco,Auriculares BT,Electronica,16,244.71,0.15,CL-1179,Lucia Romero,Compra urgente
+TX-2026Q1-01357,2026-02-28,Q1,Chiclayo,Webcam HD,Electronica,42,198.85,0.1,CL-9375,Lucia Romero,
+TX-2026Q1-01358,2026-03-12,Q1,Cusco,Auriculares BT,Electronica,40,251.25,0.0,CL-4483,Carlos Vega,Compra urgente
+TX-2026Q1-01359,2026-03-29,Q1,Lima,Lampara LED,Mobiliario,2,97.71,0.1,CL-3682,Ana Torres,Solicita factura electronica
+TX-2026Q1-01360,2026-01-30,Q1,Lima,Lampara LED,Mobiliario,31,99.19,0.15,CL-4351,Diego Salazar,
+TX-2026Q1-01361,2026-02-01,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,24,133.61,0.05,CL-9310,Maria Fernandez,
+TX-2026Q1-01362,2026-03-20,Q1,Arequipa,Silla Ergonomica,Mobiliario,30,883.13,0.15,CL-5791,Carlos Vega,
+TX-2026Q1-01363,2026-03-19,Q1,Piura,Laptop Pro 15,Tecnologia,27,4942.41,0.05,CL-6861,Maria Fernandez,
+TX-2026Q1-01364,2026-03-03,Q1,Piura,Monitor 27 4K,Tecnologia,45,1834.67,0.15,CL-6639,Jose Luis Quispe,
+TX-2026Q1-01365,2026-03-22,Q1,Piura,Auriculares BT,Electronica,47,250.7,0.2,CL-9912,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-01366,2026-03-09,Q1,Cusco,Mouse Inalambrico,Tecnologia,8,124.25,0.15,CL-2045,Jose Luis Quispe,
+TX-2026Q1-01367,2026-01-17,Q1,Trujillo,Webcam HD,Electronica,39,185.9,0.15,CL-7897,Maria Fernandez,
+TX-2026Q1-01368,2026-02-25,Q1,Piura,Teclado Mecanico,Tecnologia,13,369.51,0.15,CL-1222,Diego Salazar,Primera compra del ano
+TX-2026Q1-01369,2026-01-05,Q1,Chiclayo,Laptop Air 13,Tecnologia,17,3296.21,0.05,CL-5251,Lucia Romero,
+TX-2026Q1-01370,2026-03-29,Q1,Trujillo,Escritorio Ajustable,Mobiliario,42,1321.65,0.05,CL-7276,Lucia Romero,
+TX-2026Q1-01371,2026-01-21,Q1,Chiclayo,Silla Ergonomica,Mobiliario,3,929.73,0.15,CL-7077,Lucia Romero,
+TX-2026Q1-01372,2026-03-23,Q1,Cusco,Silla Ergonomica,Mobiliario,24,881.82,0.15,CL-2246,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01373,2026-02-17,Q1,Chiclayo,Mouse Inalambrico,Tecnologia,30,133.53,0.0,CL-6843,Ana Torres,
+TX-2026Q1-01374,2026-03-22,Q1,Lima,Mouse Inalambrico,Tecnologia,34,123.73,0.15,CL-6442,Carlos Vega,Compra urgente
+TX-2026Q1-01375,2026-03-26,Q1,Piura,Webcam HD,Electronica,42,189.85,0.1,CL-1213,Lucia Romero,
+TX-2026Q1-01376,2026-03-10,Q1,Trujillo,Escritorio Ajustable,Mobiliario,48,1280.89,0.05,CL-3832,Carlos Vega,
+TX-2026Q1-01377,2026-01-07,Q1,Chiclayo,Laptop Air 13,Tecnologia,20,3472.27,0.15,CL-4384,Lucia Romero,
+TX-2026Q1-01378,2026-01-04,Q1,Cusco,Monitor 27 4K,Tecnologia,21,1875.82,0.2,CL-8123,Jose Luis Quispe,
+TX-2026Q1-01379,2026-02-24,Q1,Trujillo,Auriculares BT,OTRO,36,241.77,0.15,CL-9636,Diego Salazar,Solicita factura electronica
+TX-2026Q1-01380,2026-01-04,Q1,Trujillo,Resma Papel A4,Suministros,6,31.46,0.2,CL-5241,Diego Salazar,Cliente recurrente Q1
+TX-2026Q1-01381,2026-02-27,Q1,Arequipa,Resma Papel A4,Suministros,30,31.34,0.1,CL-7386,Lucia Romero,
+TX-2026Q1-01382,2026-03-14,Q1,Piura,Escritorio Ajustable,Mobiliario,8,1260.49,0.0,CL-8515,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-01383,2026-03-28,Q1,Lima,Laptop Air 13,Tecnologia,31,3540.14,0.05,CL-4435,Ana Torres,Solicita factura electronica
+TX-2026Q1-01384,2026-03-30,Q1,Piura,Lampara LED,Mobiliario,45,96.47,0.2,CL-2845,Carlos Vega,
+TX-2026Q1-01385,2026-02-02,Q1,Lima,Resma Papel A4,Suministros,16,31.06,0.05,CL-1804,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01386,2026-03-01,Q1,Trujillo,Mouse Inalambrico,Tecnologia,4,136.45,0.05,CL-1108,Diego Salazar,
+TX-2026Q1-01387,2026-01-02,Q1,Arequipa,Escritorio Ajustable,Mobiliario,3,1301.32,0.1,CL-9321,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01388,2026-02-04,Q1,Arequipa,Teclado Mecanico,Tecnologia,35,388.61,0.1,CL-8144,Carlos Vega,Compra urgente
+TX-2026Q1-01389,2026-02-04,Q1,Lima,Laptop Pro 15,Tecnologia,36,4690.11,0.1,CL-7559,Diego Salazar,
+TX-2026Q1-01390,2026-02-27,Q1,Arequipa,Escritorio Ajustable,Mobiliario,3,1327.7,0.1,CL-5992,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01391,2026-02-18,Q1,Piura,Cartucho Tinta Negra,Suministros,9,76.76,0.0,CL-1500,Carlos Vega,
+TX-2026Q1-01392,2026-01-18,Q1,Chiclayo,Lampara LED,Mobiliario,28,97.68,0.05,CL-5784,Diego Salazar,Compra urgente
+TX-2026Q1-01393,2026-03-23,Q1,Lima,Cartucho Tinta Negra,Suministros,14,79.41,0.1,CL-4120,Ana Torres,Primera compra del ano
+TX-2026Q1-01394,2026-02-06,Q1,Lima,Webcam HD,Electronica,29,186.66,0.05,CL-4029,Maria Fernandez,
+TX-2026Q1-01395,2026-02-21,Q1,Arequipa,Webcam HD,Electronica,43,203.78,0.05,CL-5125,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01396,2026-02-03,Q1,Arequipa,Resma Papel A4,Suministros,40,30.1,0.0,CL-6323,Carlos Vega,
+TX-2026Q1-01397,2026-02-03,Q1,Arequipa,Laptop Pro 15,Tecnologia,9999,4699.84,0.15,CL-4939,Diego Salazar,
+TX-2026Q1-01398,2026-01-26,Q1,Cusco,Laptop Air 13,Tecnologia,10,3426.05,0.1,CL-4377,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01399,2026-02-06,Q1,Arequipa,Laptop Air 13,Tecnologia,16,3509.44,0.2,CL-7108,Ana Torres,
+TX-2026Q1-01400,2026-01-15,Q1,Cusco,Mouse Inalambrico,Tecnologia,1,131.95,0.05,CL-3183,Lucia Romero,
+TX-2026Q1-01401,2026-01-26,Q1,Chiclayo,Laptop Pro 15,Tecnologia,49,4586.51,0.0,CL-8930,Maria Fernandez,Compra urgente
+TX-2026Q1-01402,2026-03-26,Q1,Piura,Escritorio Ajustable,Mobiliario,31,1349.1,0.05,CL-3383,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-01403,2026-03-15,Q1,Chiclayo,Laptop Pro 15,Tecnologia,28,4678.28,0.05,CL-9648,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-01404,2026-03-31,Q1,Arequipa,Laptop Air 13,Tecnologia,15,3279.14,0.2,CL-1623,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-01405,2026-02-24,Q1,Chiclayo,Lampara LED,Mobiliario,29,104.33,0.15,CL-5571,Maria Fernandez,
+TX-2026Q1-01406,2026-02-20,Q1,Chiclayo,Laptop Pro 15,Tecnologia,5,4761.3,0.05,CL-6963,Maria Fernandez,
+TX-2026Q1-01407,2026-03-21,Q1,Lima,Laptop Pro 15,Tecnologia,16,4725.04,0.0,CL-1597,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01408,2026-02-20,Q1,Lima,Monitor 27 4K,Tecnologia,13,1906.63,0.2,CL-9113,Maria Fernandez,
+TX-2026Q1-01409,2026-01-25,Q1,Trujillo,Lampara LED,Mobiliario,37,104.19,0.2,CL-6343,Jose Luis Quispe,Compra urgente
+TX-2026Q1-01410,2026-03-28,Q1,Cusco,Silla Ergonomica,Mobiliario,36,915.82,0.1,CL-3838,Diego Salazar,
+TX-2026Q1-01411,2026-03-08,Q1,Arequipa,Webcam HD,Electronica,30,200.48,0.1,CL-4495,Maria Fernandez,
+TX-2026Q1-01412,2026-03-03,Q1,Lima,Silla Ergonomica,Mobiliario,12,896.77,0.1,CL-1434,Diego Salazar,Pedido grande
+TX-2026Q1-01413,2026-02-17,Q1,Piura,Cartucho Tinta Negra,Suministros,42,78.6,0.15,CL-1774,Diego Salazar,
+TX-2026Q1-01414,2026-01-05,Q1,Cusco,Escritorio Ajustable,Mobiliario,15,1335.98,0.2,CL-8473,Ana Torres,Solicita factura electronica
+TX-2026Q1-01415,2026-03-05,Q1,Lima,Escritorio Ajustable,Mobiliario,24,1363.4,0.0,CL-1446,Lucia Romero,Compra urgente
+TX-2026Q1-01416,2026-01-26,Q1,Piura,Laptop Air 13,Tecnologia,40,3384.81,0.1,CL-1402,Ana Torres,Cliente recurrente Q1
+TX-2026Q1-01417,2026-02-23,Q1,Lima,Resma Papel A4,Suministros,35,30.18,0.0,CL-8802,Lucia Romero,Compra urgente
+TX-2026Q1-01418,2026-02-06,Q1,Chiclayo,Resma Papel A4,Suministros,34,29.02,0.15,CL-2247,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-01419,2026-01-17,Q1,Lima,Webcam HD,Electronica,42,195.67,0.05,CL-2697,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-01420,2026-02-05,Q1,Trujillo,Lampara LED,Mobiliario,13,99.59,0.2,CL-3994,Carlos Vega,Solicita factura electronica
+TX-2026Q1-01421,2026-01-16,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,30,1248.83,0.1,CL-9324,Maria Fernandez,Compra urgente
+TX-2026Q1-01422,2026-01-20,Q1,Trujillo,Monitor 27 4K,Tecnologia,30,1911.05,0.0,CL-1412,Carlos Vega,
+TX-2026Q1-01423,2026-03-28,Q1,Lima,Webcam HD,Electronica,21,203.92,0.0,CL-9202,Maria Fernandez,Cliente recurrente Q1
+TX-2026Q1-01424,2026-02-05,Q1,Lima,Resma Papel A4,Suministros,9,31.4,0.15,CL-6098,Diego Salazar,
+TX-2026Q1-01425,2026-03-24,Q1,Piura,Monitor 27 4K,Tecnologia,13,1831.09,0.2,CL-2394,Ana Torres,Compra urgente
+TX-2026Q1-01426,2026-03-06,Q1,Piura,Cartucho Tinta Negra,Suministros,20,80.79,0.05,CL-8465,Lucia Romero,
+TX-2026Q1-01427,2026-02-19,Q1,Chiclayo,Escritorio Ajustable,Mobiliario,33,1332.8,0.15,CL-2089,Maria Fernandez,Primera compra del ano
+TX-2026Q1-01428,2026-03-13,Q1,Cusco,Auriculares BT,Electronica,10,244.7,0.1,CL-5934,Lucia Romero,Solicita factura electronica
+TX-2026Q1-01429,2026-01-31,Q1,Trujillo,Silla Ergonomica,Mobiliario,11,875.9,0.05,CL-9572,Maria Fernandez,
+TX-2026Q1-01430,2026-03-20,Q1,Trujillo,Auriculares BT,Electronica,33,250.46,0.05,CL-4823,Lucia Romero,Primera compra del ano
+TX-2026Q1-01431,2026-03-22,Q1,Piura,Auriculares BT,Electronica,34,240.38,0.0,CL-4715,Jose Luis Quispe,
+TX-2026Q1-01432,2026-01-17,Q1,Chiclayo,Resma Papel A4,Suministros,6,31.26,0.15,CL-4036,Lucia Romero,
+TX-2026Q1-01433,2026-01-28,Q1,Trujillo,Silla Ergonomica,Mobiliario,31,923.12,0.1,CL-2268,Ana Torres,Compra urgente
+TX-2026Q1-01434,2026-02-08,Q1,Piura,Cartucho Tinta Negra,Suministros,39,79.53,0.2,CL-2718,Lucia Romero,
+TX-2026Q1-01435,2026-02-08,Q1,Piura,Mouse Inalambrico,Tecnologia,33,124.76,0.2,CL-3675,Lucia Romero,
+TX-2026Q1-01436,2026-01-14,Q1,Arequipa,Laptop Pro 15,Tecnologia,6,4788.27,0.0,CL-9850,Lucia Romero,
+TX-2026Q1-01437,2026-01-30,Q1,Cusco,Lampara LED,Mobiliario,3,99.59,0.1,CL-4058,Jose Luis Quispe,Pedido grande
+TX-2026Q1-01438,2026-01-25,Q1,Trujillo,Resma Papel A4,Suministros,35,30.43,0.15,CL-8319,Lucia Romero,
+TX-2026Q1-01439,2026-03-10,Q1,Lima,Escritorio Ajustable,Mobiliario,18,1323.05,0.05,CL-5995,Jose Luis Quispe,Compra urgente
+TX-2026Q1-01440,2026-01-06,Q1,Cusco,Silla Ergonomica,Mobiliario,13,898.95,0.15,CL-1085,Diego Salazar,
+TX-2026Q1-01441,2026-02-02,Q1,Cusco,Resma Papel A4,Suministros,12,30.51,0.0,CL-8794,Ana Torres,Primera compra del ano
+TX-2026Q1-01442,2026-02-26,Q1,Cusco,Laptop Air 13,Tecnologia,39,3503.39,0.15,CL-6864,Lucia Romero,Pedido grande
+TX-2026Q1-01443,2026-01-27,Q1,Trujillo,Escritorio Ajustable,Mobiliario,43,1245.85,0.15,CL-8401,Carlos Vega,
+TX-2026Q1-01444,2026-01-27,Q1,Lima,Silla Ergonomica,Mobiliario,44,906.53,0.0,CL-3714,Jose Luis Quispe,Cliente recurrente Q1
+TX-2026Q1-01445,2026-03-10,Q1,Arequipa,Laptop Pro 15,Tecnologia,8,4702.53,0.2,CL-3450,Diego Salazar,
+TX-2026Q1-01446,2026-03-23,Q1,Piura,Escritorio Ajustable,Mobiliario,3,1278.34,0.0,CL-5759,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01447,2026-01-13,Q1,Lima,Resma Papel A4,Suministros,16,30.62,0.15,CL-4484,Jose Luis Quispe,Primera compra del ano
+TX-2026Q1-01448,2026-01-27,Q1,Chiclayo,Lampara LED,Mobiliario,49,103.14,0.0,CL-9129,Maria Fernandez,
+TX-2026Q1-01449,2026-03-12,Q1,Chiclayo,Resma Papel A4,Suministros,15,30.08,0.2,CL-4524,Ana Torres,Compra urgente
+TX-2026Q1-01450,2026-01-08,Q1,Cusco,Monitor 27 4K,Tecnologia,11,1948.02,0.05,CL-7080,Lucia Romero,
+TX-2026Q1-01451,2026-02-27,Q1,Lima,Teclado Mecanico,Tecnologia,37,369.79,0.2,CL-7357,Diego Salazar,
+TX-2026Q1-01452,2026-02-10,Q1,Lima,Laptop Pro 15,Tecnologia,45,4869.47,0.15,CL-3127,Jose Luis Quispe,
+TX-2026Q1-01453,2026-01-29,Q1,Arequipa,Webcam HD,Electronica,28,200.64,0.15,CL-3104,Carlos Vega,Cliente recurrente Q1
+TX-2026Q1-01454,2026-01-19,Q1,Arequipa,Resma Papel A4,Suministros,14,31.11,0.1,CL-6608,Maria Fernandez,Compra urgente
+TX-2026Q1-01455,2026-02-23,Q1,Chiclayo,Silla Ergonomica,Mobiliario,37,861.57,0.1,CL-4001,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-01456,2026-02-25,Q1,Arequipa,Webcam HD,Electronica,32,201.97,0.15,CL-6428,Lucia Romero,Solicita factura electronica
+TX-2026Q1-01457,2026-01-02,Q1,Arequipa,Cartucho Tinta Negra,Suministros,46,77.2,0.15,CL-3430,Ana Torres,Solicita factura electronica
+TX-2026Q1-01458,2026-02-18,Q1,Piura,Silla Ergonomica,Mobiliario,42,895.75,0.0,CL-2170,Jose Luis Quispe,
+TX-2026Q1-01459,2026-02-11,Q1,Trujillo,Monitor 27 4K,Tecnologia,16,1929.74,0.0,CL-7627,Jose Luis Quispe,Pedido grande
+TX-2026Q1-01460,2026-03-25,Q1,Trujillo,Resma Papel A4,Suministros,1,30.36,0.2,CL-1169,Lucia Romero,Compra urgente
+TX-2026Q1-01461,2026-03-01,Q1,Cusco,Laptop Air 13,Tecnologia,29,3497.72,0.15,CL-2066,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-01462,2026-01-30,Q1,Cusco,Lampara LED,Mobiliario,20,97.47,0.0,CL-3901,Ana Torres,Solicita factura electronica
+TX-2026Q1-01463,2026-01-20,Q1,Trujillo,Resma Papel A4,Suministros,19,28.93,0.15,CL-5079,Carlos Vega,Primera compra del ano
+TX-2026Q1-01464,2026-03-09,Q1,Lima,Teclado Mecanico,Tecnologia,24,362.39,0.2,CL-9530,Carlos Vega,
+TX-2026Q1-01465,2026-03-02,Q1,Cusco,Webcam HD,Electronica,3,196.15,0.2,CL-5236,Lucia Romero,Primera compra del ano
+TX-2026Q1-01466,2026-03-13,Q1,Lima,Lampara LED,Mobiliario,11,97.94,0.2,CL-7104,Lucia Romero,Compra urgente
+TX-2026Q1-01467,2026-03-02,Q1,Chiclayo,Laptop Pro 15,Tecnologia,38,4728.7,0.0,CL-4294,Diego Salazar,Solicita factura electronica
+TX-2026Q1-01468,2026-01-05,Q1,Cusco,Resma Papel A4,Suministros,7,28.67,0.0,CL-4217,Carlos Vega,Pedido grande
+TX-2026Q1-01469,2026-03-31,Q1,Chiclayo,Auriculares BT,Electronica,46,234.62,0.05,CL-9070,Jose Luis Quispe,Solicita factura electronica
+TX-2026Q1-01470,2026-01-24,Q1,Piura,Auriculares BT,Electronica,18,230.87,0.05,CL-7271,Diego Salazar,
+TX-2026Q1-01471,2026-01-23,Q1,Cusco,Teclado Mecanico,Tecnologia,12,397.09,0.05,CL-4513,Lucia Romero,Primera compra del ano
+TX-2026Q1-01472,2026-03-08,Q1,Lima,Resma Papel A4,Suministros,30,30.71,0.15,CL-4535,Jose Luis Quispe,Pedido grande
+TX-2026Q1-01473,2026-02-12,Q1,Lima,Auriculares BT,Electronica,37,242.06,0.2,CL-9755,Carlos Vega,
+TX-2026Q1-01474,2026-02-27,Q1,Piura,Silla Ergonomica,Mobiliario,7,941.64,0.0,CL-8333,Maria Fernandez,Solicita factura electronica
+TX-2026Q1-01475,2026-03-06,Q1,Lima,Webcam HD,Electronica,15,203.14,0.1,CL-2108,Carlos Vega,Pedido grande
+TX-2026Q1-01476,2026-03-02,Q1,Trujillo,Resma Papel A4,Suministros,36,31.33,0.0,CL-6500,Carlos Vega,Solicita factura electronica
+TX-2026Q1-01477,2026-03-11,Q1,Piura,Resma Papel A4,Suministros,32,30.31,0.15,CL-6391,Diego Salazar,
+TX-2026Q1-01478,2026-02-08,Q1,Trujillo,Laptop Pro 15,Tecnologia,1,4808.81,0.0,CL-9944,Ana Torres,
+TX-2026Q1-01479,2026-03-27,Q1,Trujillo,Lampara LED,Mobiliario,15,103.64,0.0,CL-1252,Diego Salazar,
+TX-2026Q1-01480,2026-01-05,Q1,Arequipa,Mouse Inalambrico,Tecnologia,16,130.12,0.0,CL-4984,Jose Luis Quispe,
+TX-2026Q1-01481,2026-02-16,Q1,Trujillo,Auriculares BT,Electronica,21,234.9,0.2,CL-4797,Jose Luis Quispe,
+TX-2026Q1-01482,2026-01-21,Q1,Chiclayo,Laptop Pro 15,Tecnologia,47,4968.21,0.1,CL-7754,Carlos Vega,Compra urgente
+TX-2026Q1-01483,2026-01-09,Q1,Piura,Laptop Pro 15,Tecnologia,11,4693.42,0.15,CL-5089,Lucia Romero,Compra urgente
+TX-2026Q1-01484,2026-02-12,Q1,Piura,Laptop Pro 15,Tecnologia,48,4918.96,0.1,CL-3140,Carlos Vega,
+TX-2026Q1-01485,2026-02-10,Q1,Trujillo,Silla Ergonomica,Mobiliario,32,914.37,0.15,CL-9176,Carlos Vega,
+TX-2026Q1-01486,2026-02-06,Q1,Trujillo,Mouse Inalambrico,Tecnologia,48,124.41,0.15,CL-2484,Carlos Vega,Compra urgente
+TX-2026Q1-01487,2026-02-06,Q1,Trujillo,Cartucho Tinta Negra,Suministros,6,81.57,0.0,CL-1407,Carlos Vega,
+TX-2026Q1-01488,2026-03-18,Q1,Piura,Escritorio Ajustable,Mobiliario,15,1324.67,0.2,CL-4368,Diego Salazar,Solicita factura electronica
+TX-2026Q1-01489,2026-02-26,Q1,Trujillo,Mouse Inalambrico,Tecnologia,18,124.41,0.05,CL-5985,Diego Salazar,
+TX-2026Q1-01490,2026-03-18,Q1,Trujillo,Cartucho Tinta Negra,Suministros,30,81.44,0.15,CL-9539,Carlos Vega,
+TX-2026Q1-01491,2026-02-28,Q1,Lima,Cartucho Tinta Negra,Suministros,45,76.0,0.05,CL-3487,Diego Salazar,
+TX-2026Q1-01492,2026-03-27,Q1,Piura,Resma Papel A4,Suministros,39,31.47,0.15,CL-6743,Lucia Romero,Primera compra del ano
+TX-2026Q1-01493,2026-03-22,Q1,Trujillo,Lampara LED,Mobiliario,19,96.27,0.15,CL-1923,Lucia Romero,Cliente recurrente Q1
+TX-2026Q1-01494,2026-03-31,Q1,Lima,Teclado Mecanico,Tecnologia,35,378.36,0.1,CL-1620,Carlos Vega,
+TX-2026Q1-01495,2026-03-08,Q1,Cusco,Webcam HD,Electronica,20,203.56,0.1,CL-4217,Lucia Romero,Solicita factura electronica
+TX-2026Q1-01496,2026-03-21,Q1,Arequipa,Laptop Air 13,Tecnologia,5,3494.0,0.1,CL-1897,Ana Torres,Compra urgente
+TX-2026Q1-01497,2026-03-10,Q1,Arequipa,Mouse Inalambrico,Tecnologia,9,125.55,0.1,CL-1370,Diego Salazar,Solicita factura electronica
+TX-2026Q1-01498,2026-02-27,Q1,Trujillo,Mouse Inalambrico,Tecnologia,21,132.08,0.0,CL-6745,Carlos Vega,
+TX-2026Q1-01499,2026-03-23,Q1,Trujillo,Mouse Inalambrico,Tecnologia,43,132.91,0.1,CL-6550,Ana Torres,
+TX-2026Q1-01500,2026-02-12,Q1,Cusco,Mouse Inalambrico,Tecnologia,9,129.87,0.15,CL-7215,Jose Luis Quispe,Solicita factura electronica

@@ -1,0 +1,140 @@
+# ============================================================
+# .gitignore — Curso Fundamentos de Python y R · PEBIBA XVIII 2026
+# ============================================================
+# Filosofía: el alumno solo ve lo necesario para autoaprender.
+# - Incluye:  versiones Alumno, datasets, slides, ejercicios sin solución,
+#             recursos transversales, onboarding, plan de sesiones.
+# - Excluye: soluciones, notebooks Maestros completos, guion live-coding,
+#            planes internos, outputs generados, snapshots de _shared.
+# ============================================================
+
+# -----------------------------------------------------------
+# 1. METADATA INTERNA DEL DOCENTE (no compartir)
+# -----------------------------------------------------------
+# (los comentarios inline en .gitignore NO son válidos —
+#  van en línea separada antes de cada patrón)
+
+# Metadata canónica con datos privados
+course.config.yaml
+# Estado interno de construcción
+PROGRESO.md
+# Reporte técnico interno
+VALIDACION.md
+# Guía interna de publicación
+PUBLICAR.md
+# README extendido del docente (con métricas, inventario completo, framework)
+README_DOCENTE.md
+# Versiones históricas
+00Old/
+
+# -----------------------------------------------------------
+# 1.5 PLANES INTERNOS DEL DOCENTE (no compartir)
+# -----------------------------------------------------------
+# Plan minutado de cada sesión, "tips para el docente", "riesgos pedagógicos"
+# El alumno tiene el sílabo + matriz de competencias, no necesita los planes internos.
+02Estructura/Estructura.md
+02Estructura/Sesión01.md
+02Estructura/Sesión02.md
+
+# -----------------------------------------------------------
+# 2. NOTEBOOKS MAESTROS (con SOLUCIONES) — NO compartir
+# -----------------------------------------------------------
+# El alumno solo recibe la versión "_Alumnos" con TODOs.
+03Material/01_Sesion_Sintaxis_Carga/notebooks/S01_Sintaxis_y_Carga_PY.ipynb
+03Material/01_Sesion_Sintaxis_Carga/notebooks/S01_Sintaxis_y_Carga_R.ipynb
+03Material/02_Sesion_Manipulacion_Pipeline/notebooks/S02_Manipulacion_y_Pipeline_PY.ipynb
+03Material/02_Sesion_Manipulacion_Pipeline/notebooks/S02_Manipulacion_y_Pipeline_R.ipynb
+
+# -----------------------------------------------------------
+# 3. SOLUCIONES DE EJERCICIOS — NO compartir
+# -----------------------------------------------------------
+**/ejercicios/*_Soluciones.md
+**/ejercicios/*_Soluciones.ipynb
+
+# -----------------------------------------------------------
+# 4. GUION DE LIVE CODING (uso del docente, contiene preguntas-señuelo
+#    y errores deliberados que perderían su valor pedagógico si
+#    los alumnos los leen antes)
+# -----------------------------------------------------------
+**/live_coding/
+
+# -----------------------------------------------------------
+# 5. SOLUCIÓN DEL MINIPROYECTO (privada — solo docente)
+# -----------------------------------------------------------
+07Evaluación/miniproyecto/solucion_docente/
+07Evaluación/miniproyecto/dataset_test/generar_dataset_test.py
+# Nota: el alumno SÍ recibe el CSV de test pero NO el script generador
+# (para que no pueda ver patrones del dataset).
+
+# -----------------------------------------------------------
+# 6. OUTPUTS GENERADOS POR EJECUCIÓN (que se regeneran)
+# -----------------------------------------------------------
+**/outputs/
+**/*.joblib
+**/.pkl
+
+# -----------------------------------------------------------
+# 7. JUPYTER / IPYTHON
+# -----------------------------------------------------------
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# -----------------------------------------------------------
+# 8. PYTHON
+# -----------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env
+.python-version
+
+# -----------------------------------------------------------
+# 9. R
+# -----------------------------------------------------------
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# -----------------------------------------------------------
+# 10. SISTEMA OPERATIVO
+# -----------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+
+# -----------------------------------------------------------
+# 11. EDITORES / IDEs
+# -----------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------------------------------------
+# 12. DATASETS PESADOS (>10MB) — usar Git LFS o externos
+# -----------------------------------------------------------
+data/raw/
+*.parquet
+*.h5
+# Permitir CSVs sintéticos del curso (son <600KB):
+!**/data/acme_ventas.csv
+!**/dataset_test/*.csv
+
+# -----------------------------------------------------------
+# 13. LOGS Y TEMPORALES
+# -----------------------------------------------------------
+*.log
+*.bak
+.cache/
+
+# -----------------------------------------------------------
+# 14. RECURSOS DE LOS SKILLS DE CLAUDE (privados del docente)
+# -----------------------------------------------------------
+.claude/
+plans/
