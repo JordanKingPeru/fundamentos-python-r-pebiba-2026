@@ -171,6 +171,28 @@ Después prueba con un notebook R: abre `03Material/01_Sesion_Sintaxis_Carga/not
 
 ## Si algo falla
 
+### Error: `CondaToSRejectedError: Terms of Service has been rejected`
+
+Desde 2025, Anaconda requiere aceptar explícitamente los Términos de Servicio para sus canales `pkgs/main`, `pkgs/r` y `pkgs/msys2`. El error se ve así:
+
+```
+CondaToSRejectedError: Terms of Service has been rejected for the following channels:
+    - https://repo.anaconda.com/pkgs/r
+```
+
+**Solución (Anaconda Prompt en Windows, terminal en macOS/Linux):**
+
+```bash
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/msys2
+conda config --set channel_priority strict
+```
+
+Después vuelve a ejecutar `setup.bat` (o `setup.sh`).
+
+> **Por qué pasó esto:** el cambio de Anaconda afecta a usuarios que tienen `defaults` como canal global. El `environment.yml` del curso usa solo `conda-forge` (que no requiere ToS), pero si tu instalación de Miniconda fue configurada para usar `defaults` por encima del archivo, los comandos de arriba destraban la situación.
+
 ### Error: `command not found: conda`
 - En Windows: el instalador no marcó "Add to PATH". Reinstala marcando esa opción, o agrega manualmente `C:\Users\<usuario>\miniconda3\condabin` al PATH del sistema.
 - En macOS/Linux: ejecuta `~/miniconda3/bin/conda init bash` (o `zsh`) y reinicia la terminal.

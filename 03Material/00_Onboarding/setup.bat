@@ -44,6 +44,16 @@ for /f "delims=" %%L in ('conda env list 2^>nul ^| findstr /C:"fundamentos-pyr"'
 
 if "!ENV_EXISTS!"=="1" goto :env_ok
 
+REM ---- Pre-empt CondaToSRejectedError ----
+REM Algunos perfiles tienen 'defaults' como canal global y conda exige
+REM aceptar ToS de pkgs/main y pkgs/r desde 2025. Aceptamos preventivamente
+REM (si el environment.yml es solo conda-forge, esto no aplica pero no estorba).
+echo       Configurando canales conda...
+call conda config --set channel_priority strict >nul 2>&1
+call conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main >nul 2>&1
+call conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r >nul 2>&1
+call conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/msys2 >nul 2>&1
+
 echo       Creando el entorno con Python 3.11 + R 4.3 + librerias...
 echo       Tarda 5-10 minutos. Ten paciencia.
 echo.
@@ -64,10 +74,25 @@ goto :step_2
 :env_create_failed
 echo.
 echo [X] ERROR: la creacion del entorno fallo.
-echo     Causas tipicas:
-echo       - sin conexion a internet
-echo       - falta de espacio en disco (necesitas ~3 GB)
-echo       - conflicto de canales conda
+echo.
+echo     Causas tipicas (en orden de probabilidad):
+echo.
+echo     1. CondaToSRejectedError (Terms of Service de Anaconda)
+echo        Solucion rapida: ejecuta estos 3 comandos en Anaconda Prompt y
+echo        vuelve a correr setup.bat:
+echo.
+echo          conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+echo          conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+echo          conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/msys2
+echo.
+echo     2. Sin conexion a internet o internet lenta/inestable
+echo        (la descarga es ~1.5 GB, en conexion lenta puede expirar).
+echo.
+echo     3. Falta de espacio en disco (necesitas ~3 GB libres en C:).
+echo.
+echo     4. Antivirus o firewall bloqueando conda-forge.
+echo.
+echo     Despues de resolver, vuelve a ejecutar setup.bat (es idempotente).
 echo.
 goto :end_failure
 
