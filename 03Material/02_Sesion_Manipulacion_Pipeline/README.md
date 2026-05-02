@@ -12,11 +12,12 @@
 ├── README.md                                          Este archivo
 ├── notebooks/
 │   ├── S02_Manipulacion_y_Pipeline_PY_Alumnos.ipynb   Notebook Python (con # TODO: para que completes)
+│   ├── S02_Manipulacion_y_Pipeline_PY_Maestro.html    Notebook Python ejecutado (referencia de solución)
 │   ├── S02_Manipulacion_y_Pipeline_R.ipynb            Notebook espejo en R (completo, para leer)
+│   ├── S02_Manipulacion_y_Pipeline_R.html             Notebook R ejecutado (referencia con outputs)
 │   ├── S02_Manipulacion_y_Pipeline_ROSETTA.md         Equivalencias Python ↔ R (extiende S01)
 │   └── S02_Manipulacion_y_Pipeline_TRAPS.md           Trampas adicionales (#4 a #10)
 ├── slides/
-│   ├── S02_Slides.md                                  Slides en Marp (markdown)
 │   └── S02_Slides.pdf                                 Slides en PDF
 ├── ejercicios/
 │   └── S02_Ejercicios.md                              Rampa de 7 ejercicios graduados

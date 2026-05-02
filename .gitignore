@@ -44,6 +44,12 @@ README_DOCENTE.md
 **/slides/README.md
 # Slide de bienvenida en el onboarding también es fuente Marp privada
 03Material/00_Onboarding/S00_Bienvenida.md
+# Insumos visuales (escudo UNI, fotos, QRs) — se hornean en el PDF, el alumno
+# no necesita los archivos sueltos. Excepción: jordan_pro.jpg en onboarding/
+# se queda público porque el README raíz lo referencia en "Sobre el docente".
+**/slides/assets/
+03Material/00_Onboarding/assets/uni_escudo.png
+03Material/00_Onboarding/assets/menti_qr.png
 
 # -----------------------------------------------------------
 # 1.7 SÍLABO — solo el PDF se publica (es documento inmutable)
@@ -54,6 +60,8 @@ Silabo_FundamentosPyR*.docx
 Plantilla Silabo*.docx
 # Script Node.js que regenera el sílabo (privado del docente)
 generar_silabo.js
+# Script PowerShell que regenera los HTML de notebooks (privado del docente)
+regenerar_html_notebooks.ps1
 
 # -----------------------------------------------------------
 # 1.8 GUÍA DEL DOCENTE — minuto a minuto (privado, solo docente)

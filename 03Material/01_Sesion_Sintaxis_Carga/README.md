@@ -9,20 +9,21 @@
 
 ```
 01_Sesion_Sintaxis_Carga/
-├── README.md                                  Este archivo
+├── README.md                                       Este archivo
 ├── notebooks/
-│   ├── S01_Sintaxis_y_Carga_PY_Alumnos.ipynb  Notebook Python (con # TODO: para que completes)
-│   ├── S01_Sintaxis_y_Carga_R.ipynb           Notebook espejo en R (completo, para leer)
-│   ├── S01_Sintaxis_y_Carga_ROSETTA.md        Tabla de equivalencias Python ↔ R
-│   └── S01_Sintaxis_y_Carga_TRAPS.md          5 trampas asimétricas que vas a encontrar
+│   ├── S01_Sintaxis_y_Carga_PY_Alumnos.ipynb       Notebook Python (con # TODO: para que completes)
+│   ├── S01_Sintaxis_y_Carga_PY_Maestro.html        Notebook Python ejecutado (referencia de solución)
+│   ├── S01_Sintaxis_y_Carga_R.ipynb                Notebook espejo en R (completo, para leer)
+│   ├── S01_Sintaxis_y_Carga_R.html                 Notebook R ejecutado (referencia con outputs)
+│   ├── S01_Sintaxis_y_Carga_ROSETTA.md             Tabla de equivalencias Python ↔ R
+│   └── S01_Sintaxis_y_Carga_TRAPS.md               5 trampas asimétricas que vas a encontrar
 ├── slides/
-│   ├── S01_Slides.md                          Slides en Marp (markdown)
-│   └── S01_Slides.pdf                         Slides en PDF (para imprimir o leer offline)
+│   └── S01_Slides.pdf                              Slides en PDF
 ├── ejercicios/
-│   └── S01_Ejercicios.md                      Rampa de 7 ejercicios graduados
+│   └── S01_Ejercicios.md                           Rampa de 7 ejercicios graduados
 └── data/
-    ├── acme_ventas.csv                        Dataset (5,000 filas × 12 columnas)
-    └── generar_dataset.py                     Script para regenerarlo si lo borras
+    ├── acme_ventas.csv                             Dataset (5,000 filas × 12 columnas)
+    └── generar_dataset.py                          Script para regenerarlo si lo borras
 ```
 
 ## Cómo usar este material

@@ -110,7 +110,9 @@ Fundamentos_Python_R/
 │   │   ├── README.md
 │   │   ├── notebooks/
 │   │   │   ├── S01_..._PY_Alumnos.ipynb   ⬅ Tu notebook (con # TODO:)
+│   │   │   ├── S01_..._PY_Maestro.html    Notebook PY ejecutado (referencia con outputs)
 │   │   │   ├── S01_..._R.ipynb            ⬅ Notebook espejo en R
+│   │   │   ├── S01_..._R.html             Notebook R ejecutado (referencia con outputs)
 │   │   │   ├── S01_..._ROSETTA.md         Tabla de equivalencias Python↔R
 │   │   │   └── S01_..._TRAPS.md           5 trampas asimétricas críticas
 │   │   ├── slides/
@@ -195,7 +197,8 @@ Detalle completo en el [sílabo](Silabo_FundamentosPyR.pdf), sección VII.
 - **Notebooks** Python (versión Alumno con TODOs) y R (espejo completo) por cada sesión
 - **Tabla Rosetta Python ↔ R** acumulada — tu referencia rápida durante todo el curso
 - **Documento de Trampas asimétricas** — los 10 errores más comunes del programador bilingüe
-- **Slides en PDF** + el markdown fuente (Marp) para que veas cómo se hicieron
+- **Slides en PDF** de cada sesión, listas para imprimir o leer offline
+- **Notebooks ejecutados en HTML** (Python y R, con outputs reales) — referencia de solución para auto-revisión
 - **Ejercicios graduados** (rampa de 7 niveles: Worked Example → Parsons → PRIMM → Faded → Independent → Transfer)
 - **4 cheatsheets** imprimibles (pandas, dplyr, visualización, trampas)
 - **2 datasets sintéticos** realistas (5,000 + 1,500 filas) con outliers y casos borde reales
