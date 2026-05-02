@@ -42,6 +42,8 @@ README_DOCENTE.md
 # El alumno necesita el PDF, no el código fuente Marp ni la guía de exportación.
 **/slides/*.md
 **/slides/README.md
+# Slide de bienvenida en el onboarding también es fuente Marp privada
+03Material/00_Onboarding/S00_Bienvenida.md
 
 # -----------------------------------------------------------
 # 1.7 SÍLABO — solo el PDF se publica (es documento inmutable)
@@ -50,6 +52,8 @@ README_DOCENTE.md
 Silabo_FundamentosPyR*.md
 Silabo_FundamentosPyR*.docx
 Plantilla Silabo*.docx
+# Script Node.js que regenera el sílabo (privado del docente)
+generar_silabo.js
 
 # -----------------------------------------------------------
 # 1.8 GUÍA DEL DOCENTE — minuto a minuto (privado, solo docente)
