@@ -185,12 +185,66 @@ R --version
 Si es menor, recrea el entorno: `conda env remove -n fundamentos-pyr` y ejecuta de nuevo el Paso 3.
 
 ### El kernel R no aparece en VS Code/Jupyter
-Ejecuta esto desde la consola R del **sistema** (no desde Anaconda):
-```r
-install.packages('IRkernel')
-IRkernel::installspec(user = TRUE)
+
+`setup.bat` / `setup.sh` ya intenta registrar el kernel R automáticamente — primero usa el R que viene con conda (rápido, funciona en x64) y si falla cae a R nativo del sistema. Si después del setup el kernel "R" sigue sin aparecer, sigue estos pasos:
+
+#### 1. Verifica qué kernels detecta Jupyter
+
+```bash
+conda run -n fundamentos-pyr python -m jupyter kernelspec list
 ```
-Reinicia VS Code.
+
+Si ves `ir` o `R` en la lista, el kernel ya está registrado — reinicia VS Code para que lo detecte.
+
+Si no aparece, sigue al paso 2.
+
+#### 2. Caso A — funciona el R de conda (Windows x64, macOS, Linux)
+
+Desde una terminal con el entorno activo:
+
+```bash
+conda activate fundamentos-pyr
+Rscript -e "IRkernel::installspec(user = TRUE)"
+```
+
+Si esto crashea con error 0xC000007B (STATUS_INVALID_IMAGE_FORMAT), pasa al caso B.
+
+#### 3. Caso B — Windows on ARM (Surface Pro X, Copilot+ PC, etc.)
+
+El R que viene con conda tiene un bug de DLLs UCRT en Windows ARM y no puede registrar el kernel. Solución: instalar **R nativo de Windows** y registrar el kernel a mano.
+
+```powershell
+# 1. Descargar e instalar R desde https://cran.r-project.org/bin/windows/base/
+#    (instalación con valores por defecto)
+
+# 2. Instalar IRkernel en R nativo (ajusta la ruta según versión instalada)
+$rscript = "C:\Program Files\R\R-4.6.0\bin\x64\Rscript.exe"
+$env:R_LIBS_USER = "$env:USERPROFILE\AppData\Local\R\win-library\4.6"
+New-Item -ItemType Directory -Force -Path $env:R_LIBS_USER | Out-Null
+& $rscript -e ".libPaths(c(Sys.getenv('R_LIBS_USER'), .libPaths())); install.packages('IRkernel', lib=Sys.getenv('R_LIBS_USER'), repos='https://cloud.r-project.org')"
+
+# 3. Crear el kernel.json a mano (evita IRkernel::installspec que crashea)
+$kernelDir = "$env:APPDATA\jupyter\kernels\ir"
+New-Item -ItemType Directory -Force -Path $kernelDir | Out-Null
+$kernelJson = @'
+{
+    "argv": ["C:\\Program Files\\R\\R-4.6.0\\bin\\x64\\R.exe", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
+    "display_name": "R 4.6 (system)",
+    "language": "R",
+    "env": {
+        "R_LIBS_USER": "C:\\Users\\<TU_USUARIO>\\AppData\\Local\\R\\win-library\\4.6"
+    }
+}
+'@
+[System.IO.File]::WriteAllText("$kernelDir\kernel.json", $kernelJson, (New-Object System.Text.UTF8Encoding $false))
+
+# 4. Instalar paquetes que el curso usa
+& $rscript -e "install.packages(c('tidyverse','readxl','writexl','data.table','glue','lubridate'), lib=Sys.getenv('R_LIBS_USER'), repos='https://cloud.r-project.org')"
+```
+
+Reinicia VS Code y verifica con `jupyter kernelspec list` que aparece `ir`.
+
+> **Nota:** la versión que el winget instala es la `4.6.0`. Si tienes otra versión, ajusta el path `R-4.6.0` por el directorio que tengas en `C:\Program Files\R\`.
 
 ### Windows on ARM: aviso "No se pudo iniciar el localizador de Python"
 
